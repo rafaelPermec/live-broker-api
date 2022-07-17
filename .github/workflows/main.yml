@@ -1,8 +1,8 @@
-on: [pull_request]
+on: pull_request
 
 jobs:
   eslint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
         - name: Verifica o repositório do Git
           uses: actions/checkout@v2
@@ -10,7 +10,7 @@ jobs:
         - name: Instala o node com a versão
           uses: actions/setup-node@v1
           with:
-            node-version: 14
+            node-version: 12
 
         - name: instalando as dependências
           run: npm install
