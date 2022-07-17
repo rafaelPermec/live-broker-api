@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/rafaelPermec/processo-seletivo-XP-inc#readme",
   "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.0.1",
     "express": "^4.18.1"
   },
