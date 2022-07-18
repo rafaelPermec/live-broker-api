@@ -2,7 +2,7 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 import fs from 'fs';
 
-import IListaAcoes from '../../interfaces/IListaAcoes.interface';
+import IListaAcoes from '../../interfaces/index.ts';
 
 // URL da página que vamos raspar os dados.
 const url = 'https://www.fundamentus.com.br/resultado.php/api';
@@ -25,7 +25,7 @@ export default async function raspagemDeDados(): Promise<IListaAcoes[] | undefin
     // todos os itens do HTML, que estão no trecho resgatado;
     listItems.each((_index, element) => {
       // Objeto que vamos montar para a analise;
-      const papel: IListaAcoes = { codAtivo: '', Valor: 0 };
+      const papel: IListaAcoes = { CodAtivo: '', Valor: 0 };
 
       // Metodos de busca em HTML elaborados pela lib 'cheerio';
       const codigosDeAtivos = $(element)
@@ -33,7 +33,7 @@ export default async function raspagemDeDados(): Promise<IListaAcoes[] | undefin
         .first()
         .text()
         .trim();
-      papel.codAtivo = codigosDeAtivos;
+      papel.CodAtivo = codigosDeAtivos;
 
       const precoDeAtivos = $(element)
         .children('td:nth-child(2)')
@@ -47,7 +47,7 @@ export default async function raspagemDeDados(): Promise<IListaAcoes[] | undefin
       acoes.push(papel);
     });
     // Ordena a lista de ações por ordem alfabetica;
-    acoes.sort((a, b) => a.codAtivo.localeCompare(b.codAtivo));
+    acoes.sort((a, b) => a.CodAtivo.localeCompare(b.CodAtivo));
 
     // Escreve a lista de ações em um .json local;
     fs.writeFileSync('./xp-inc/src/models/ListaDeAtivos.json', JSON.stringify(acoes, null, 2));

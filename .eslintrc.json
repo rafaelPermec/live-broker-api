@@ -4,16 +4,89 @@
         "node": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:import/typescript"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
+        "project": "./tsconfig.json"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "import"
     ],
     "rules": {
+        "import/no-unresolved": "error",
+        "no-console": "off",
+        "camelcase": "warn",
+        "arrow-parens": [
+            2,
+            "always"
+        ],
+        "quotes": [
+            2,
+            "single"
+        ],
+        "implicit-arrow-linebreak": "off",
+        "consistent-return": "off",
+        "@typescript-eslint/no-unused-vars": [
+            "error",
+            {
+                "argsIgnorePattern": "^_",
+                "ignoreRestSiblings": true
+            }
+        ],
+        "no-unused-vars": [
+            "error",
+            {
+                "argsIgnorePattern": "^_",
+                "ignoreRestSiblings": true
+            }
+        ],
+        "object-curly-newline": "off",
+        "max-params": [
+            "error",
+            4
+        ],
+        "max-lines": [
+            "error",
+            250
+        ],
+        "max-lines-per-function": [
+            "error",
+            {
+                "max": 50,
+                "skipBlankLines": true,
+                "skipComments": true
+            }
+        ],
+        "max-len": [
+            "error",
+            100,
+            {
+                "ignoreComments": true
+            }
+        ],
+        "complexity": [
+            "error",
+            5
+        ]
+    },
+    "settings": {
+        "import/parsers": {
+            "@typescript-eslint/parser": [
+                ".ts",
+                ".tsx"
+            ]
+        },
+        "import/resolver": {
+            "typescript": {
+                "alwaysTryTypes": true,
+                "project": "packages/*/tsconfig.json"
+            }
+        }
     }
 }

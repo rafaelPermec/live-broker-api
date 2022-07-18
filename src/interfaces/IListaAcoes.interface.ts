@@ -1,5 +1,5 @@
 interface IListaAcoes {
-  codAtivo: string;
+  CodAtivo: string;
   Valor: number;
 }
 
