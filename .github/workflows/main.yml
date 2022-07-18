@@ -10,7 +10,7 @@ jobs:
         - name: Instala o node com a versão
           uses: actions/setup-node@v1
           with:
-            node-version: 16
+            node-version: 14
 
         - name: instalando as dependências
           run: npm install
