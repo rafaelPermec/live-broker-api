@@ -1,13 +1,14 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
 import fs from 'fs';
-import { IListaAcoes } from '../../interfaces/IListaAcoes.interface';
+
+import IListaAcoes from '../../interfaces/IListaAcoes.interface';
 
 // URL da página que vamos raspar os dados.
 const url = 'https://www.fundamentus.com.br/resultado.php/api';
 
 // Nossa função asincrona que raspa dados do site de analise Fundamentus;
-export async function raspagemDeDados(): Promise<IListaAcoes[] | undefined> {
+export default async function raspagemDeDados(): Promise<IListaAcoes[] | undefined> {
   try {
     // Faz o fetch e resgata o HTML do site Fundamentus;
     const { data } = await axios.get(url);
@@ -20,11 +21,9 @@ export async function raspagemDeDados(): Promise<IListaAcoes[] | undefined> {
 
     // Nossa lista vetor, para armazenarmos as informações resgatadas;
     const acoes: IListaAcoes[] = [];
-
-    // Metodo 'each', que indica que queremos 'tocar' em 
-    // todos os itens do HTML, que estão no trecho resgatado; 
+    // Metodo 'each', que indica que queremos 'tocar' em
+    // todos os itens do HTML, que estão no trecho resgatado;
     listItems.each((_index, element) => {
-
       // Objeto que vamos montar para a analise;
       const papel: IListaAcoes = { codAtivo: '', Valor: 0 };
 
@@ -48,16 +47,16 @@ export async function raspagemDeDados(): Promise<IListaAcoes[] | undefined> {
       acoes.push(papel);
     });
     // Ordena a lista de ações por ordem alfabetica;
-    acoes.sort((a, b) => a.codAtivo.localeCompare(b.codAtivo))
+    acoes.sort((a, b) => a.codAtivo.localeCompare(b.codAtivo));
 
     // Escreve a lista de ações em um .json local;
-    fs.writeFileSync('./acoesAtivos.json', JSON.stringify(acoes, null, 2));
+    fs.writeFileSync('./xp-inc/src/models/ListaDeAtivos.json', JSON.stringify(acoes, null, 2));
 
     // Escreve a lista de ações no log do terminal;
     // console.log();
     console.log(acoes);
 
-    // Retorna a lista de codigos de ativo e valores de ações em tempo real, 
+    // Retorna a lista de codigos de ativo e valores de ações em tempo real,
     // segundo o site Fundamentus.
     return acoes;
   } catch (err) {

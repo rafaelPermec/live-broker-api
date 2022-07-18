@@ -1,4 +1,6 @@
-export interface IListaAcoes {
+interface IListaAcoes {
   codAtivo: string;
   Valor: number;
 }
+
+export default IListaAcoes;
