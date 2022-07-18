@@ -16,5 +16,5 @@ jobs:
           run: npm install
 
         - name: executando o lint para verificar se a erros
-          run: eslint . --ext .js,.jsx,.ts,.tsx
+          run: npx eslint . --ext .js,.jsx,.ts,.tsx
           
