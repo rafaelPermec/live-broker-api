@@ -1,10 +1,10 @@
-import axios from "axios";
-import cheerio from "cheerio";
-import fs from "fs";
-import { IListaAcoes } from "../../interfaces/IListaAcoes.interface";
+import axios from 'axios';
+import cheerio from 'cheerio';
+import fs from 'fs';
+import { IListaAcoes } from '../../interfaces/IListaAcoes.interface';
 
 // URL da página que vamos raspar os dados.
-const url = "https://www.fundamentus.com.br/resultado.php/api";
+const url = 'https://www.fundamentus.com.br/resultado.php/api';
 
 // Nossa função asincrona que raspa dados do site de analise Fundamentus;
 export async function raspagemDeDados(): Promise<IListaAcoes[] | undefined> {
@@ -16,7 +16,7 @@ export async function raspagemDeDados(): Promise<IListaAcoes[] | undefined> {
     const $ = cheerio.load(data);
 
     // Busca, resume e seleciona um trecho do HTML resgatado;
-    const listItems = $("#resultado.resultado tbody tr");
+    const listItems = $('#resultado.resultado tbody tr');
 
     // Nossa lista vetor, para armazenarmos as informações resgatadas;
     const acoes: IListaAcoes[] = [];
@@ -26,7 +26,7 @@ export async function raspagemDeDados(): Promise<IListaAcoes[] | undefined> {
     listItems.each((_index, element) => {
 
       // Objeto que vamos montar para a analise;
-      const papel: IListaAcoes = { codAtivo: "", Valor: 0 };
+      const papel: IListaAcoes = { codAtivo: '', Valor: 0 };
 
       // Metodos de busca em HTML elaborados pela lib 'cheerio';
       const codigosDeAtivos = $(element)
@@ -51,17 +51,18 @@ export async function raspagemDeDados(): Promise<IListaAcoes[] | undefined> {
     acoes.sort((a, b) => a.codAtivo.localeCompare(b.codAtivo))
 
     // Escreve a lista de ações em um .json local;
-    fs.writeFileSync("acoesAtivos.json", JSON.stringify(acoes, null, 2));
+    fs.writeFileSync('./acoesAtivos.json', JSON.stringify(acoes, null, 2));
 
     // Escreve a lista de ações no log do terminal;
     // console.log();
     console.log(acoes);
 
-    //Retorna a lista de codigos de ativo e valores de ações em tempo real, segundo o site Fundamentus.
+    // Retorna a lista de codigos de ativo e valores de ações em tempo real, 
+    // segundo o site Fundamentus.
     return acoes;
   } catch (err) {
     console.error(err);
-    return;
+    throw new Error();
   }
 }
 
