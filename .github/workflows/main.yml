@@ -2,19 +2,19 @@ on: ['push', 'pull_request']
 
 jobs:
   eslint:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-        - name: Verifica o repositório do Git
+        - name: Verificando o repositório do Github
           uses: actions/checkout@v2
 
-        - name: Instala o node com a versão
+        - name: Instalando o node com a versão 14
           uses: actions/setup-node@v1
           with:
             node-version: 14
 
-        - name: instalando as dependências
+        - name: instalando as dependências de package.json
           run: npm install
 
-        - name: executando o lint para verificar se a erros
-          run: eslint . --ext .js,.jsx,.ts,.tsx
+        - name: executando o lint para verificação de erros
+          run: npm run lint
           
