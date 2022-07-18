@@ -1,8 +1,9 @@
+/* eslint-disable import/extensions */
 import axios from 'axios';
 import cheerio from 'cheerio';
 import fs from 'fs';
 
-import IListaAcoes from '../../interfaces/index.ts';
+import IListaAcoes from '../../interfaces';
 
 // URL da página que vamos raspar os dados.
 const url = 'https://www.fundamentus.com.br/resultado.php/api';
