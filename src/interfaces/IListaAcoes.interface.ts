@@ -1,6 +1,16 @@
 interface IListaAcoes {
+  id?: number;
   CodAtivo: string;
   Valor: number;
 }
 
-export default IListaAcoes;
+interface IAcoesSegmentadas {
+  ativosOrdinarios: IListaAcoes[];
+  ativosPreferenciais: IListaAcoes[];
+  unitsDBR: IListaAcoes[];
+}
+
+export {
+  IListaAcoes,
+  IAcoesSegmentadas,
+};

@@ -1,3 +1,6 @@
-import IListaAcoes from './IListaAcoes.interface';
+import { IListaAcoes, IAcoesSegmentadas } from './IListaAcoes.interface';
 
-export default IListaAcoes;
+export {
+  IListaAcoes,
+  IAcoesSegmentadas,
+};
