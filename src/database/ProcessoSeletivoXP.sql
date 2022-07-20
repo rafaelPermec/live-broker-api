@@ -75,7 +75,7 @@ INSERT INTO `ProcessoSeletivoXP`.`Cliente`( Nome, Email, Senha)
 VALUES 
 ('Philip K. Dick', 'ovelha@sonhando.com', 'BladeRunner'), ('William Gibson', 'monalisa@overdrive.com', 'sallywithclaws'),
 ('Issac Asimov', 'i@robot.com', 'naoGosteiDoWillSmith'), ('Uncle Bob', 'pattern@onetwothree.com', 'feedbackIfMyCodeClean'),
-('Anthony Boudain', 'midnight@shift.com', 'cozinhaConfidencial'),
+('Anthony Boudain', 'midnight@shift.com', 'cozinhaConfidencial');
 
 INSERT INTO `ProcessoSeletivoXP`.`Corretora`( IdAtivos, SiglaAtivos, QtdeAtivosCorretora)
 VALUES 
@@ -95,10 +95,30 @@ VALUES
 (2, 252, 'CORR4', 41), (2, 101, 'BELG4', 546), (2, 139, 'BOBR4', 45), (2, 115, 'DAYC4', 616),
 (3, 445, 'GETI4', 98), (3, 295, 'CTNM4', 46), (3, 406, 'EUCA4', 74), (3, 423, 'FIGE4', 484), (3, 436, 'GAFP4', 849),
 (4, 49, 'APTI4', 615), (4, 15, 'AESL4', 164), (4, 417, 'FFTL4', 321),
-(5, 482, 'IDVL4', 156), (5, 230, 'CGRA4', 96), (5, 461, 'GRNL4', 156), (5, 445, 'GETI4', 48), (5, 423, 'FIGE4', 4489),
+(5, 482, 'IDVL4', 156), (5, 230, 'CGRA4', 96), (5, 461, 'GRNL4', 156), (5, 445, 'GETI4', 48), (5, 423, 'FIGE4', 4489);
 
-INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
-VALUES (1, 3), (2, 4), (3, 1), (5, 2), (4, 5);
+-- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
+-- VALUES (1, 3) WHERE idClient = 1;
+-- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
+-- VALUES (2, 4) WHERE idClient = 2;
+-- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
+-- VALUES (3, 1) WHERE idClient = 3;
+-- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
+-- VALUES (5, 2) WHERE idClient = 4;
+-- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
+-- VALUES (4, 5) WHERE idClient = 5;
+
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET IdCarteira = 1, IdPortfolio = 3 WHERE idCliente = 1;
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET  IdCarteira = 2, IdPortfolio = 4 WHERE idCliente = 2;
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET  IdCarteira = 3, IdPortfolio = 1 WHERE idCliente = 3;
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET IdCarteira = 5, IdPortfolio = 2 WHERE idCliente = 4;
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET IdCarteira = 4, IdPortfolio = 5 WHERE idCliente = 5;
+
 
 INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, ValorOperacao, IdCarteira, IdPortfolio)
 VALUES 
