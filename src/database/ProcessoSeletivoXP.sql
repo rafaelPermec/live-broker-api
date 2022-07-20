@@ -97,17 +97,6 @@ VALUES
 (4, 49, 'APTI4', 615), (4, 15, 'AESL4', 164), (4, 417, 'FFTL4', 321),
 (5, 482, 'IDVL4', 156), (5, 230, 'CGRA4', 96), (5, 461, 'GRNL4', 156), (5, 445, 'GETI4', 48), (5, 423, 'FIGE4', 4489);
 
--- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
--- VALUES (1, 3) WHERE idClient = 1;
--- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
--- VALUES (2, 4) WHERE idClient = 2;
--- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
--- VALUES (3, 1) WHERE idClient = 3;
--- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
--- VALUES (5, 2) WHERE idClient = 4;
--- INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
--- VALUES (4, 5) WHERE idClient = 5;
-
 UPDATE `ProcessoSeletivoXP`.`Cliente`
 SET IdCarteira = 1, IdPortfolio = 3 WHERE idCliente = 1;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
@@ -119,38 +108,32 @@ SET IdCarteira = 5, IdPortfolio = 2 WHERE idCliente = 4;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
 SET IdCarteira = 4, IdPortfolio = 5 WHERE idCliente = 5;
 
-
 INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, IdCarteira, IdPortfolio)
 VALUES 
-('Compra', 423, 47, 1, 3), ('Compra', 406, 94, 1, 3), ('Compra', 436, 489, 1, 3),
+('Compra', 423, 60, 1, 3), ('Venda', 423, 13, 1, 3), ('Compra', 406, 94, 1, 3), ('Compra', 436, 600, 1, 3), 
 
-('Compra', 252, 41, 2, 4), ('Compra', 101, 546, 2, 4), ('Compra', 139, 45, 2, 4),
-('Compra', 115, 616, 2, 4),
+('Compra', 252, 81, 2, 4), ('Venda', 252, 41, 2, 4), ('Compra', 101, 546, 2, 4), ('Compra', 139, 45, 2, 4),
+('Compra', 115, 816, 2, 4), ('Venda', 115, 200, 2, 4),
 
-('Compra', 445, 98, 3, 1), ('Compra', 295, 46, 3, 1), ('Compra', 406, 74, 3, 1),
-('Compra', 423, 484, 3, 1), ('Compra', 436, 849, 3, 1),
-
-
-('Compra', 49, 615, 5, 2), ('Compra', 15, 164, 5, 2), ('Compra', 417, 321, 5, 2),
-
-('Compra', 482, 156, 4, 5), ('Compra', 230, 96, 4, 5), ('Compra', 461, 156, 4, 5),
-('Compra', 445, 48, 4, 5), ('Compra', 423, 4489, 4, 5);
+('Compra', 445, 198, 3, 1), ('Compra', 295, 62, 3, 1), ('Venda', 445, 100, 3, 1), ('Compra', 406, 74, 3, 1), 
+('Venda', 295, 36, 3, 1), ('Compra', 423, 484, 3, 1), ('Compra', 436, 1149, 3, 1), ('Venda', 436, 300, 3, 1),
 
 
+('Compra', 49, 630, 5, 2), ('Venda', 49, 15, 5, 2), ('Compra', 15, 364, 5, 2), 
+('Compra', 417, 321, 5, 2), ('Venda', 15, 40, 5, 2), ('Venda', 15, 160, 5, 2),
 
+('Compra', 482, 312, 4, 5), ('Venda', 482, 156, 4, 5), ('Compra', 230, 120, 4, 5), 
+('Compra', 461, 156, 4, 5), ('Venda', 230, 14, 4, 5), ('Venda', 230, 10, 4, 5),
+('Compra', 445, 96, 4, 5), ('Compra', 423, 4489, 4, 5), ('Venda', 445, 48, 4, 5);
 
 INSERT INTO `ProcessoSeletivoXP`.`Financeiro`( TipoOperacao, IdCarteira, Valor)
 VALUES 
 ('Saque', 1, 30.00), ('Deposito', 1, 3200.00), ('Deposito', 1, 300.50),
 
-('Saque', 2, 4400.00), ('Deposito', 2, 450.50), ('Saque', 2, 40.00),
-('Saque', 2, 700.00),
+('Saque', 2, 4400.00), ('Deposito', 2, 450.50), ('Saque', 2, 40.00), ('Saque', 2, 700.00),
 
-('Deposito',3, 650.90), ('Deposito', 3, 10.10), ('Saque', 3, 947.85),
-('Saque', 3, 50.00), ('Deposito', 3, 1200.30),
-
+('Deposito',3, 650.90), ('Deposito', 3, 10.10), ('Saque', 3, 947.85), ('Saque', 3, 50.00), ('Deposito', 3, 1200.30),
 
 ('Deposito', 5, 351.20), ('Saque', 5, 563.21), ('Deposito', 5, 144.16),
 
-('Deposito', 4, 500.50), ('Deposito', 4, 900.00), ('Deposito', 4, 785.90),
-('Saque', 4, 2000.00);
+('Deposito', 4, 500.50), ('Deposito', 4, 900.00), ('Deposito', 4, 785.90), ('Saque', 4, 2000.00);
