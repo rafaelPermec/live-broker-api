@@ -1,0 +1,4932 @@
+[
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AALR3",
+    "Valor": 19.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ABCB3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ABCB4",
+    "Valor": 16.09
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ABEV3",
+    "Valor": 14.48
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ABYA3",
+    "Valor": 4.91
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ACES3",
+    "Valor": 95.27
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ACES4",
+    "Valor": 94.73
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ADHM3",
+    "Valor": 1.56
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AEDU11",
+    "Valor": 37.35
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AEDU3",
+    "Valor": 18.35
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AELP3",
+    "Valor": 1.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AERI3",
+    "Valor": 2.52
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AESB3",
+    "Valor": 10.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AESL3",
+    "Valor": 10081.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AESL4",
+    "Valor": 10081.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AFLT3",
+    "Valor": 8.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AFLU3",
+    "Valor": 5.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AFLU5",
+    "Valor": 5.03
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AGEI3",
+    "Valor": 7.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AGEN33",
+    "Valor": 0.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AGIN3",
+    "Valor": 5.29
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AGRO3",
+    "Valor": 23.27
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AGXY3",
+    "Valor": 7.58
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AHEB3",
+    "Valor": 27.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AHEB5",
+    "Valor": 22
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AHEB6",
+    "Valor": 33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALBA3",
+    "Valor": 2.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALLD3",
+    "Valor": 9.59
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALLL11",
+    "Valor": 16.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALLL3",
+    "Valor": 3.97
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALLL4",
+    "Valor": 3.32
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALPA3",
+    "Valor": 16.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALPA4",
+    "Valor": 19.59
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALPK3",
+    "Valor": 2.76
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALSC3",
+    "Valor": 27.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALSO3",
+    "Valor": 16.14
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALUP11",
+    "Valor": 26.91
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALUP3",
+    "Valor": 9.04
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ALUP4",
+    "Valor": 8.95
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AMAR3",
+    "Valor": 2.04
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AMBP3",
+    "Valor": 24.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AMBV3",
+    "Valor": 87
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AMBV4",
+    "Valor": 86.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AMER3",
+    "Valor": 16.19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AMIL3",
+    "Valor": 32.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AMPI3",
+    "Valor": 55
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ANIM3",
+    "Valor": 4.39
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "APER3",
+    "Valor": 27.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "APTI4",
+    "Valor": 3500
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARCE3",
+    "Valor": 54
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARCZ3",
+    "Valor": 3.66
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARCZ6",
+    "Valor": 3.63
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARLA3",
+    "Valor": 2.47
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARLA4",
+    "Valor": 3.38
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARML3",
+    "Valor": 10.66
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARPS3",
+    "Valor": 0.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARPS4",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARTE3",
+    "Valor": 7.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARTE4",
+    "Valor": 6.81
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARTR3",
+    "Valor": 10.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ARZZ3",
+    "Valor": 73.83
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ASAI3",
+    "Valor": 15.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ASSM3",
+    "Valor": 7.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ASSM4",
+    "Valor": 6.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ASTA4",
+    "Valor": 25.83
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ATMP3",
+    "Valor": 1.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ATOM3",
+    "Valor": 2.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AURA33",
+    "Valor": 28.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AURE3",
+    "Valor": 14.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AUTM3",
+    "Valor": 19.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AVIL3",
+    "Valor": 0.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AVLL3",
+    "Valor": 19.36
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AZEV3",
+    "Valor": 2.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AZEV4",
+    "Valor": 2.45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "AZUL4",
+    "Valor": 12.54
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "B3SA3",
+    "Valor": 10.21
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BAHI11",
+    "Valor": 2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BAHI3",
+    "Valor": 11.31
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BAHI4",
+    "Valor": 86
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BAHI5",
+    "Valor": 65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BALM3",
+    "Valor": 12.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BALM4",
+    "Valor": 10.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BAUH4",
+    "Valor": 72.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BAZA3",
+    "Valor": 39.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BBAS3",
+    "Valor": 34.66
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BBDC3",
+    "Valor": 14.33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BBDC4",
+    "Valor": 17.26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BBSE3",
+    "Valor": 27.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BBTG11",
+    "Valor": 15.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BBTG12",
+    "Valor": 3.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BBTG13",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BCAL6",
+    "Valor": 0.28
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BDLL3",
+    "Valor": 10.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BDLL4",
+    "Valor": 8.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BECE3",
+    "Valor": 9.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BECE4",
+    "Valor": 8.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BEEF3",
+    "Valor": 13.65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BEES3",
+    "Valor": 5.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BEES4",
+    "Valor": 5.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BELG3",
+    "Valor": 1375.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BELG4",
+    "Valor": 1370
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BEMA3",
+    "Valor": 10.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BERG3",
+    "Valor": 33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BESP3",
+    "Valor": 330
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BESP4",
+    "Valor": 344
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BFIT3",
+    "Valor": 0.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BFIT4",
+    "Valor": 0.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BGIP3",
+    "Valor": 29.46
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BGIP4",
+    "Valor": 18.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BHGR3",
+    "Valor": 19.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BICB3",
+    "Valor": 8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BICB4",
+    "Valor": 8.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BIDI11",
+    "Valor": 10.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BIDI3",
+    "Valor": 3.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BIDI4",
+    "Valor": 3.41
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BIOM3",
+    "Valor": 7.59
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BIOM4",
+    "Valor": 8.68
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BISA3",
+    "Valor": 1.58
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BKBR3",
+    "Valor": 5.63
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BLAU3",
+    "Valor": 24.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BLUT3",
+    "Valor": 1.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BLUT4",
+    "Valor": 0.51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMEB3",
+    "Valor": 11.27
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMEB4",
+    "Valor": 10
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMEF3",
+    "Valor": 11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMGB11",
+    "Valor": 33.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMGB4",
+    "Valor": 2.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMIN3",
+    "Valor": 19.76
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMIN4",
+    "Valor": 13.57
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMKS3",
+    "Valor": 250
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMOB3",
+    "Valor": 11.38
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMTO3",
+    "Valor": 7.82
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BMTO4",
+    "Valor": 7.57
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BNBR3",
+    "Valor": 68
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BNBR4",
+    "Valor": 27.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BNCA3",
+    "Valor": 70.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BOAS3",
+    "Valor": 5.22
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BOBR3",
+    "Valor": 1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BOBR4",
+    "Valor": 1.23
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BOVH3",
+    "Valor": 15.71
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BPAC11",
+    "Valor": 22.71
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BPAC3",
+    "Valor": 12.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BPAC5",
+    "Valor": 5.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BPAN4",
+    "Valor": 6.43
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BPAR3",
+    "Valor": 182.07
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BPAT33",
+    "Valor": 20
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BPHA3",
+    "Valor": 0.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BPIA3",
+    "Valor": 6.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BPNM3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRAP3",
+    "Valor": 20.38
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRAP4",
+    "Valor": 22.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRBI11",
+    "Valor": 12.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRFS3",
+    "Valor": 14.96
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRGE11",
+    "Valor": 6.71
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRGE12",
+    "Valor": 6.95
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRGE3",
+    "Valor": 6.22
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRGE5",
+    "Valor": 9.81
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRGE6",
+    "Valor": 8.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRGE7",
+    "Valor": 5.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRGE8",
+    "Valor": 8.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRIT3",
+    "Valor": 2.13
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRIV3",
+    "Valor": 5.58
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRIV4",
+    "Valor": 6.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRKM3",
+    "Valor": 35.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRKM5",
+    "Valor": 34.54
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRKM6",
+    "Valor": 23.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRML3",
+    "Valor": 7.55
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRPR3",
+    "Valor": 8.31
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRSR3",
+    "Valor": 11.33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRSR4",
+    "Valor": 181.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRSR5",
+    "Valor": 17.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRSR6",
+    "Valor": 9.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRTP3",
+    "Valor": 35.71
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BRTP4",
+    "Valor": 20.81
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BSCT3",
+    "Valor": 4.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BSCT5",
+    "Valor": 3.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BSCT6",
+    "Valor": 2.58
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BSEV3",
+    "Valor": 9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BSGR3",
+    "Valor": 1091.28
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BSLI3",
+    "Valor": 20
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BSLI4",
+    "Valor": 14
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BTTL3",
+    "Valor": 20.19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BUET3",
+    "Valor": 24.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "BUET4",
+    "Valor": 18.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CAFE3",
+    "Valor": 2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CAFE4",
+    "Valor": 0.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CALI3",
+    "Valor": 7.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CALI4",
+    "Valor": 50
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CAMB3",
+    "Valor": 4.45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CAMB4",
+    "Valor": 6.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CAML3",
+    "Valor": 9.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CARD3",
+    "Valor": 13.36
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CASH3",
+    "Valor": 1.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CASN3",
+    "Valor": 15.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CBAV3",
+    "Valor": 9.97
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CBEE3",
+    "Valor": 16.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CBMA3",
+    "Valor": 0.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CBMA4",
+    "Valor": 0.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CCHI3",
+    "Valor": 0.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CCHI4",
+    "Valor": 0.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CCIM3",
+    "Valor": 5.52
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CCRO3",
+    "Valor": 12.04
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CCTU4",
+    "Valor": 37.28
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CCXC3",
+    "Valor": 1.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEAB3",
+    "Valor": 2.39
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEBR3",
+    "Valor": 14.89
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEBR5",
+    "Valor": 12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEBR6",
+    "Valor": 12.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEDO3",
+    "Valor": 6.72
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEDO4",
+    "Valor": 4.51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEEB3",
+    "Valor": 36.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEEB5",
+    "Valor": 36
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEED3",
+    "Valor": 40.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEED4",
+    "Valor": 65.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEGR3",
+    "Valor": 89
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CELM3",
+    "Valor": 15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEPE3",
+    "Valor": 128
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEPE5",
+    "Valor": 39.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CEPE6",
+    "Valor": 40.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CESP3",
+    "Valor": 25.55
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CESP4",
+    "Valor": 16.29
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CESP5",
+    "Valor": 25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CESP6",
+    "Valor": 25.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CFLU4",
+    "Valor": 1000
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CGAS3",
+    "Valor": 119.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CGAS5",
+    "Valor": 120
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CGOS3",
+    "Valor": 26.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CGOS4",
+    "Valor": 16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CGRA3",
+    "Valor": 28.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CGRA4",
+    "Valor": 27.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CIEL3",
+    "Valor": 4.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CIQU3",
+    "Valor": 12.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CIQU4",
+    "Valor": 12.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CLAN3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CLAN4",
+    "Valor": 3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CLSA3",
+    "Valor": 4.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CLSC3",
+    "Valor": 51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CLSC4",
+    "Valor": 52.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CLSC5",
+    "Valor": 39.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CLSC6",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CMET4",
+    "Valor": 3.91
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CMIG3",
+    "Valor": 15.68
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CMIG4",
+    "Valor": 10.39
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CMIN3",
+    "Valor": 3.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CMMA4",
+    "Valor": 0.81
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CNFB4",
+    "Valor": 5.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "COCE3",
+    "Valor": 58.92
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "COCE5",
+    "Valor": 46.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "COCE6",
+    "Valor": 35
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "COGN3",
+    "Valor": 2.33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CORR3",
+    "Valor": 12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CORR4",
+    "Valor": 82
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPFE3",
+    "Valor": 31.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPFG3",
+    "Valor": 12.65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPFG4",
+    "Valor": 12.26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPFP4",
+    "Valor": 44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPLE11",
+    "Valor": 33.86
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPLE3",
+    "Valor": 6.31
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPLE5",
+    "Valor": 23
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPLE6",
+    "Valor": 6.83
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPNY3",
+    "Valor": 2.35
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPRE3",
+    "Valor": 18.23
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CPSL3",
+    "Valor": 38.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRBM3",
+    "Valor": 90
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRBM7",
+    "Valor": 60
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRDE3",
+    "Valor": 21.57
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CREM3",
+    "Valor": 14.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CREM4",
+    "Valor": 48
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRFB3",
+    "Valor": 17.07
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRIV3",
+    "Valor": 3.04
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRIV4",
+    "Valor": 4.65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRPG3",
+    "Valor": 40.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRPG5",
+    "Valor": 28.78
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRPG6",
+    "Valor": 30
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRTP3",
+    "Valor": 86.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRTP5",
+    "Valor": 62.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CRUZ3",
+    "Valor": 27.59
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSAB3",
+    "Valor": 50
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSAB4",
+    "Valor": 49.04
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSAN3",
+    "Valor": 17.47
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSED3",
+    "Valor": 3.63
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSMG3",
+    "Valor": 11.35
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSNA3",
+    "Valor": 14.34
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSPC3",
+    "Valor": 1.24
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSPC4",
+    "Valor": 1.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSRN3",
+    "Valor": 20.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSRN5",
+    "Valor": 18.03
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSRN6",
+    "Valor": 17.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSTB3",
+    "Valor": 150
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CSTB4",
+    "Valor": 147.69
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTIP3",
+    "Valor": 49.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTKA3",
+    "Valor": 27.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTKA4",
+    "Valor": 10.61
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTNM3",
+    "Valor": 7.91
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTNM4",
+    "Valor": 2.55
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTPC3",
+    "Valor": 0.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTPC4",
+    "Valor": 6.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTSA3",
+    "Valor": 1.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTSA4",
+    "Valor": 0.74
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTSA8",
+    "Valor": 1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CTWR3",
+    "Valor": 100
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CURY3",
+    "Valor": 7.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CVCB3",
+    "Valor": 6.55
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CXSE3",
+    "Valor": 6.83
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CYRE3",
+    "Valor": 12.13
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CYRE4",
+    "Valor": 8.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CZLT33",
+    "Valor": 29.23
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CZRS3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "CZRS4",
+    "Valor": 2.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DAGB33",
+    "Valor": 375
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DASA3",
+    "Valor": 17.26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DAYC3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DAYC4",
+    "Valor": 8.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DESK3",
+    "Valor": 9.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DEXP3",
+    "Valor": 7.28
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DEXP4",
+    "Valor": 7.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DFVA3",
+    "Valor": 9.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DFVA4",
+    "Valor": 8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DHBI3",
+    "Valor": 19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DHBI4",
+    "Valor": 1.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DIRR3",
+    "Valor": 11.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DJON4",
+    "Valor": 0.18
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DMMO3",
+    "Valor": 1.46
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DMVF3",
+    "Valor": 4.26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DOCA3",
+    "Valor": 11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DOCA4",
+    "Valor": 5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DOHL3",
+    "Valor": 19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DOHL4",
+    "Valor": 5.68
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DOTZ3",
+    "Valor": 3.96
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DPPI3",
+    "Valor": 85
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DPPI4",
+    "Valor": 38.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DSUL3",
+    "Valor": 7.95
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DTCY3",
+    "Valor": 5.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DUFB11",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DUQE3",
+    "Valor": 28
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DUQE4",
+    "Valor": 2.95
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DURA3",
+    "Valor": 31.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DURA4",
+    "Valor": 31.39
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DXCO3",
+    "Valor": 9.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "DXTG4",
+    "Valor": 3.68
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EALT3",
+    "Valor": 7.45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EALT4",
+    "Valor": 6.24
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EBCO3",
+    "Valor": 1.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EBCO4",
+    "Valor": 1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EBEN4",
+    "Valor": 17.51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EBTP3",
+    "Valor": 10.21
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EBTP4",
+    "Valor": 10
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ECIS3",
+    "Valor": 211.65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ECIS4",
+    "Valor": 145
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ECOR3",
+    "Valor": 5.27
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ECPR3",
+    "Valor": 90.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ECPR4",
+    "Valor": 90.74
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EEEL3",
+    "Valor": 421.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EEEL4",
+    "Valor": 410
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EGIE3",
+    "Valor": 41.71
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EKTR3",
+    "Valor": 30
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EKTR4",
+    "Valor": 29
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELCA3",
+    "Valor": 24.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELCA4",
+    "Valor": 20.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELEK3",
+    "Valor": 19.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELEK4",
+    "Valor": 26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELET3",
+    "Valor": 44.22
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELET5",
+    "Valor": 64.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELET6",
+    "Valor": 45.37
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELEV3",
+    "Valor": 24.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELMD3",
+    "Valor": 9.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELPL3",
+    "Valor": 49.32
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELPL4",
+    "Valor": 15.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELPL5",
+    "Valor": 30.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELPL6",
+    "Valor": 30.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELUM3",
+    "Valor": 36
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ELUM4",
+    "Valor": 47.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EMAE4",
+    "Valor": 34.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EMBR3",
+    "Valor": 12.17
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENAT3",
+    "Valor": 16.89
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENBR3",
+    "Valor": 20.83
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENER3",
+    "Valor": 10.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENER5",
+    "Valor": 6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENER6",
+    "Valor": 12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENEV3",
+    "Valor": 14.48
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENGI11",
+    "Valor": 39.77
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENGI3",
+    "Valor": 12.88
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENGI4",
+    "Valor": 6.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENJU3",
+    "Valor": 1.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENMT3",
+    "Valor": 79.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ENMT4",
+    "Valor": 79.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EPAR3",
+    "Valor": 11.56
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EPAR4",
+    "Valor": 3.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EQMA3B",
+    "Valor": 37.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EQMA5B",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EQMA6B",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EQPA3",
+    "Valor": 4.94
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EQPA5",
+    "Valor": 6.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EQPA6",
+    "Valor": 10.69
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EQPA7",
+    "Valor": 6.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EQTL3",
+    "Valor": 22.67
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ESCE3",
+    "Valor": 172
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ESPA3",
+    "Valor": 2.33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ESTC11",
+    "Valor": 23.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ESTC4",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ESTR3",
+    "Valor": 40
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ESTR4",
+    "Valor": 53
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ETER3",
+    "Valor": 9.97
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ETER4",
+    "Valor": 9.85
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EUCA3",
+    "Valor": 13.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EUCA4",
+    "Valor": 8.14
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EVEN3",
+    "Valor": 4.59
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "EZTC3",
+    "Valor": 15.09
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FBMC3",
+    "Valor": 80
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FBMC4",
+    "Valor": 1.96
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FBRA4",
+    "Valor": 34.58
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FCAP3",
+    "Valor": 0.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FCAP4",
+    "Valor": 0.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FESA3",
+    "Valor": 45.65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FESA4",
+    "Valor": 44.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FFTL3",
+    "Valor": 25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FFTL4",
+    "Valor": 25.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FGUI3",
+    "Valor": 12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FGUI4",
+    "Valor": 0.38
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FHER3",
+    "Valor": 17.92
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FIBR3",
+    "Valor": 66.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FIGE3",
+    "Valor": 43
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FIGE4",
+    "Valor": 38.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FIQE3",
+    "Valor": 3.96
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FLCL3",
+    "Valor": 11.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FLCL5",
+    "Valor": 12.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FLCL6",
+    "Valor": 9.91
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FLRY3",
+    "Valor": 15.26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FRAS3",
+    "Valor": 10.07
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FRAS4",
+    "Valor": 5.79
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FRIO3",
+    "Valor": 41.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FRTA3",
+    "Valor": 3.86
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FTRX3",
+    "Valor": 0.13
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "FTRX4",
+    "Valor": 0.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GAFP3",
+    "Valor": 0.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GAFP4",
+    "Valor": 0.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GALO3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GALO4",
+    "Valor": 0.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GAZO3",
+    "Valor": 3.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GAZO4",
+    "Valor": 2.32
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GBIO33",
+    "Valor": 10.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GEPA3",
+    "Valor": 22.64
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GEPA4",
+    "Valor": 24.83
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GETI3",
+    "Valor": 14.45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GETI4",
+    "Valor": 14.46
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GETT3",
+    "Valor": 2.22
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GETT4",
+    "Valor": 2.22
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GFSA3",
+    "Valor": 1.18
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GGBR3",
+    "Valor": 18.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GGBR4",
+    "Valor": 23.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GGPS3",
+    "Valor": 11.19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GLOB4",
+    "Valor": 30.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GMAT3",
+    "Valor": 4.14
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GNDI3",
+    "Valor": 66.95
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GOAU3",
+    "Valor": 9.45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GOAU4",
+    "Valor": 9.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GOLL4",
+    "Valor": 8.43
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GPAR3",
+    "Valor": 28.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GPIV33",
+    "Valor": 3.81
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GRND3",
+    "Valor": 6.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GRNL4",
+    "Valor": 470
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GSHP3",
+    "Valor": 23.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GUAR3",
+    "Valor": 7.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GUAR4",
+    "Valor": 151
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "GVTT3",
+    "Valor": 57.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HAGA3",
+    "Valor": 2.57
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HAGA4",
+    "Valor": 1.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HAPV3",
+    "Valor": 5.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HBOR3",
+    "Valor": 2.28
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HBRE3",
+    "Valor": 4.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HBSA3",
+    "Valor": 2.09
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HBTS5",
+    "Valor": 30.61
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HETA3",
+    "Valor": 96
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HETA4",
+    "Valor": 5.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HGTX3",
+    "Valor": 37.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HGTX4",
+    "Valor": 9.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HOOT4",
+    "Valor": 1.81
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "HYPE3",
+    "Valor": 40.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ICPI3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IDVL11",
+    "Valor": 140
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IDVL3",
+    "Valor": 2.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IDVL4",
+    "Valor": 2.67
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IENG3",
+    "Valor": 0.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IENG5",
+    "Valor": 0.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IFCM3",
+    "Valor": 5.65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IGBR3",
+    "Valor": 28.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IGBR5",
+    "Valor": 18.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IGBR6",
+    "Valor": 19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IGTA3",
+    "Valor": 33.13
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IGTI11",
+    "Valor": 19.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IGTI3",
+    "Valor": 2.45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IGUA3",
+    "Valor": 8.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IGUA5",
+    "Valor": 7.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IGUA6",
+    "Valor": 8.07
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ILLS4",
+    "Valor": 100.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ILMD3",
+    "Valor": 29
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ILMD4",
+    "Valor": 30
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IMBI3",
+    "Valor": 5.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IMBI4",
+    "Valor": 3.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IMCH3",
+    "Valor": 6.39
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "INEP3",
+    "Valor": 0.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "INEP4",
+    "Valor": 0.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "INHA3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "INTB3",
+    "Valor": 25.84
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IRBR3",
+    "Valor": 2.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ITEC3",
+    "Valor": 40.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ITSA3",
+    "Valor": 8.96
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ITSA4",
+    "Valor": 8.59
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ITUB3",
+    "Valor": 20.31
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ITUB4",
+    "Valor": 23.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "IVTT3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JALL3",
+    "Valor": 7.14
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JBDU3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JBSS3",
+    "Valor": 29.63
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JFAB4",
+    "Valor": 0.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JFEN3",
+    "Valor": 0.82
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JHSF3",
+    "Valor": 5.74
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JOPA3",
+    "Valor": 21.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JOPA4",
+    "Valor": 35.09
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JPSA3",
+    "Valor": 29.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "JSLG3",
+    "Valor": 4.68
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "KEPL3",
+    "Valor": 16.66
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "KLBN11",
+    "Valor": 18.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "KLBN3",
+    "Valor": 3.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "KLBN4",
+    "Valor": 3.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "KROT11",
+    "Valor": 40
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "KROT4",
+    "Valor": 5.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "KRSA3",
+    "Valor": 3.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "KSSA3",
+    "Valor": 5.33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LAME3",
+    "Valor": 6.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LAME4",
+    "Valor": 6.55
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LAND3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LATM11",
+    "Valor": 28.65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LATS3",
+    "Valor": 22
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LAVV3",
+    "Valor": 4.46
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LCAM3",
+    "Valor": 24.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LCSA3",
+    "Valor": 12.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LCSA4",
+    "Valor": 35.09
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LECO3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LECO4",
+    "Valor": 1.46
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LETO3",
+    "Valor": 0.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LETO5",
+    "Valor": 2.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LEVE3",
+    "Valor": 23.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LEVE4",
+    "Valor": 44.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LFFE3",
+    "Valor": 3.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LFFE4",
+    "Valor": 3.89
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LGLO4",
+    "Valor": 100
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LIGH3",
+    "Valor": 16.66
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LIGT3",
+    "Valor": 5.46
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LINX3",
+    "Valor": 37.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LIPR3",
+    "Valor": 65.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LIXC3",
+    "Valor": 1.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LIXC4",
+    "Valor": 1.45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LJQQ3",
+    "Valor": 5.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LLIS3",
+    "Valor": 1.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LOGG3",
+    "Valor": 18.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LOGN3",
+    "Valor": 27.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LPSB3",
+    "Valor": 2.56
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LREN3",
+    "Valor": 24.74
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LREN4",
+    "Valor": 105
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LUPA3",
+    "Valor": 2.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LUXM3",
+    "Valor": 10
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LUXM4",
+    "Valor": 79.48
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LVTC3",
+    "Valor": 7.53
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "LWSA3",
+    "Valor": 5.79
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MAGG3",
+    "Valor": 59.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MAGS3",
+    "Valor": 62.45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MAPT3",
+    "Valor": 37
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MAPT4",
+    "Valor": 14.17
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MARI3",
+    "Valor": 2.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MATD3",
+    "Valor": 7.47
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MBLY3",
+    "Valor": 2.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MDIA3",
+    "Valor": 30.18
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MDNE3",
+    "Valor": 4.91
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MEAL3",
+    "Valor": 1.54
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MEDI3",
+    "Valor": 11.55
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MEGA3",
+    "Valor": 10.77
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MELK3",
+    "Valor": 3.69
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MEND5",
+    "Valor": 6.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MEND6",
+    "Valor": 9.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MERC3",
+    "Valor": 24.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MERC4",
+    "Valor": 8.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MGEL3",
+    "Valor": 25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MGEL4",
+    "Valor": 14.55
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MGLU3",
+    "Valor": 2.79
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MILK33",
+    "Valor": 0.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MILS3",
+    "Valor": 6.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MLAS3",
+    "Valor": 4.33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MLFT4",
+    "Valor": 22.39
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MLPA12",
+    "Valor": 40
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MLPA3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MLPA4",
+    "Valor": 45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MMAQ3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MMAQ4",
+    "Valor": 200.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MMXM3",
+    "Valor": 14
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MNDL3",
+    "Valor": 25.89
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MNDL4",
+    "Valor": 0.38
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MNPR3",
+    "Valor": 6.26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MNPR4",
+    "Valor": 4.63
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MNSA3",
+    "Valor": 0.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MNSA4",
+    "Valor": 0.47
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MOAR3",
+    "Valor": 461
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MODL11",
+    "Valor": 7.96
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MODL3",
+    "Valor": 2.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MODL4",
+    "Valor": 2.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MOSI3",
+    "Valor": 8.24
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MOVI3",
+    "Valor": 12.27
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MPLU3",
+    "Valor": 26.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRFG3",
+    "Valor": 12.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRSA3B",
+    "Valor": 28.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRSA3B",
+    "Valor": 28.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRSA5B",
+    "Valor": 25.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRSA5B",
+    "Valor": 25.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRSA6B",
+    "Valor": 20.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRSA6B",
+    "Valor": 20.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRSL3",
+    "Valor": 3.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRSL4",
+    "Valor": 3.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MRVE3",
+    "Valor": 9.07
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MSAN3",
+    "Valor": 6.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MSAN4",
+    "Valor": 6.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MSPA3",
+    "Valor": 50.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MSPA4",
+    "Valor": 46.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MTBR3",
+    "Valor": 0.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MTBR4",
+    "Valor": 1.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MTIG3",
+    "Valor": 5.21
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MTIG4",
+    "Valor": 40
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MTRE3",
+    "Valor": 4.35
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MTSA4",
+    "Valor": 36.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MULT3",
+    "Valor": 23.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MWET3",
+    "Valor": 16.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MWET4",
+    "Valor": 9.69
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MYPK3",
+    "Valor": 15.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "MYPK4",
+    "Valor": 31.79
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NAFG3",
+    "Valor": 64.37
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NAFG4",
+    "Valor": 64.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NATU3",
+    "Valor": 36.86
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NEOE3",
+    "Valor": 14.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NETC3",
+    "Valor": 38.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NETC4",
+    "Valor": 40
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NEXP3",
+    "Valor": 0.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NGRD3",
+    "Valor": 1.84
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NINJ3",
+    "Valor": 2.64
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NORD3",
+    "Valor": 6.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NTCO3",
+    "Valor": 15.94
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "NUTR3",
+    "Valor": 250
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ODER3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ODER4",
+    "Valor": 190
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ODPV3",
+    "Valor": 9.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "OFSA3",
+    "Valor": 19.85
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "OGXP3",
+    "Valor": 1.63
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "OIBR3",
+    "Valor": 0.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "OIBR4",
+    "Valor": 1.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "OMGE3",
+    "Valor": 27.57
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ONCO3",
+    "Valor": 5.09
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "OPCT3",
+    "Valor": 1.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ORVR3",
+    "Valor": 25.74
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "OSAO4",
+    "Valor": 8.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "OSXB3",
+    "Valor": 5.09
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PALF11",
+    "Valor": 125
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PALF3",
+    "Valor": 279.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PALF5",
+    "Valor": 236.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PARD3",
+    "Valor": 19.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PATI3",
+    "Valor": 69.47
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PATI4",
+    "Valor": 53.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PCAR3",
+    "Valor": 16.48
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PCAR4",
+    "Valor": 72.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PCAR5",
+    "Valor": 67.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PDGR3",
+    "Valor": 0.86
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PDTC3",
+    "Valor": 2.82
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PEAB3",
+    "Valor": 51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PEAB4",
+    "Valor": 88.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PEFX3",
+    "Valor": 19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PEFX5",
+    "Valor": 19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PETR3",
+    "Valor": 31.67
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PETR4",
+    "Valor": 29.18
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PETZ3",
+    "Valor": 9.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PFRM3",
+    "Valor": 3.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PGMN3",
+    "Valor": 4.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PINE3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PINE4",
+    "Valor": 1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PITI4",
+    "Valor": 1.28
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PLAS3",
+    "Valor": 6.32
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PLDN4",
+    "Valor": 486
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PLIM4",
+    "Valor": 0.59
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PLPL3",
+    "Valor": 2.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PLTO5",
+    "Valor": 10.94
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PLTO6",
+    "Valor": 10.47
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PMAM3",
+    "Valor": 7.24
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PMAM4",
+    "Valor": 5.84
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PMET3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PMET5",
+    "Valor": 0.65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PMET6",
+    "Valor": 0.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PNOR5",
+    "Valor": 1.87
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PNOR6",
+    "Valor": 1.87
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PNVL3",
+    "Valor": 10.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PNVL4",
+    "Valor": 18.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "POMO3",
+    "Valor": 2.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "POMO4",
+    "Valor": 2.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "POPR4",
+    "Valor": 10.17
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PORP4",
+    "Valor": 2.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PORT3",
+    "Valor": 7.67
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "POSI3",
+    "Valor": 5.94
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "POWE3",
+    "Valor": 10.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PQUN3",
+    "Valor": 15.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PQUN4",
+    "Valor": 15.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PRBC3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PRBC4",
+    "Valor": 14.54
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PRGA4",
+    "Valor": 75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PRIO3",
+    "Valor": 22.36
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PRML3",
+    "Valor": 11.52
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PRNR3",
+    "Valor": 5.63
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PRTX3",
+    "Valor": 2.77
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PRVI3",
+    "Valor": 10.54
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PSSA3",
+    "Valor": 17.61
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PTBL3",
+    "Valor": 7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PTBL4",
+    "Valor": 2.59
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PTIP3",
+    "Valor": 22
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PTIP4",
+    "Valor": 25.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PTNT3",
+    "Valor": 10.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PTNT4",
+    "Valor": 6.03
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PTPA3",
+    "Valor": 76.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PTPA4",
+    "Valor": 80
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "PTQS4",
+    "Valor": 189.46
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "QUAL3",
+    "Valor": 10.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RADL3",
+    "Valor": 20.19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RAIA3",
+    "Valor": 30.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RAIL3",
+    "Valor": 15.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RAIZ4",
+    "Valor": 4.33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RANI3",
+    "Valor": 6.83
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RANI4",
+    "Valor": 5.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RAPT3",
+    "Valor": 8.54
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RAPT4",
+    "Valor": 9.81
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RCSL3",
+    "Valor": 2.91
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RCSL4",
+    "Valor": 0.97
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RCTB31",
+    "Valor": 41
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RCTB33",
+    "Valor": 57
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RCTB41",
+    "Valor": 33.51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RCTB42",
+    "Valor": 20
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RDCD3",
+    "Valor": 35.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RDNI3",
+    "Valor": 7.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RDOR3",
+    "Valor": 27.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RDTR3",
+    "Valor": 6.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RECV3",
+    "Valor": 24.29
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "REDE3",
+    "Valor": 5.76
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "REDE4",
+    "Valor": 2.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "REEM4",
+    "Valor": 4.63
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RENT3",
+    "Valor": 54.39
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "REPA3",
+    "Valor": 1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "REPA4",
+    "Valor": 1.08
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RGEG3",
+    "Valor": 3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RHDS3",
+    "Valor": 0.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RHDS4",
+    "Valor": 1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RIPI3",
+    "Valor": 48.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RIPI4",
+    "Valor": 48.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RJCP3",
+    "Valor": 0.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RLOG3",
+    "Valor": 23.08
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RNEW11",
+    "Valor": 6.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RNEW3",
+    "Valor": 2.38
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RNEW4",
+    "Valor": 2.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RNPT3",
+    "Valor": 31.87
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RNPT4",
+    "Valor": 31.81
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ROMI3",
+    "Valor": 12.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "ROMI4",
+    "Valor": 185
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RPAD3",
+    "Valor": 6.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RPAD5",
+    "Valor": 8.29
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RPAD6",
+    "Valor": 4.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RPMG3",
+    "Valor": 2.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RPMG4",
+    "Valor": 0.26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RPSA4",
+    "Valor": 4.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RRRP3",
+    "Valor": 30.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RSID3",
+    "Valor": 2.34
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RSIP3",
+    "Valor": 0.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RSIP4",
+    "Valor": 0.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "RSUL4",
+    "Valor": 58.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SALM3",
+    "Valor": 5.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SALM4",
+    "Valor": 5.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SANB11",
+    "Valor": 28.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SANB3",
+    "Valor": 13.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SANB4",
+    "Valor": 14.92
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SAPR11",
+    "Valor": 17.73
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SAPR3",
+    "Valor": 3.48
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SAPR4",
+    "Valor": 3.58
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SASG3",
+    "Valor": 0.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SBFG3",
+    "Valor": 18.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SBSP3",
+    "Valor": 42.61
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SCAR3",
+    "Valor": 25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SCAR4",
+    "Valor": 10
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SCLO3",
+    "Valor": 14.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SCLO4",
+    "Valor": 0.41
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SDIA3",
+    "Valor": 6.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SDIA4",
+    "Valor": 6.42
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SEBB11",
+    "Valor": 23.27
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SEBB3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SEBB4",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SEDU3",
+    "Valor": 23.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SEER3",
+    "Valor": 6.17
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SEMP3",
+    "Valor": 16.86
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SEQL3",
+    "Valor": 4.86
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SFSA3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SFSA4",
+    "Valor": 4.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SGEN3",
+    "Valor": 5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SGEN4",
+    "Valor": 0.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SGPS3",
+    "Valor": 3.27
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SHOW3",
+    "Valor": 2.51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SHUL4",
+    "Valor": 4.17
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SIMH3",
+    "Valor": 9.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SJOS3",
+    "Valor": 1.19
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SJOS4",
+    "Valor": 0.09
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SLCE3",
+    "Valor": 41.54
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SLCP3",
+    "Valor": 610.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SLED3",
+    "Valor": 9.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SLED4",
+    "Valor": 3.37
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SMFT3",
+    "Valor": 10.71
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SMLE3",
+    "Valor": 92.82
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SMLS3",
+    "Valor": 22.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SMTO3",
+    "Valor": 34.32
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SNSY5",
+    "Valor": 3.04
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SOJA3",
+    "Valor": 10.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SOMA3",
+    "Valor": 9.36
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SOND3",
+    "Valor": 46.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SOND5",
+    "Valor": 43.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SOND6",
+    "Valor": 43
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SPRI3",
+    "Valor": 10.51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SPRI5",
+    "Valor": 8.52
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SPRI6",
+    "Valor": 11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SQIA3",
+    "Valor": 15.95
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "STBP11",
+    "Valor": 14.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "STBP3",
+    "Valor": 6.13
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "STRP4",
+    "Valor": 0.21
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SUBA3",
+    "Valor": 84
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SULA11",
+    "Valor": 19.98
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SULA3",
+    "Valor": 6.74
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SULA4",
+    "Valor": 6.69
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SULT3",
+    "Valor": 0.56
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SULT4",
+    "Valor": 0.43
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SUZA4",
+    "Valor": 13.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SUZB3",
+    "Valor": 45.95
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SUZB5",
+    "Valor": 21.13
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SUZB6",
+    "Valor": 17.88
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SYNE3",
+    "Valor": 4.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "SZPQ4",
+    "Valor": 6.64
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TAEE11",
+    "Valor": 39.27
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TAEE3",
+    "Valor": 13.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TAEE4",
+    "Valor": 13.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TAMM3",
+    "Valor": 52.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TAMM4",
+    "Valor": 52.73
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TANC4",
+    "Valor": 43
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TARP11",
+    "Valor": 18.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TASA3",
+    "Valor": 17.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TASA4",
+    "Valor": 17.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TBLE5",
+    "Valor": 12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TBLE6",
+    "Valor": 10.65
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TCNO3",
+    "Valor": 1.4
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TCNO4",
+    "Valor": 1.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TCOC3",
+    "Valor": 38.85
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TCOC4",
+    "Valor": 27.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TCSA3",
+    "Valor": 2.24
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TCSL4",
+    "Valor": 7.82
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TDBH3",
+    "Valor": 0.56
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TDBH4",
+    "Valor": 0.66
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TECN3",
+    "Valor": 2.35
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TEFC11",
+    "Valor": 35.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TEKA3",
+    "Valor": 26.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TEKA4",
+    "Valor": 16.97
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TELB3",
+    "Valor": 17.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TELB4",
+    "Valor": 12.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TEMP3",
+    "Valor": 4.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TEND3",
+    "Valor": 4.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TENE5",
+    "Valor": 0.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TENE7",
+    "Valor": 9.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TERI3",
+    "Valor": 64.28
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TESA3",
+    "Valor": 48
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TFCO4",
+    "Valor": 9.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TGMA3",
+    "Valor": 12.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TIET11",
+    "Valor": 17.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TIET3",
+    "Valor": 3.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TIET4",
+    "Valor": 3.51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TIMP3",
+    "Valor": 13.46
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TIMS3",
+    "Valor": 13.06
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TKNO4",
+    "Valor": 79.93
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TLCP3",
+    "Valor": 48
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TLCP4",
+    "Valor": 34.11
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMAR3",
+    "Valor": 62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMAR5",
+    "Valor": 42.67
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMAR6",
+    "Valor": 42.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMCP3",
+    "Valor": 56
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMCP4",
+    "Valor": 58.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMGC11",
+    "Valor": 900
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMGC12",
+    "Valor": 550
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMGC13",
+    "Valor": 966.14
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMGC3",
+    "Valor": 1500
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TMGC7",
+    "Valor": 800.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TNCP3",
+    "Valor": 184.85
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TNCP4",
+    "Valor": 182.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TNEP3",
+    "Valor": 3.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TNEP4",
+    "Valor": 3.95
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TNLP3",
+    "Valor": 27.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TNLP4",
+    "Valor": 20.36
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TOTS3",
+    "Valor": 24.67
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TOYB3",
+    "Valor": 2.29
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TOYB4",
+    "Valor": 2.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TPIS3",
+    "Valor": 1.24
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TPRC3",
+    "Valor": 113.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TPRC6",
+    "Valor": 105
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TRAD3",
+    "Valor": 3.72
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TRFO3",
+    "Valor": 4.53
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TRFO4",
+    "Valor": 4.7
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TRIS3",
+    "Valor": 3.44
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TROR3",
+    "Valor": 2.63
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TROR4",
+    "Valor": 1.56
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TRPL3",
+    "Valor": 29.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TRPL4",
+    "Valor": 22.85
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TRPN3",
+    "Valor": 0.71
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TSEP3",
+    "Valor": 40
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TSEP4",
+    "Valor": 29.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TSPP3",
+    "Valor": 12.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TSPP4",
+    "Valor": 9.05
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TTEN3",
+    "Valor": 8.41
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TUPY3",
+    "Valor": 21.78
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TUPY4",
+    "Valor": 48.21
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TVIT3",
+    "Valor": 19.3
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TXRX3",
+    "Valor": 22.96
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "TXRX4",
+    "Valor": 4.15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UBBR11",
+    "Valor": 14.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UBBR3",
+    "Valor": 18
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UBBR4",
+    "Valor": 7.49
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UCAS3",
+    "Valor": 2.34
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UCOP4",
+    "Valor": 6.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UGPA3",
+    "Valor": 12.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UGPA4",
+    "Valor": 27.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UNIP3",
+    "Valor": 82
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UNIP5",
+    "Valor": 88.97
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UNIP6",
+    "Valor": 88.26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "UOLL4",
+    "Valor": 19.62
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "USIM3",
+    "Valor": 8.33
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "USIM5",
+    "Valor": 8.75
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "USIM6",
+    "Valor": 14.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VAGV3",
+    "Valor": 1.14
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VAGV4",
+    "Valor": 1.02
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VALE3",
+    "Valor": 68.88
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VALE5",
+    "Valor": 33.36
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VAMO3",
+    "Valor": 11.45
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VBBR3",
+    "Valor": 16.13
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VCPA4",
+    "Valor": 26.01
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VGOR3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VGOR4",
+    "Valor": 5.87
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VIGR3",
+    "Valor": 25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VIIA3",
+    "Valor": 2.31
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VINE3",
+    "Valor": 17.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VINE5",
+    "Valor": 17.64
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VITT3",
+    "Valor": 9.03
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VIVA3",
+    "Valor": 21.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VIVO3",
+    "Valor": 65.79
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VIVO4",
+    "Valor": 71.8
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VIVR3",
+    "Valor": 0.6
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VIVT3",
+    "Valor": 47.51
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VIVT4",
+    "Valor": 45.34
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VLID3",
+    "Valor": 10.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VNET3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VPSC3",
+    "Valor": 6.03
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VPSC4",
+    "Valor": 9.99
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VPTA3",
+    "Valor": 5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VPTA4",
+    "Valor": 10.5
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VSPT3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VSPT4",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VTLM3",
+    "Valor": 0.79
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VULC3",
+    "Valor": 10.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VULC4",
+    "Valor": 18
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VVAR11",
+    "Valor": 14.58
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VVAR4",
+    "Valor": 4.84
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VVAX3",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VVAX4",
+    "Valor": 0
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "VVEO3",
+    "Valor": 15
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WEGE3",
+    "Valor": 26.96
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WEGE4",
+    "Valor": 16.1
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WEST3",
+    "Valor": 2.16
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WHRL3",
+    "Valor": 4.74
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WHRL4",
+    "Valor": 4.66
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WISA3",
+    "Valor": 0.2
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WISA4",
+    "Valor": 0.25
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WIZS3",
+    "Valor": 7.26
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WLMM3",
+    "Valor": 24.9
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WLMM4",
+    "Valor": 21.12
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WMBY3",
+    "Valor": 25.39
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "WSON33",
+    "Valor": 67
+  },
+  {
+    "idAtivos": 0,
+    "CodAtivo": "YDUQ3",
+    "Valor": 14.12
+  }
+]
