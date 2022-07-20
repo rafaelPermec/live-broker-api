@@ -59,13 +59,12 @@ async function apiBovespa(): Promise<IListaAcoes[]> {
 
     // Escreve a lista de ações em um .json local;
     fs.writeFileSync(
-      './src/models/Simulação-API-Bovespa/simulacao-API-bovespa.json',
+      './src/database/simulacao-API-bovespa.json',
       JSON.stringify(acoes, null, 2),
     );
 
-    // Escreve a lista de ações no log do terminal;
-    // console.log();
-    console.log(ativosOrdenados);
+    // log opcional em nosso console;
+    // console.log(ativosOrdenados);
 
     // Retorna a lista de codigos de ativo e valores de ações em tempo real,
     // segundo o site Fundamentus.
@@ -92,16 +91,22 @@ async function apiBovespaSegmentada(): Promise<IAcoesSegmentadas> {
     .filter((item) => item.CodAtivo.includes('11'))
     .filter((item) => item.Valor > 0);
 
+  // Monta o objeto designado pela interface IAcoesSegmentadas para devido retorno;
   const ativosSegmentados = { ativosPreferenciais, ativosOrdinarios, unitsDBR };
-  console.log(ativosSegmentados);
 
+  // log opcional em nosso console;
+  // console.log(ativosSegmentados);
+
+  // Escreve a lista de ações em um .json local;
   fs.writeFileSync(
-    './src/models/Simulação-API-Bovespa/simulacao-API-bovespa-Segmentada.json',
+    './src/database/simulacao-API-bovespa-Segmentada.json',
     JSON.stringify(acoes, null, 2),
   );
 
   return ativosSegmentados;
 }
+
+apiBovespaSegmentada();
 
 export {
   apiBovespa,
