@@ -16,7 +16,7 @@ CREATE TABLE `ProcessoSeletivoXP`.`Trade`(
     `TipoOperacao` ENUM('Venda', 'Compra') NOT NULL,
     `IdAtivos` INT NOT NULL,
     `QtdeAtivos` INT NOT NULL,
-    `ValorOperacao` DECIMAL(13, 2) NOT NULL,
+    `ValorOperacao` DECIMAL(13, 2),
     `IdCarteira` INT NOT NULL,
     `IdPortfolio` INT NOT NULL
 ) engine = InnoDB;
@@ -38,7 +38,8 @@ CREATE TABLE `ProcessoSeletivoXP`.`Financeiro`(
     `IdFinanceiro` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `TipoOperacao` ENUM('Saque', 'Deposito') NOT NULL,
     `IdCarteira` INT NOT NULL,
-    `Valor` DECIMAL(13, 2) NOT NULL
+    `Valor` DECIMAL(13, 2) NOT NULL,
+    `CreatedAt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) engine = InnoDB;
 
 CREATE TABLE `ProcessoSeletivoXP`.`Portfolio`(
@@ -46,7 +47,8 @@ CREATE TABLE `ProcessoSeletivoXP`.`Portfolio`(
     `IdCliente` INT NOT NULL,
     `IdAtivos` INT NOT NULL,
     `SiglaAtivos` VARCHAR(6) NOT NULL,
-    `QtdeAtivos` INT NOT NULL
+    `QtdeAtivos` INT NOT NULL,
+    `CreatedAt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) engine = InnoDB;
 
 ALTER TABLE `ProcessoSeletivoXP`.`Carteira`
@@ -75,7 +77,7 @@ INSERT INTO `ProcessoSeletivoXP`.`Cliente`( Nome, Email, Senha)
 VALUES 
 ('Philip K. Dick', 'ovelha@sonhando.com', 'BladeRunner'), ('William Gibson', 'monalisa@overdrive.com', 'sallywithclaws'),
 ('Issac Asimov', 'i@robot.com', 'naoGosteiDoWillSmith'), ('Uncle Bob', 'pattern@onetwothree.com', 'feedbackIfMyCodeClean'),
-('Anthony Boudain', 'midnight@shift.com', 'cozinhaConfidencial'),
+('Anthony Boudain', 'midnight@shift.com', 'cozinhaConfidencial');
 
 INSERT INTO `ProcessoSeletivoXP`.`Corretora`( IdAtivos, SiglaAtivos, QtdeAtivosCorretora)
 VALUES 
@@ -95,17 +97,45 @@ VALUES
 (2, 252, 'CORR4', 41), (2, 101, 'BELG4', 546), (2, 139, 'BOBR4', 45), (2, 115, 'DAYC4', 616),
 (3, 445, 'GETI4', 98), (3, 295, 'CTNM4', 46), (3, 406, 'EUCA4', 74), (3, 423, 'FIGE4', 484), (3, 436, 'GAFP4', 849),
 (4, 49, 'APTI4', 615), (4, 15, 'AESL4', 164), (4, 417, 'FFTL4', 321),
-(5, 482, 'IDVL4', 156), (5, 230, 'CGRA4', 96), (5, 461, 'GRNL4', 156), (5, 445, 'GETI4', 48), (5, 423, 'FIGE4', 4489),
+(5, 482, 'IDVL4', 156), (5, 230, 'CGRA4', 96), (5, 461, 'GRNL4', 156), (5, 445, 'GETI4', 48), (5, 423, 'FIGE4', 4489);
 
-INSERT INTO `ProcessoSeletivoXP`.`Cliente`(IdCarteira, IdPortfolio)
-VALUES (1, 3), (2, 4), (3, 1), (5, 2), (4, 5);
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET IdCarteira = 1, IdPortfolio = 3 WHERE idCliente = 1;
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET  IdCarteira = 2, IdPortfolio = 4 WHERE idCliente = 2;
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET  IdCarteira = 3, IdPortfolio = 1 WHERE idCliente = 3;
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET IdCarteira = 5, IdPortfolio = 2 WHERE idCliente = 4;
+UPDATE `ProcessoSeletivoXP`.`Cliente`
+SET IdCarteira = 4, IdPortfolio = 5 WHERE idCliente = 5;
 
-INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, ValorOperacao, IdCarteira, IdPortfolio)
+INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, IdCarteira, IdPortfolio)
 VALUES 
-()
+('Compra', 423, 60, 1, 3), ('Venda', 423, 13, 1, 3), ('Compra', 406, 94, 1, 3), ('Compra', 436, 600, 1, 3), 
+
+('Compra', 252, 81, 2, 4), ('Venda', 252, 41, 2, 4), ('Compra', 101, 546, 2, 4), ('Compra', 139, 45, 2, 4),
+('Compra', 115, 816, 2, 4), ('Venda', 115, 200, 2, 4),
+
+('Compra', 445, 198, 3, 1), ('Compra', 295, 62, 3, 1), ('Venda', 445, 100, 3, 1), ('Compra', 406, 74, 3, 1), 
+('Venda', 295, 36, 3, 1), ('Compra', 423, 484, 3, 1), ('Compra', 436, 1149, 3, 1), ('Venda', 436, 300, 3, 1),
 
 
+('Compra', 49, 630, 5, 2), ('Venda', 49, 15, 5, 2), ('Compra', 15, 364, 5, 2), 
+('Compra', 417, 321, 5, 2), ('Venda', 15, 40, 5, 2), ('Venda', 15, 160, 5, 2),
+
+('Compra', 482, 312, 4, 5), ('Venda', 482, 156, 4, 5), ('Compra', 230, 120, 4, 5), 
+('Compra', 461, 156, 4, 5), ('Venda', 230, 14, 4, 5), ('Venda', 230, 10, 4, 5),
+('Compra', 445, 96, 4, 5), ('Compra', 423, 4489, 4, 5), ('Venda', 445, 48, 4, 5);
 
 INSERT INTO `ProcessoSeletivoXP`.`Financeiro`( TipoOperacao, IdCarteira, Valor)
 VALUES 
-()
+('Saque', 1, 30.00), ('Deposito', 1, 3200.00), ('Deposito', 1, 300.50),
+
+('Saque', 2, 4400.00), ('Deposito', 2, 450.50), ('Saque', 2, 40.00), ('Saque', 2, 700.00),
+
+('Deposito',3, 650.90), ('Deposito', 3, 10.10), ('Saque', 3, 947.85), ('Saque', 3, 50.00), ('Deposito', 3, 1200.30),
+
+('Deposito', 5, 351.20), ('Saque', 5, 563.21), ('Deposito', 5, 144.16),
+
+('Deposito', 4, 500.50), ('Deposito', 4, 900.00), ('Deposito', 4, 785.90), ('Saque', 4, 2000.00);
