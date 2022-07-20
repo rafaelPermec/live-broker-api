@@ -38,7 +38,8 @@ CREATE TABLE `ProcessoSeletivoXP`.`Financeiro`(
     `IdFinanceiro` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `TipoOperacao` ENUM('Saque', 'Deposito') NOT NULL,
     `IdCarteira` INT NOT NULL,
-    `Valor` DECIMAL(13, 2) NOT NULL
+    `Valor` DECIMAL(13, 2) NOT NULL,
+    `CreatedAt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) engine = InnoDB;
 
 CREATE TABLE `ProcessoSeletivoXP`.`Portfolio`(
@@ -46,7 +47,8 @@ CREATE TABLE `ProcessoSeletivoXP`.`Portfolio`(
     `IdCliente` INT NOT NULL,
     `IdAtivos` INT NOT NULL,
     `SiglaAtivos` VARCHAR(6) NOT NULL,
-    `QtdeAtivos` INT NOT NULL
+    `QtdeAtivos` INT NOT NULL,
+    `CreatedAt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) engine = InnoDB;
 
 ALTER TABLE `ProcessoSeletivoXP`.`Carteira`
