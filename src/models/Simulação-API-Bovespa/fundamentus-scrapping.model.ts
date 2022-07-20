@@ -103,14 +103,6 @@ async function apiBovespaSegmentada(): Promise<IAcoesSegmentadas> {
   return ativosSegmentados;
 }
 
-async function x() {
-  const { ativosPreferenciais } = await apiBovespaSegmentada();
-  const y = ativosPreferenciais.filter((item) => item.CodAtivo.includes('XP'));
-  console.log(y);
-}
-
-x();
-
 export {
   apiBovespa,
   apiBovespaSegmentada,

@@ -16,7 +16,7 @@ CREATE TABLE `ProcessoSeletivoXP`.`Trade`(
     `TipoOperacao` ENUM('Venda', 'Compra') NOT NULL,
     `IdAtivos` INT NOT NULL,
     `QtdeAtivos` INT NOT NULL,
-    `ValorOperacao` DECIMAL(13, 2) NOT NULL,
+    `ValorOperacao` DECIMAL(13, 2),
     `IdCarteira` INT NOT NULL,
     `IdPortfolio` INT NOT NULL
 ) engine = InnoDB;
@@ -120,12 +120,37 @@ UPDATE `ProcessoSeletivoXP`.`Cliente`
 SET IdCarteira = 4, IdPortfolio = 5 WHERE idCliente = 5;
 
 
-INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, ValorOperacao, IdCarteira, IdPortfolio)
+INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, IdCarteira, IdPortfolio)
 VALUES 
-()
+('Compra', 423, 47, 1, 3), ('Compra', 406, 94, 1, 3), ('Compra', 436, 489, 1, 3),
+
+('Compra', 252, 41, 2, 4), ('Compra', 101, 546, 2, 4), ('Compra', 139, 45, 2, 4),
+('Compra', 115, 616, 2, 4),
+
+('Compra', 445, 98, 3, 1), ('Compra', 295, 46, 3, 1), ('Compra', 406, 74, 3, 1),
+('Compra', 423, 484, 3, 1), ('Compra', 436, 849, 3, 1),
+
+
+('Compra', 49, 615, 5, 2), ('Compra', 15, 164, 5, 2), ('Compra', 417, 321, 5, 2),
+
+('Compra', 482, 156, 4, 5), ('Compra', 230, 96, 4, 5), ('Compra', 461, 156, 4, 5),
+('Compra', 445, 48, 4, 5), ('Compra', 423, 4489, 4, 5);
+
 
 
 
 INSERT INTO `ProcessoSeletivoXP`.`Financeiro`( TipoOperacao, IdCarteira, Valor)
 VALUES 
-()
+('Saque', 1, 30.00), ('Deposito', 1, 3200.00), ('Deposito', 1, 300.50),
+
+('Saque', 2, 4400.00), ('Deposito', 2, 450.50), ('Saque', 2, 40.00),
+('Saque', 2, 700.00),
+
+('Deposito',3, 650.90), ('Deposito', 3, 10.10), ('Saque', 3, 947.85),
+('Saque', 3, 50.00), ('Deposito', 3, 1200.30),
+
+
+('Deposito', 5, 351.20), ('Saque', 5, 563.21), ('Deposito', 5, 144.16),
+
+('Deposito', 4, 500.50), ('Deposito', 4, 900.00), ('Deposito', 4, 785.90),
+('Saque', 4, 2000.00);
