@@ -28,7 +28,7 @@ async function apiBovespa(): Promise<IListaAcoes[]> {
     // todos os itens do HTML, que estão no trecho resgatado;
     listItems.each((_index, element) => {
       // Objeto que vamos montar para a analise;
-      const papel: IListaAcoes = { id: 0, CodAtivo: '', Valor: 0 };
+      const papel: IListaAcoes = { idAtivos: 0, CodAtivo: '', Valor: 0 };
 
       // Metodos de busca em HTML elaborados pela lib 'cheerio'
       // 1º - atribui os valores para codigo do ativo
@@ -55,7 +55,7 @@ async function apiBovespa(): Promise<IListaAcoes[]> {
     // Ordena a lista de ações por ordem alfabetica;
     const ativosOrdenados = acoes
       .sort((a, b) => a.CodAtivo.localeCompare(b.CodAtivo))
-      .map(({ CodAtivo, Valor }, index) => ({ id: index + 1, CodAtivo, Valor }));
+      .map(({ CodAtivo, Valor }, index) => ({ idAtivos: index + 1, CodAtivo, Valor }));
 
     // Escreve a lista de ações em um .json local;
     fs.writeFileSync(
@@ -76,17 +76,21 @@ async function apiBovespa(): Promise<IListaAcoes[]> {
   }
 }
 
-async function apiBovespaSegmentada(): Promise<IAcoesSegmentadas[]> {
+async function apiBovespaSegmentada(): Promise<IAcoesSegmentadas> {
   const acoes = await apiBovespa();
 
   // Filtra vetor de ações com objetivo de identifica unicamente, na ordem alfabetica
   // e segmentar de acordo com a negociação adequada, como seria na API da B3.
   const ativosOrdinarios = acoes
-    .filter((item) => item.CodAtivo.includes('3'));
+    .filter((item) => item.CodAtivo.includes('3'))
+    .filter((item) => !(item.CodAtivo.includes('13')) && !(item.CodAtivo.includes('33')))
+    .filter((item) => item.Valor > 0);
   const ativosPreferenciais = acoes
-    .filter((item) => item.CodAtivo.includes('4'));
+    .filter((item) => item.CodAtivo.includes('4'))
+    .filter((item) => item.Valor > 0);
   const unitsDBR = acoes
-    .filter((item) => item.CodAtivo.includes('11'));
+    .filter((item) => item.CodAtivo.includes('11'))
+    .filter((item) => item.Valor > 0);
 
   const ativosSegmentados = { ativosPreferenciais, ativosOrdinarios, unitsDBR };
   console.log(ativosSegmentados);
@@ -96,7 +100,7 @@ async function apiBovespaSegmentada(): Promise<IAcoesSegmentadas[]> {
     JSON.stringify(acoes, null, 2),
   );
 
-  return [ativosSegmentados];
+  return ativosSegmentados;
 }
 
 apiBovespaSegmentada();

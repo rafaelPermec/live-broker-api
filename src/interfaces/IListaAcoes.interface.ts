@@ -1,5 +1,5 @@
 interface IListaAcoes {
-  id?: number;
+  idAtivos?: number;
   CodAtivo: string;
   Valor: number;
 }
