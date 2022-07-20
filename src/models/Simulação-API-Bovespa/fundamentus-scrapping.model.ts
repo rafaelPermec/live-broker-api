@@ -59,7 +59,7 @@ async function apiBovespa(): Promise<IListaAcoes[]> {
 
     // Escreve a lista de ações em um .json local;
     fs.writeFileSync(
-      './src/models/web-scrapping/simulacao-API-bovespa.json',
+      './src/models/Simulação-API-Bovespa/simulacao-API-bovespa.json',
       JSON.stringify(acoes, null, 2),
     );
 
@@ -96,14 +96,20 @@ async function apiBovespaSegmentada(): Promise<IAcoesSegmentadas> {
   console.log(ativosSegmentados);
 
   fs.writeFileSync(
-    './src/models/web-scrapping/simulacao-API-bovespa-Segmentada.json',
+    './src/models/Simulação-API-Bovespa/simulacao-API-bovespa-Segmentada.json',
     JSON.stringify(acoes, null, 2),
   );
 
   return ativosSegmentados;
 }
 
-apiBovespaSegmentada();
+async function x() {
+  const { ativosPreferenciais } = await apiBovespaSegmentada();
+  const y = ativosPreferenciais.filter((item) => item.CodAtivo.includes('XP'));
+  console.log(y);
+}
+
+x();
 
 export {
   apiBovespa,
