@@ -85,7 +85,12 @@ export default class ClientesModel {
   }
 
   public async remove(id: number): Promise<void> {
-    const query = 'DELETE FROM ProcessoSeletivoXP.Cliente  WHERE id = ?';
-    await this.connection.execute(query, [id]);
+    const queryDeletaUsuario = 'DELETE FROM ProcessoSeletivoXP.Cliente WHERE id = ?';
+    const deletaUsuario = await this.connection.execute(queryDeletaUsuario, [id]);
+
+    const queryDeletaCarteira = 'DELETE FROM ProcessoSeletivoXP.Carteira WHERE id = ?';
+    const deletaCarteira = await this.connection.execute(queryDeletaCarteira, [id]);
+
+    await Promise.all([deletaUsuario, deletaCarteira]);
   }
 }
