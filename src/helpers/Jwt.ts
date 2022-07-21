@@ -1,6 +1,6 @@
 import { JwtPayload, sign, SignOptions, verify } from 'jsonwebtoken';
 import HttpException from '../shared/HttpException';
-// import ICliente from "../interfaces";
+import { IClientes } from '../interfaces';
 
 const TOKEN_SECRET = process.env.TOKEN_SECRET || 'squadDataScienceXP';
 
@@ -9,7 +9,7 @@ const jwtConfig: SignOptions = {
   algorithm: 'HS256',
 };
 
-const generateJWTToken = (user: Omit<ICliente, 'senha'>) =>
+const generateJWTToken = (user: Omit<IClientes, 'Senha, Saldo'>) =>
   sign({ user }, TOKEN_SECRET, jwtConfig);
 
 const authToken = async (token: string | undefined): Promise<string | JwtPayload> => {

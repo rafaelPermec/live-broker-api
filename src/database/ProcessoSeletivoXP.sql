@@ -5,6 +5,7 @@ CREATE DATABASE `ProcessoSeletivoXP`;
 CREATE TABLE `ProcessoSeletivoXP`.`Cliente`(
     `IdCliente` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `Nome` VARCHAR(50) NOT NULL,
+    `Sobrenome` VARCHAR(50) NOT NULL,
     `Email` VARCHAR(50) NOT NULL,
     `Senha` VARCHAR(50) NOT NULL,
     `IdCarteira` INT,
@@ -73,11 +74,11 @@ ALTER TABLE `ProcessoSeletivoXP`.`Cliente`
   ADD CONSTRAINT FK_ClientePortfolio
   FOREIGN KEY(`IdPortfolio`) REFERENCES `ProcessoSeletivoXP`.`Portfolio`(`IdPortfolio`);
 
-INSERT INTO `ProcessoSeletivoXP`.`Cliente`( Nome, Email, Senha)
+INSERT INTO `ProcessoSeletivoXP`.`Cliente`( Nome, Sobrenome, Email, Senha)
 VALUES 
-('Philip K. Dick', 'ovelha@sonhando.com', 'BladeRunner'), ('William Gibson', 'monalisa@overdrive.com', 'sallywithclaws'),
-('Issac Asimov', 'i@robot.com', 'naoGosteiDoWillSmith'), ('Uncle Bob', 'pattern@onetwothree.com', 'feedbackIfMyCodeClean'),
-('Anthony Boudain', 'midnight@shift.com', 'cozinhaConfidencial');
+('Philip', 'K. Dick', 'ovelha@sonhando.com', 'BladeRunner'), ('William', 'Gibson', 'monalisa@overdrive.com', 'sallywithclaws'),
+('Issac', 'Asimov', 'i@robot.com', 'naoGosteiDoWillSmith'), ('Uncle', 'Bob', 'pattern@onetwothree.com', 'feedbackIfMyCodeClean'),
+('Anthony', 'Boudain', 'midnight@shift.com', 'cozinhaConfidencial');
 
 INSERT INTO `ProcessoSeletivoXP`.`Corretora`( IdAtivos, SiglaAtivos, QtdeAtivosCorretora)
 VALUES 
