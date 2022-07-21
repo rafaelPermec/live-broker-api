@@ -69,8 +69,23 @@ export default class ClientesModel {
       [insertId, insertId],
     );
 
+    // Resolve todas as promessas simultaneas;
     await Promise.all([criaCliente, criaCarteira, atualizaCarteira]);
 
+    // Retornar objeto para visualização do usuario;
     return { CodCliente: insertId, Nome, Sobrenome, Email };
+  }
+
+  public async update(id: number, { Nome, Sobrenome, Email, Senha }: IClientes): Promise<void> {
+    // Muda somente constantes que não comprometem o sistema e a operação como um todo.
+    const query = `UPDATE ProcessoSeletivoXP.Cliente 
+    SET Nome = ?, Sobrenome= ?, Email = ?, Senha = ?
+    WHERE id = ?`;
+    await this.connection.execute(query, [Nome, Sobrenome, Email, Senha, id]);
+  }
+
+  public async remove(id: number): Promise<void> {
+    const query = 'DELETE FROM ProcessoSeletivoXP.Cliente  WHERE id = ?';
+    await this.connection.execute(query, [id]);
   }
 }
