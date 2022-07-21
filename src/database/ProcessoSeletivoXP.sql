@@ -5,7 +5,7 @@ CREATE DATABASE `ProcessoSeletivoXP`;
 CREATE TABLE `ProcessoSeletivoXP`.`Cliente`(
     `IdCliente` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `Nome` VARCHAR(50) NOT NULL,
-    `Sobrenome` VARCHAR(50) NOT NULL,
+    `Sobrenome` VARCHAR(50),
     `Email` VARCHAR(50) NOT NULL,
     `Senha` VARCHAR(50) NOT NULL,
     `IdCarteira` INT,
