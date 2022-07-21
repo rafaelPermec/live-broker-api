@@ -43,33 +43,33 @@ export default class ClientesModel {
   public async create({
     Nome, Sobrenome, Email, Senha,
   }: IClientes): Promise<IClientes> {
-    const query = `INSERT INTO ProcessoSeletivoXP.Cliente 
+    // Cria Pessoa Usuaria no banco de dados;
+    const queryCriaCliente = `INSERT INTO ProcessoSeletivoXP.Cliente 
     (Nome, Sobrenome, Email, Senha) 
     VALUES (?, ?, ?, ?, ?, ?, ?)`;
-    const result = await this.connection.execute<ResultSetHeader>(
-      query,
+    const criaCliente = await this.connection.execute<ResultSetHeader>(
+      queryCriaCliente,
       [Nome, Sobrenome, Senha, Email],
     );
-    const [rows] = result;
+    const [rows] = criaCliente;
     const { insertId } = rows;
 
-    const queryCriaCarteira = `INSERT INTO ProcessoSeletivoXP.Cliente 
-    (Nome, Sobrenome, Email, Senha) 
-    VALUES (?, ?, ?, ?, ?, ?, ?)`;
-    const criaCarteira = await this.connection.execute<ResultSetHeader>(
+    // Cria Carteira da pessoa Usuaria
+    const queryCriaCarteira = 'INSERT INTO ProcessoSeletivoXP.Carteira (IdCliente) VALUES (?);';
+    const criaCarteira = await this.connection.execute(
       queryCriaCarteira,
-      [Nome, Sobrenome, Senha, Email],
+      [insertId],
     );
 
-    const queryAtualizaCliente = `INSERT INTO ProcessoSeletivoXP.Cliente 
-    (Nome, Sobrenome, Email, Senha) 
-    VALUES (?, ?, ?, ?, ?, ?, ?)`;
-    const atualizaCarteira = await this.connection.execute<ResultSetHeader>(
+    // Atualiza entidade Cliente com sua carteira recém criada;
+    const queryAtualizaCliente = `UPDATE ProcessoSeletivoXP.Cliente 
+    SET IdCarteira = ? WHERE IdCliente = ?;`;
+    const atualizaCarteira = await this.connection.execute(
       queryAtualizaCliente,
-      [Nome, Sobrenome, Senha, Email],
+      [insertId, insertId],
     );
 
-    Promise.all([criaCarteira, atualizaCarteira]);
+    await Promise.all([criaCliente, criaCarteira, atualizaCarteira]);
 
     return { CodCliente: insertId, Nome, Sobrenome, Email };
   }
