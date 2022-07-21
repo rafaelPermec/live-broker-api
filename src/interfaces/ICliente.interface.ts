@@ -5,6 +5,7 @@ interface IClientes {
   Nome: string;
   Sobrenome?: string;
   Email: string;
+  Senha?: string;
   Saldo?: number;
 }
 

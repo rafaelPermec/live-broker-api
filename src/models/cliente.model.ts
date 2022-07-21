@@ -1,6 +1,5 @@
-import { Pool } from 'mysql2/promise';
+import { Pool, ResultSetHeader } from 'mysql2/promise';
 import { IClientes } from '../interfaces';
-// , ResultSetHeader
 
 export default class ClientesModel {
   private connection: Pool;
@@ -39,5 +38,19 @@ export default class ClientesModel {
     const [rows] = result;
     const [client] = rows as IClientes[];
     return client;
+  }
+
+  public async create({
+    Nome, Sobrenome, Email, Senha,
+  }: IClientes): Promise<IClientes> {
+    const query = `INSERT INTO Trybesmith.Users (username, classe, level, password) 
+    VALUES (?, ?, ?, ?)`;
+    const result = await this.connection.execute<ResultSetHeader>(
+      query,
+      [Nome, Sobrenome, Senha, Email],
+    );
+    const [rows] = result;
+    const { insertId } = rows;
+    return { CodCliente: insertId, Nome, Sobrenome, Email };
   }
 }
