@@ -1,5 +1,6 @@
 interface IAtivos {
   CodCliente?: number;
+  CodAtivos: number;
   SiglaAtivo: string;
   QtdeAtivos?: number;
   Valor?: number;

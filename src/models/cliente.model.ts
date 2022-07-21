@@ -16,10 +16,8 @@ export default class ClientesModel {
     cli.Sobrenome AS Sobrenome,
     cli.Email AS Email,
     cart.Saldo AS Saldo
-FROM
-    ProcessoSeletivoXP.Cliente AS cli
-        INNER JOIN
-    ProcessoSeletivoXP.Carteira AS cart ON cli.IdCliente = cart.IdCliente;`;
+      FROM ProcessoSeletivoXP.Cliente AS cli
+      INNER JOIN ProcessoSeletivoXP.Carteira AS cart ON cli.IdCliente = cart.IdCliente;`;
 
     const result = await this.connection.execute(query);
     const [rows] = result;
@@ -33,12 +31,10 @@ FROM
     cli.Sobrenome AS Sobrenome,
     cli.Email AS Email,
     cart.Saldo AS Saldo
-FROM
-    ProcessoSeletivoXP.Cliente AS cli
-        INNER JOIN
-    ProcessoSeletivoXP.Carteira AS cart ON cli.IdCliente = cart.IdCliente
-WHERE
-    cart.IdCliente = 1;`;
+      FROM ProcessoSeletivoXP.Cliente AS cli
+      INNER JOIN ProcessoSeletivoXP.Carteira AS cart ON cli.IdCliente = cart.IdCliente
+      WHERE cart.IdCliente = 1;`;
+
     const result = await this.connection.execute(query, [id]);
     const [rows] = result;
     const [client] = rows as IClientes[];

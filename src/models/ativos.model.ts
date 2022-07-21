@@ -1,6 +1,5 @@
 import { Pool } from 'mysql2/promise';
 import { IAtivos } from '../interfaces';
-// import { IUsers } from '../interfaces';
 
 export default class AtivosModel {
   private connection: Pool;
@@ -19,8 +18,8 @@ export default class AtivosModel {
   }
 
   public async ativosCliente(id: number): Promise<IAtivos[]> {
-    const query = `SELECT pt.IdAtivos AS CodAtivos, pt.SiglaAtivos, pt.QtdeAtivos
-      FROM ProcessoSeletivoXP.Portfolio AS pt
+    const query = `SELECT IdAtivos AS CodAtivos, SiglaAtivos, QtdeAtivos 
+      FROM ProcessoSeletivoXP.Portfolio
       WHERE IdCliente = ?;`;
 
     const result = await this.connection.execute(query, [id]);
