@@ -8,8 +8,7 @@ CREATE TABLE `ProcessoSeletivoXP`.`Cliente`(
     `Sobrenome` VARCHAR(50),
     `Email` VARCHAR(50) NOT NULL,
     `Senha` VARCHAR(50) NOT NULL,
-    `IdCarteira` INT,
-    `IdPortfolio` INT  
+    `IdCarteira` INT
 ) engine = InnoDB;
 
 CREATE TABLE `ProcessoSeletivoXP`.`Trade`(
@@ -32,7 +31,7 @@ CREATE TABLE `ProcessoSeletivoXP`.`Corretora`(
 CREATE TABLE `ProcessoSeletivoXP`.`Carteira`(
     `IdCarteira` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `IdCliente` INT NOT NULL,
-    `Saldo` DECIMAL(13, 2) NOT NULL
+    `Saldo` DECIMAL(13, 2) NOT NULL DEFAULT 0
 ) engine = InnoDB;
 
 CREATE TABLE `ProcessoSeletivoXP`.`Financeiro`(
@@ -70,9 +69,6 @@ ALTER TABLE `ProcessoSeletivoXP`.`Trade`
 ALTER TABLE `ProcessoSeletivoXP`.`Financeiro` 
   ADD CONSTRAINT FK_FinanceiroCarteira
   FOREIGN KEY(`IdCarteira`) REFERENCES `ProcessoSeletivoXP`.`Carteira`(`IdCarteira`);
-ALTER TABLE `ProcessoSeletivoXP`.`Cliente` 
-  ADD CONSTRAINT FK_ClientePortfolio
-  FOREIGN KEY(`IdPortfolio`) REFERENCES `ProcessoSeletivoXP`.`Portfolio`(`IdPortfolio`);
 
 INSERT INTO `ProcessoSeletivoXP`.`Cliente`( Nome, Sobrenome, Email, Senha)
 VALUES 
@@ -101,15 +97,15 @@ VALUES
 (5, 482, 'IDVL4', 156), (5, 230, 'CGRA4', 96), (5, 461, 'GRNL4', 156), (5, 445, 'GETI4', 48), (5, 423, 'FIGE4', 4489);
 
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET IdCarteira = 1, IdPortfolio = 3 WHERE idCliente = 1;
+SET IdCarteira = 1 WHERE idCliente = 1;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET  IdCarteira = 2, IdPortfolio = 4 WHERE idCliente = 2;
+SET  IdCarteira = 2 WHERE idCliente = 2;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET  IdCarteira = 3, IdPortfolio = 1 WHERE idCliente = 3;
+SET  IdCarteira = 3  WHERE idCliente = 3;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET IdCarteira = 5, IdPortfolio = 2 WHERE idCliente = 4;
+SET IdCarteira = 5 WHERE idCliente = 4;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET IdCarteira = 4, IdPortfolio = 5 WHERE idCliente = 5;
+SET IdCarteira = 4 WHERE idCliente = 5;
 
 INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, IdCarteira, IdPortfolio)
 VALUES 
