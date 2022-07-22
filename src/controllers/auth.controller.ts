@@ -10,7 +10,8 @@ export default class ContasController {
   }
 
   public authenticate = async (req: Request, res: Response): Promise<Response> => {
-    const token = await this.service.authenticate(req.body);
-    return res.status(StatusCodes.CREATED).json(token);
+    const { Cliente, token } = await this.service.authenticate(req.body);
+    req.headers.authorization = token;
+    return res.status(StatusCodes.CREATED).json({ Cliente, auth: true, token });
   };
 }

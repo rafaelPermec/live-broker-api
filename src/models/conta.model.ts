@@ -13,6 +13,7 @@ export default class ContasModel {
     cli.IdCliente AS CodCliente,
     cli.Nome AS Nome,
     cli.Sobrenome AS Sobrenome,
+    cli.Senha AS Senha,
     cli.Email AS Email,
     cart.Saldo AS Saldo
       FROM ProcessoSeletivoXP.Cliente AS cli

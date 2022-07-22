@@ -1,3 +1,7 @@
 import ErrorMiddleware from './error.middleware';
+import ValidationMiddleware from './validate.token.middleware';
 
-export default ErrorMiddleware;
+export {
+  ErrorMiddleware,
+  ValidationMiddleware,
+};

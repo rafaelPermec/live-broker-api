@@ -22,7 +22,7 @@ export default class ContasService {
 
   public async createNewAcc(user: IConta): Promise<Omit<IConta, 'Senha'>> {
     const salt = bcrypt.genSaltSync(5);
-    user.Senha = bcrypt.hashSync(user.Senha, salt);
+    user.Senha = bcrypt.hashSync(user.Senha as string, salt);
     const result: IConta = await this.model.createNewAcc(user) as IConta;
     return result;
   }
@@ -30,6 +30,8 @@ export default class ContasService {
   public async updateAcc(id: number, user: IConta): Promise<void> {
     const thereIsUser = await this.model.getAccById(id);
     if (!thereIsUser) throw new HttpException(404, 'Cliente não encontrado.');
+    const salt = bcrypt.genSaltSync(5);
+    user.Senha = bcrypt.hashSync(user.Senha as string, salt);
     return this.model.updateAcc(id, user);
   }
 }
