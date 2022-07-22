@@ -8,6 +8,20 @@ export default class ContasModel {
     this.connection = connection;
   }
 
+  public async getAll(): Promise<IConta[]> {
+    const query = `SELECT 
+    cli.IdCliente AS CodCliente,
+    cli.Nome AS Nome,
+    cli.Sobrenome AS Sobrenome,
+    cli.Email AS Email,
+    cart.Saldo AS Saldo
+      FROM ProcessoSeletivoXP.Cliente AS cli
+      INNER JOIN ProcessoSeletivoXP.Carteira AS cart ON cli.IdCliente = cart.IdCliente;`;
+    const result = await this.connection.execute(query);
+    const [rows] = result;
+    return rows as IConta[];
+  }
+
   public async getAccById(id: number): Promise<IConta> {
     const query = `SELECT 
     cli.IdCliente AS CodCliente,
@@ -27,14 +41,14 @@ export default class ContasModel {
 
   public async createNewAcc({
     Nome, Sobrenome, Email, Senha,
-  }: IConta): Promise<IConta> {
+  }: IConta): Promise<Omit<IConta, 'Senha'>> {
     // Cria Pessoa Usuaria no banco de dados;
     const queryCriaCliente = `INSERT INTO ProcessoSeletivoXP.Cliente 
     (Nome, Sobrenome, Email, Senha) 
     VALUES (?, ?, ?, ?)`;
     const criaCliente = await this.connection.execute<ResultSetHeader>(
       queryCriaCliente,
-      [Nome, Sobrenome, Senha, Email],
+      [Nome, Sobrenome, Email, Senha],
     );
     const [rows] = criaCliente;
     const { insertId } = rows;
@@ -58,7 +72,7 @@ export default class ContasModel {
     await Promise.all([criaCliente, criaCarteira, atualizaCarteira]);
 
     // Retornar objeto para visualização do usuario;
-    return { CodCliente: insertId, Nome, Sobrenome, Email };
+    return { CodCliente: insertId, Nome, Sobrenome, Email } as Omit<IConta, 'Senha'>;
   }
 
   public async updateAcc(id: number, { Nome, Sobrenome, Email, Senha }: IConta): Promise<void> {
@@ -68,4 +82,12 @@ export default class ContasModel {
     WHERE IdCliente = ?`;
     await this.connection.execute(query, [Nome, Sobrenome, Email, Senha, id]);
   }
+
+  // public async accWithdraw(newValue: number, ) {
+
+  // }
+
+  // public async accDeposit(newValue: number, ) {
+
+  // }
 }

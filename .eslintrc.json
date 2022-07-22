@@ -19,6 +19,7 @@
         "import"
     ],
     "rules": {
+        "no-param-reassign": "off",
         "import/extensions": "off",
         "import/no-unresolved": "off",
         "no-console": "off",

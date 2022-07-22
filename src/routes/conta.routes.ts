@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import { ContasController } from '../controllers';
-// import { UsersMiddlewareStrings, UsersMiddlewareNumbers } from '../middlewares';
 
 const routes = Router();
 
