@@ -14,7 +14,20 @@ interface IAtivosCliente extends IConta {
   SaldoTotalEmAtivos: number;
 }
 
+interface ITransacao {
+  CodCliente: number;
+  Valor: number;
+}
+
+interface IOperacao extends ITransacao {
+  IdFinanceiro: number;
+  TipoOperacao: string;
+  DataOperacao: Date;
+}
+
 export {
   IConta,
   IAtivosCliente,
+  ITransacao,
+  IOperacao,
 };

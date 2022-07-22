@@ -1,5 +1,5 @@
 import { Pool, ResultSetHeader } from 'mysql2/promise';
-import { IConta } from '../interfaces';
+import { IConta, IOperacao, ITransacao } from '../interfaces';
 
 export default class ContasModel {
   private connection: Pool;
@@ -29,6 +29,7 @@ export default class ContasModel {
     cli.Nome AS Nome,
     cli.Sobrenome AS Sobrenome,
     cli.Email AS Email,
+    cart.IdCarteira,
     cart.Saldo AS Saldo
       FROM ProcessoSeletivoXP.Cliente AS cli
       INNER JOIN ProcessoSeletivoXP.Carteira AS cart ON cli.IdCliente = cart.IdCliente
@@ -84,11 +85,89 @@ export default class ContasModel {
     await this.connection.execute(query, [Nome, Sobrenome, Email, Senha, id]);
   }
 
-  // public async accWithdraw(newValue: number, ) {
+  public async accWithdraw({ CodCliente, Valor }: ITransacao): Promise<IOperacao> {
+    // Cria a operação conforme o que é enviado na requisição:
+    const queryCriaOperacao = `INSERT INTO ProcessoSeletivoXP.Financeiro 
+    (TipoOperacao, IdCarteira, Valor) VALUES (1, ?, ?);`;
+    const criaOperacao = await this.connection.execute<ResultSetHeader>(
+      queryCriaOperacao,
+      [CodCliente, Valor],
+    );
+    const [idFinanceiro] = criaOperacao;
+    const { insertId } = idFinanceiro;
+    console.log(CodCliente);
 
-  // }
+    // Atualiza o saldo do Cliente que efetuou a transação;
+    const queryAtualizaSaldo = `UPDATE ProcessoSeletivoXP.Carteira 
+    SET Saldo = (Saldo - ?) WHERE IdCliente = ?;`;
+    const atualizaSaldo = await this.connection.execute<ResultSetHeader>(
+      queryAtualizaSaldo,
+      [Valor, CodCliente],
+    );
 
-  // public async accDeposit(newValue: number, ) {
+    // Monta o comprovante que devolveremos ao cliente;
+    const queryLocalizaOperacao = `SELECT
+      Valor AS Valor,
+      TipoOperacao,
+      IdFinanceiro,
+      CreatedAt AS DataOperacao 
+      FROM ProcessoSeletivoXP.Financeiro WHERE IdFinanceiro = ?;`;
+    const localizaOperacao = await this.connection.execute(
+      queryLocalizaOperacao,
+      [insertId],
+    );
+    const [rows] = localizaOperacao;
+    const [ops] = rows as IOperacao[];
+    console.log(ops);
 
-  // }
+    // Realiza as promises assincronas simultaneamente;
+    await Promise.all([criaOperacao, atualizaSaldo, localizaOperacao]);
+
+    // Monta objeto comprovante da operação financeira
+    const { DataOperacao, IdFinanceiro, TipoOperacao } = ops;
+    return { CodCliente, IdFinanceiro, TipoOperacao, Valor: ops.Valor, DataOperacao };
+  }
+
+  public async accDeposit({ CodCliente, Valor }: ITransacao): Promise<IOperacao> {
+    // Cria a operação conforme o que é enviado na requisição:
+    const queryCriaOperacao = `INSERT INTO ProcessoSeletivoXP.Financeiro 
+    (TipoOperacao, IdCarteira, Valor) VALUES (2, ?, ?);`;
+    const criaOperacao = await this.connection.execute<ResultSetHeader>(
+      queryCriaOperacao,
+      [CodCliente, Valor],
+    );
+    const [idFinanceiro] = criaOperacao;
+    const { insertId } = idFinanceiro;
+    console.log(CodCliente);
+
+    // Atualiza o saldo do Cliente que efetuou a transação;
+    const queryAtualizaSaldo = `UPDATE ProcessoSeletivoXP.Carteira 
+    SET Saldo = (Saldo + ?) WHERE IdCliente = ?;`;
+    const atualizaSaldo = await this.connection.execute<ResultSetHeader>(
+      queryAtualizaSaldo,
+      [Valor, CodCliente],
+    );
+
+    // Monta o comprovante que devolveremos ao cliente;
+    const queryLocalizaOperacao = `SELECT
+      Valor AS Valor,
+      TipoOperacao,
+      IdFinanceiro,
+      CreatedAt AS DataOperacao 
+      FROM ProcessoSeletivoXP.Financeiro WHERE IdFinanceiro = ?;`;
+    const localizaOperacao = await this.connection.execute(
+      queryLocalizaOperacao,
+      [insertId],
+    );
+    const [rows] = localizaOperacao;
+    const [ops] = rows as IOperacao[];
+    console.log(ops);
+
+    // Realiza as promises assincronas simultaneamente;
+    await Promise.all([criaOperacao, atualizaSaldo, localizaOperacao]);
+
+    // Monta objeto comprovante da operação financeira
+    const { DataOperacao, IdFinanceiro, TipoOperacao } = ops;
+    return { CodCliente, IdFinanceiro, TipoOperacao, Valor: ops.Valor, DataOperacao };
+  }
 }

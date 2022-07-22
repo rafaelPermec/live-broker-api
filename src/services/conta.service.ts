@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt-nodejs';
-import { IConta } from '../interfaces';
+import { IConta, IOperacao, ITransacao } from '../interfaces';
 import { ContasModel, connection } from '../models';
 import HttpException from '../shared/HttpException';
 
@@ -33,5 +33,15 @@ export default class ContasService {
     const salt = bcrypt.genSaltSync(5);
     user.Senha = bcrypt.hashSync(user.Senha as string, salt);
     return this.model.updateAcc(id, user);
+  }
+
+  public async accWithdraw(/* id: number, */ values: ITransacao): Promise<IOperacao> {
+    const transaction: IOperacao = await this.model.accWithdraw(values);
+    return transaction;
+  }
+
+  public async accDeposit(values: ITransacao): Promise<IOperacao> {
+    const transaction: IOperacao = await this.model.accDeposit(values);
+    return transaction;
   }
 }

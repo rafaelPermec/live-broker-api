@@ -18,7 +18,9 @@ export default class ContasController {
     if (!cliente) throw new HttpException(404, 'Código do Cliente inválido. Tente Novamente!');
     if (CodCliente !== Number(id)) throw new HttpException(401, 'Você não pode ir ai!');
 
-    res.status(StatusCodes.OK).json(cliente);
+    const { Nome, Sobrenome, Email, Saldo } = cliente;
+
+    res.status(StatusCodes.OK).json({ CodCliente, Nome, Sobrenome, Email, Saldo });
   };
 
   public createNewAcc = async (req: Request, res: Response) => {
@@ -32,5 +34,17 @@ export default class ContasController {
     const mudandoCliente = req.body;
     await this.service.updateAcc(Number(id), mudandoCliente);
     return res.status(StatusCodes.NO_CONTENT).end();
+  };
+
+  public accWithdraw = async (req: Request, res: Response) => {
+    // const { CodCliente } = res.locals.user.user;
+    const client = await this.service.accWithdraw(req.body);
+    res.status(StatusCodes.ACCEPTED).json(client);
+  };
+
+  public accDeposit = async (req: Request, res: Response) => {
+    // const { CodCliente } = res.locals.user.user;
+    const client = await this.service.accDeposit(req.body);
+    res.status(StatusCodes.ACCEPTED).json(client);
   };
 }
