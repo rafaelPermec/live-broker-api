@@ -95,7 +95,6 @@ export default class ContasModel {
     );
     const [idFinanceiro] = criaOperacao;
     const { insertId } = idFinanceiro;
-    console.log(CodCliente);
 
     // Atualiza o saldo do Cliente que efetuou a transação;
     const queryAtualizaSaldo = `UPDATE ProcessoSeletivoXP.Carteira 
@@ -118,7 +117,6 @@ export default class ContasModel {
     );
     const [rows] = localizaOperacao;
     const [ops] = rows as IOperacao[];
-    console.log(ops);
 
     // Realiza as promises assincronas simultaneamente;
     await Promise.all([criaOperacao, atualizaSaldo, localizaOperacao]);
@@ -138,7 +136,6 @@ export default class ContasModel {
     );
     const [idFinanceiro] = criaOperacao;
     const { insertId } = idFinanceiro;
-    console.log(CodCliente);
 
     // Atualiza o saldo do Cliente que efetuou a transação;
     const queryAtualizaSaldo = `UPDATE ProcessoSeletivoXP.Carteira 
@@ -161,7 +158,6 @@ export default class ContasModel {
     );
     const [rows] = localizaOperacao;
     const [ops] = rows as IOperacao[];
-    console.log(ops);
 
     // Realiza as promises assincronas simultaneamente;
     await Promise.all([criaOperacao, atualizaSaldo, localizaOperacao]);

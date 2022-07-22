@@ -10,7 +10,8 @@ export default class AtivosModel {
 
   public async ativosCorretora(): Promise<IAtivos[]> {
     const query = `SELECT IdAtivos AS CodAtivos, SiglaAtivos, QtdeAtivosCorretora AS QtdeAtivos
-     FROM ProcessoSeletivoXP.Corretora;`;
+    FROM ProcessoSeletivoXP.Corretora
+    ORDER BY IdAtivos ASC;`;
 
     const result = await this.connection.execute(query);
     const [rows] = result;
