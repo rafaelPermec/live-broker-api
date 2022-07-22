@@ -1,5 +1,5 @@
-import ClientesService from './clientes.service';
+import ContasService from './conta.service';
 
 export {
-  ClientesService,
+  ContasService,
 };

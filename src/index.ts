@@ -3,7 +3,7 @@ import 'express-async-errors';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
 import ErrorMiddleware from './middlewares';
-import { ClientesRoutes } from './routes';
+import { ContasRoutes } from './routes';
 
 dotenv.config();
 
@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 app.use(helmet());
 app.use(express.json());
 
-app.get('/clientes', ClientesRoutes);
+app.use('/clientes', ContasRoutes);
 
 app.use(ErrorMiddleware);
 

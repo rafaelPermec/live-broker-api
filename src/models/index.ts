@@ -1,9 +1,9 @@
 import connection from './connection';
-import ClientesModel from './cliente.model';
+import ContasModel from './conta.model';
 import AtivosModel from './ativos.model';
 
 export {
   connection,
-  ClientesModel,
+  ContasModel,
   AtivosModel,
 };

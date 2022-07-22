@@ -1,5 +1,5 @@
-import ClientesController from './clientes.controller';
+import ContasController from './conta.controller';
 
 export {
-  ClientesController,
+  ContasController,
 };

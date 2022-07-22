@@ -1,6 +1,6 @@
 import { IAtivos } from './IAtivos.interface';
 
-interface IClientes {
+interface IConta {
   CodCliente?: number;
   Nome: string;
   Sobrenome?: string;
@@ -9,17 +9,12 @@ interface IClientes {
   Saldo?: number;
 }
 
-interface ITodosClientes {
-  VisualizandoComoAdmin: IClientes[];
-}
-
-interface IAtivosCliente extends IClientes {
+interface IAtivosCliente extends IConta {
   AtivosNoPortfolio: IAtivos[];
   SaldoTotalEmAtivos: number;
 }
 
 export {
-  IClientes,
-  ITodosClientes,
+  IConta,
   IAtivosCliente,
 };

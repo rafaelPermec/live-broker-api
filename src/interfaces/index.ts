@@ -1,12 +1,11 @@
 import { IListaAcoes, IAcoesSegmentadas } from './IListaAcoes.interface';
-import { IClientes, ITodosClientes, IAtivosCliente } from './ICliente.interface';
+import { IConta, IAtivosCliente } from './IConta.interface';
 import { IAtivos, IAtivosCorretora } from './IAtivos.interface';
 
 export {
   IListaAcoes,
   IAcoesSegmentadas,
-  IClientes,
-  ITodosClientes,
+  IConta,
   IAtivosCliente,
   IAtivos,
   IAtivosCorretora,

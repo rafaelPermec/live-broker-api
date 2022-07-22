@@ -1,5 +1,5 @@
-import ClientesRoutes from './clientes.routes';
+import ContasRoutes from './conta.routes';
 
 export {
-  ClientesRoutes,
+  ContasRoutes,
 };
