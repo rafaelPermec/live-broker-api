@@ -9,8 +9,6 @@
     "dev": "ts-node-dev --ignore-watch node_modules src/index.ts",
     "debug": "nodemon --watch \"./src/**\" --ext \"ts,js\" --ignore \"src/**/*.spec.ts,src/**/*.json\" --exec \"ts-node src/index.ts\"",
     "test": "jest",
-    "posttest": "ts-node tests/recreateDatabase.ts",
-    "restore": "ts-node tests/recreateDatabase.ts",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "repository": {
@@ -24,7 +22,9 @@
   },
   "homepage": "https://github.com/rafaelPermec/processo-seletivo-XP-inc#readme",
   "dependencies": {
+    "@types/bcrypt-nodejs": "^0.0.31",
     "axios": "^0.27.2",
+    "bcrypt-nodejs": "^0.0.3",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
