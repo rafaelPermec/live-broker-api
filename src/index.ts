@@ -3,6 +3,7 @@ import 'express-async-errors';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
 import ErrorMiddleware from './middlewares';
+import { ClientesRoutes } from './routes';
 
 dotenv.config();
 
@@ -13,9 +14,7 @@ const PORT = process.env.PORT || 3000;
 app.use(helmet());
 app.use(express.json());
 
-app.get('/', (_request, response) => response.json(
-  { message: 'Meu server Express, Typescript e ESLint! ' },
-));
+app.get('/clientes', ClientesRoutes);
 
 app.use(ErrorMiddleware);
 

@@ -1,7 +1,7 @@
 import { IAtivos } from './IAtivos.interface';
 
 interface IClientes {
-  CodCliente: number;
+  CodCliente?: number;
   Nome: string;
   Sobrenome?: string;
   Email: string;
@@ -15,6 +15,7 @@ interface ITodosClientes {
 
 interface IAtivosCliente extends IClientes {
   AtivosNoPortfolio: IAtivos[];
+  SaldoTotalEmAtivos: number;
 }
 
 export {
