@@ -13,7 +13,7 @@ export default class AtivosController {
   public ativosCorretora = async (_req: Request, res: Response) => {
     const assets = await this.service.ativosCorretora();
 
-    // Monta objeto escalonavel, se cada corretora tivesse listada na aplicação;
+    // Monta objeto escalonavel, se cada corretora da XP também tivesse listada na aplicação;
     const sttdout = {
       nomeCorretora: 'Aspen Investimentos',
       Endereço: 'Rua Wilson Rocha Lima, 137 - Estoril',
@@ -30,22 +30,15 @@ export default class AtivosController {
     res.status(StatusCodes.OK).json(criandoCliente);
   };
 
-  // public updateAcc = async (req: Request, res: Response) => {
-  //   const { id } = req.params;
-  //   const mudandoCliente = req.body;
-  //   await this.service.updateAcc(Number(id), mudandoCliente);
-  //   return res.status(StatusCodes.NO_CONTENT).end();
-  // };
+  public ativosPorId = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    const buscaAtivo = await this.service.ativosPorId(Number(id));
+    return res.status(StatusCodes.OK).json(buscaAtivo);
+  };
 
-  // public accWithdraw = async (req: Request, res: Response) => {
-  //   // const { CodCliente } = res.locals.user.user;
-  //   const client = await this.service.accWithdraw(req.body);
-  //   res.status(StatusCodes.ACCEPTED).json(client);
-  // };
-
-  // public accDeposit = async (req: Request, res: Response) => {
-  //   // const { CodCliente } = res.locals.user.user;
-  //   const client = await this.service.accDeposit(req.body);
-  //   res.status(StatusCodes.ACCEPTED).json(client);
-  // };
+  public ativosPorSigla = async (req: Request, res: Response) => {
+    const { sigla } = req.params;
+    const buscaAtivo = await this.service.ativosPorSigla(sigla);
+    return res.status(StatusCodes.OK).json(buscaAtivo);
+  };
 }

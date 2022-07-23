@@ -32,10 +32,26 @@ export default class AtivosModel {
   }
 
   public async ativosPorId(id: number): Promise<IAtivos> {
-    const query = `SELECT IdAtivos AS CodAtivo, SiglaAtivos AS SiglaAtivo
+    const query = `SELECT 
+    IdAtivos AS CodAtivo, 
+    SiglaAtivos AS SiglaAtivo, 
+    QtdeAtivosCorretora AS QtdeAtivo
     FROM ProcessoSeletivoXP.Corretora WHERE IdAtivos = ? `;
 
     const result = await this.connection.execute(query, [id]);
+    const [rows] = result;
+    const [assets] = rows as IAtivos[];
+    return assets;
+  }
+
+  public async ativosPorSigla(sigla: string): Promise<IAtivos> {
+    const query = `SELECT 
+    IdAtivos AS CodAtivo, 
+    SiglaAtivos AS SiglaAtivo,
+    QtdeAtivosCorretora AS QtdeAtivo
+    FROM ProcessoSeletivoXP.Corretora WHERE SiglaAtivos = ? `;
+
+    const result = await this.connection.execute(query, [sigla]);
     const [rows] = result;
     const [assets] = rows as IAtivos[];
     return assets;

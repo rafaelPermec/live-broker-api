@@ -2,7 +2,7 @@
 import { IAtivos } from '../interfaces';
 import { AtivosModel, connection } from '../models';
 import { apiBovespaSegmentada } from '../models/Simulação-API-Bovespa/fundamentus-scrapping.model';
-// import HttpException from '../shared/HttpException';
+import HttpException from '../shared/HttpException';
 
 export default class AtivosService {
   public model: AtivosModel;
@@ -21,7 +21,8 @@ export default class AtivosService {
 
     assets.forEach((item) => {
       const Valor = { CodAtivo: 0, SiglaAtivo: '', QtdeAtivo: 0, Valor: 0 } as IAtivos;
-      const filtraDados = ativosPreferenciais.filter((ativo) => ativo.CodAtivo === item.CodAtivo)
+      const filtraDados = ativosPreferenciais
+        .filter((ativo) => ativo.CodAtivo === item.CodAtivo)
         .map((element) => {
           Valor.Valor = element.Valor;
           Valor.CodAtivo = element.CodAtivo;
@@ -54,7 +55,8 @@ export default class AtivosService {
         SaldoTotalEmAtivo: 0,
       } as IAtivos;
 
-      const filtraDados = ativosPreferenciais.filter((ativo) => ativo.CodAtivo === item.CodAtivo)
+      const filtraDados = ativosPreferenciais
+        .filter((ativo) => ativo.CodAtivo === item.CodAtivo)
         .map((element) => {
           Valor.CodCliente = id;
           Valor.Valor = element.Valor;
@@ -71,28 +73,47 @@ export default class AtivosService {
     return vetorDeValores;
   }
 
-  // public async createNewAcc(user: IConta): Promise<Omit<IConta, 'Senha'>> {
-  //   const salt = bcrypt.genSaltSync(5);
-  //   user.Senha = bcrypt.hashSync(user.Senha as string, salt);
-  //   const result: IConta = await this.model.createNewAcc(user) as IConta;
-  //   return result;
-  // }
+  public async ativosPorId(id: number): Promise<IAtivos[]> {
+    const ativo = await this.model.ativosPorId(id);
+    const { ativosPreferenciais } = await apiBovespaSegmentada();
 
-  // public async updateAcc(id: number, user: IConta): Promise<void> {
-  //   const thereIsUser = await this.model.getAccById(id);
-  //   if (!thereIsUser) throw new HttpException(404, 'Cliente não encontrado.');
-  //   const salt = bcrypt.genSaltSync(5);
-  //   user.Senha = bcrypt.hashSync(user.Senha as string, salt);
-  //   return this.model.updateAcc(id, user);
-  // }
+    const filtraValor = ativosPreferenciais.filter((item) => item.CodAtivo === id);
+    if (!filtraValor || filtraValor.length <= 0) {
+      throw new HttpException(
+        404,
+        'Por enquanto, não possuímos este ativo na corretora.Tente novamente mais tarde.',
+      );
+    }
 
-  // public async accWithdraw(/* id: number, */ values: ITransacao): Promise<IOperacao> {
-  //   const transaction: IOperacao = await this.model.accWithdraw(values);
-  //   return transaction;
-  // }
+    const sttdout = filtraValor.map((element) => ({
+      CodAtivo: ativo.CodAtivo,
+      SiglaAtivo: ativo.SiglaAtivo,
+      QtdeAtivo: ativo.QtdeAtivo,
+      Valor: element.Valor,
+    }));
 
-  // public async accDeposit(values: ITransacao): Promise<IOperacao> {
-  //   const transaction: IOperacao = await this.model.accDeposit(values);
-  //   return transaction;
-  // }
+    return sttdout as IAtivos[];
+  }
+
+  public async ativosPorSigla(sigla: string): Promise<IAtivos[]> {
+    const ativo = await this.model.ativosPorSigla(sigla);
+    const { ativosPreferenciais } = await apiBovespaSegmentada();
+
+    const filtraValor = ativosPreferenciais.filter((item) => item.SiglaAtivo === sigla);
+    if (!filtraValor || filtraValor.length <= 0) {
+      throw new HttpException(
+        404,
+        'Por enquanto, não possuímos este ativo na corretora.Tente novamente mais tarde.',
+      );
+    }
+
+    const sttdout = filtraValor.map((element) => ({
+      CodAtivo: ativo.CodAtivo,
+      SiglaAtivo: ativo.SiglaAtivo,
+      QtdeAtivo: ativo.QtdeAtivo,
+      Valor: element.Valor,
+    }));
+
+    return sttdout as IAtivos[];
+  }
 }
