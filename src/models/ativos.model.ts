@@ -15,6 +15,18 @@ export default class AtivosModel {
 
     const result = await this.connection.execute(query);
     const [rows] = result;
+
+    // Extraindo valores dos ativos em tempo real, de acordo com a API de raspagem de dados;
+    // const { ativosOrdinarios } = await apiBovespaSegmentada();
+    // const filtraValores = ativosOrdinarios
+    //   .filter((element) => element.CodAtivo === Number(ativos.CodAtivos))
+    //   .map((item) => ({
+    //     CodAtivo: Number(item.CodAtivo),
+    //     SiglaAtivos: item.SiglaAtivos,
+    //     QtdeAtivos: ativos.QtdeAtivos,
+    //     Valor: item.Valor,
+    //   }));
+
     return rows as IAtivos[];
   }
 
