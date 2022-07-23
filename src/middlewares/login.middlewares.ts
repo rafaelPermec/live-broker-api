@@ -19,7 +19,7 @@ const LoginSchema = Joi.object({
 
 const LoginTypoMiddleware = (req: Request, _res: Response, next: NextFunction) => {
   const { error } = LoginSchema.validate(req.body);
-  console.log(error?.details[0].type);
+  // console.log(error?.details[0].type);
   if (error) throw new HttpException(StatusCodes.NOT_ACCEPTABLE, `${error.message}`);
 
   next();
