@@ -1,23 +1,31 @@
 import { Router } from 'express';
 import { ContasController } from '../controllers';
 import {
+  ContasFinanceiroTypoMiddleware,
   ContasNotFoundMiddleware,
   ContasTypoMiddleware,
   ValidationMiddleware,
+  ContasAlreadyExistMiddleware,
+  ContasFinanceiroMiddleware,
 } from '../middlewares';
-import { ContasFinanceiroTypoMiddleware } from '../middlewares/conta.middlewares';
 
 const routes = Router();
 
 const contasController = new ContasController();
 
 routes
-  .post('/cadastro', ContasTypoMiddleware, contasController.createNewAcc)
+  .post(
+    '/cadastro',
+    ContasTypoMiddleware,
+    ContasAlreadyExistMiddleware,
+    contasController.createNewAcc,
+  )
   .get('/:id', ValidationMiddleware, contasController.getAccById)
   .post(
     '/saque',
     ValidationMiddleware,
     ContasFinanceiroTypoMiddleware,
+    ContasFinanceiroMiddleware,
     contasController.accWithdraw,
   )
   .post(

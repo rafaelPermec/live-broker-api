@@ -4,6 +4,8 @@ import Joi from 'joi';
 import { ContasService } from '../services';
 import HttpException from '../shared/HttpException';
 
+const contasService = new ContasService();
+
 const ContasClienteSchema = Joi.object({
   Nome: Joi.string().min(3).required().messages({
     'any.required': 'Você precisa informar seu nome.',
@@ -32,7 +34,7 @@ const ContasFinanceiroSchema = Joi.object({
     'any.required': 'Você precisa informar seu código de cliente.',
     'number.base': 'O seu código de cliente é composto apenas por números.',
   }),
-  Valor: Joi.number().min(1).required().messages({
+  Valor: Joi.number().min(0).required().messages({
     'any.required': 'Você precisa informar um valor.',
     'number.base': 'Por favor, digite somente números decimais.',
     'number.min': 'O valor de transferencia deve ser maior do que zero.',
@@ -49,7 +51,6 @@ const ContasTypoMiddleware = (req: Request, _res: Response, next: NextFunction) 
 
 const ContasNotFoundMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
   const { Email } = req.body;
-  const contasService = new ContasService();
   const getUsers = await contasService.getAll();
   const thereIsUserEmail = getUsers.filter((item) => item.Email.includes(Email));
 
@@ -57,6 +58,21 @@ const ContasNotFoundMiddleware = async (req: Request, _res: Response, next: Next
     throw new HttpException(
       StatusCodes.NOT_FOUND,
       'E-mail não encontrado. Para se cadastrar, você precisa ir até /contas/cadastro',
+    );
+  }
+
+  next();
+};
+
+const ContasAlreadyExistMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
+  const { Email } = req.body;
+  const getUsers = await contasService.getAll();
+  const thereIsUserEmail = getUsers.find((item) => item.Email === Email);
+
+  if (thereIsUserEmail) {
+    throw new HttpException(
+      StatusCodes.CONFLICT,
+      'Este e-mail já está cadastrado em nossa plataforma.',
     );
   }
 
@@ -71,8 +87,26 @@ const ContasFinanceiroTypoMiddleware = (req: Request, _res: Response, next: Next
   next();
 };
 
+const ContasFinanceiroMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
+  const { CodCliente, Valor } = req.body;
+  const accCliente = await contasService.getAccById(CodCliente);
+  const saldo = accCliente.Saldo as number;
+  const hasEnough = (saldo - Valor);
+
+  if (hasEnough < 0) {
+    throw new HttpException(
+      StatusCodes.FORBIDDEN,
+      'Você não tem Saldo suficiente para a transação. Deposite em /contas/deposito.',
+    );
+  }
+
+  next();
+};
+
 export {
   ContasTypoMiddleware,
   ContasNotFoundMiddleware,
+  ContasAlreadyExistMiddleware,
   ContasFinanceiroTypoMiddleware,
+  ContasFinanceiroMiddleware,
 };
