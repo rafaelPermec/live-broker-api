@@ -51,7 +51,7 @@ export default class AtivosService {
         SiglaAtivo: '',
         QtdeAtivo: 0,
         Valor: 0,
-        SaldoEmAtivo: 0,
+        SaldoTotalEmAtivo: 0,
       } as IAtivos;
 
       const filtraDados = ativosPreferenciais.filter((ativo) => ativo.CodAtivo === item.CodAtivo)
@@ -61,7 +61,7 @@ export default class AtivosService {
           Valor.CodAtivo = element.CodAtivo;
           Valor.QtdeAtivo = item.QtdeAtivo;
           Valor.SiglaAtivo = element.SiglaAtivo;
-          Valor.SaldoEmAtivo = (item.QtdeAtivo * element.Valor).toFixed(2);
+          Valor.SaldoTotalEmAtivo = (item.QtdeAtivo * element.Valor).toFixed(2);
           vetorDeValores.push(Valor);
           return vetorDeValores;
         });
