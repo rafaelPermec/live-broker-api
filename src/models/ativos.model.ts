@@ -9,27 +9,13 @@ export default class AtivosModel {
   }
 
   public async ativosCorretora(): Promise<IAtivos[]> {
-    const query = `SELECT IdAtivos AS CodAtivos, SiglaAtivos, QtdeAtivosCorretora AS QtdeAtivos
+    const query = `SELECT IdAtivos AS CodAtivo, SiglaAtivos, QtdeAtivosCorretora AS QtdeAtivos
     FROM ProcessoSeletivoXP.Corretora
     ORDER BY IdAtivos ASC;`;
 
     const result = await this.connection.execute(query);
     const [rows] = result;
-    const [assets] = rows as IAtivos[];
-    return [assets];
-
-    // Extraindo valores dos ativos em tempo real, de acordo com a API de raspagem de dados;
-    // const { ativosOrdinarios } = await apiBovespaSegmentada();
-    // const filtraValores = ativosOrdinarios
-    //   .filter((element) => element.CodAtivo === Number(ativos.CodAtivos))
-    //   .map((item) => ({
-    //     CodAtivo: Number(item.CodAtivo),
-    //     SiglaAtivos: item.SiglaAtivos,
-    //     QtdeAtivos: ativos.QtdeAtivos,
-    //     Valor: item.Valor,
-    //   }));
-
-    // return rows as IAtivos[];
+    return rows as IAtivos[];
   }
 
   public async ativosCliente(id: number): Promise<IAtivos[]> {

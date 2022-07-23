@@ -1,4932 +1,4932 @@
 [
   {
     "CodAtivo": 1,
-    "SiglaAtivos": "AALR3",
+    "SiglaAtivo": "AALR3",
     "Valor": 20
   },
   {
     "CodAtivo": 2,
-    "SiglaAtivos": "ABCB3",
+    "SiglaAtivo": "ABCB3",
     "Valor": 0
   },
   {
     "CodAtivo": 3,
-    "SiglaAtivos": "ABCB4",
+    "SiglaAtivo": "ABCB4",
     "Valor": 16.35
   },
   {
     "CodAtivo": 4,
-    "SiglaAtivos": "ABEV3",
+    "SiglaAtivo": "ABEV3",
     "Valor": 14.51
   },
   {
     "CodAtivo": 5,
-    "SiglaAtivos": "ABYA3",
+    "SiglaAtivo": "ABYA3",
     "Valor": 4.91
   },
   {
     "CodAtivo": 6,
-    "SiglaAtivos": "ACES3",
+    "SiglaAtivo": "ACES3",
     "Valor": 95.27
   },
   {
     "CodAtivo": 7,
-    "SiglaAtivos": "ACES4",
+    "SiglaAtivo": "ACES4",
     "Valor": 94.73
   },
   {
     "CodAtivo": 8,
-    "SiglaAtivos": "ADHM3",
+    "SiglaAtivo": "ADHM3",
     "Valor": 1.56
   },
   {
     "CodAtivo": 9,
-    "SiglaAtivos": "AEDU11",
+    "SiglaAtivo": "AEDU11",
     "Valor": 37.35
   },
   {
     "CodAtivo": 10,
-    "SiglaAtivos": "AEDU3",
+    "SiglaAtivo": "AEDU3",
     "Valor": 18.35
   },
   {
     "CodAtivo": 11,
-    "SiglaAtivos": "AELP3",
+    "SiglaAtivo": "AELP3",
     "Valor": 1.93
   },
   {
     "CodAtivo": 12,
-    "SiglaAtivos": "AERI3",
+    "SiglaAtivo": "AERI3",
     "Valor": 2.95
   },
   {
     "CodAtivo": 13,
-    "SiglaAtivos": "AESB3",
+    "SiglaAtivo": "AESB3",
     "Valor": 10.29
   },
   {
     "CodAtivo": 14,
-    "SiglaAtivos": "AESL3",
+    "SiglaAtivo": "AESL3",
     "Valor": 10081.9
   },
   {
     "CodAtivo": 15,
-    "SiglaAtivos": "AESL4",
+    "SiglaAtivo": "AESL4",
     "Valor": 10081.9
   },
   {
     "CodAtivo": 16,
-    "SiglaAtivos": "AFLT3",
+    "SiglaAtivo": "AFLT3",
     "Valor": 9.08
   },
   {
     "CodAtivo": 17,
-    "SiglaAtivos": "AFLU3",
+    "SiglaAtivo": "AFLU3",
     "Valor": 5.15
   },
   {
     "CodAtivo": 18,
-    "SiglaAtivos": "AFLU5",
+    "SiglaAtivo": "AFLU5",
     "Valor": 5.03
   },
   {
     "CodAtivo": 19,
-    "SiglaAtivos": "AGEI3",
+    "SiglaAtivo": "AGEI3",
     "Valor": 7.8
   },
   {
     "CodAtivo": 20,
-    "SiglaAtivos": "AGEN33",
+    "SiglaAtivo": "AGEN33",
     "Valor": 0.16
   },
   {
     "CodAtivo": 21,
-    "SiglaAtivos": "AGIN3",
+    "SiglaAtivo": "AGIN3",
     "Valor": 5.29
   },
   {
     "CodAtivo": 22,
-    "SiglaAtivos": "AGRO3",
+    "SiglaAtivo": "AGRO3",
     "Valor": 23.33
   },
   {
     "CodAtivo": 23,
-    "SiglaAtivos": "AGXY3",
+    "SiglaAtivo": "AGXY3",
     "Valor": 7.05
   },
   {
     "CodAtivo": 24,
-    "SiglaAtivos": "AHEB3",
+    "SiglaAtivo": "AHEB3",
     "Valor": 27.5
   },
   {
     "CodAtivo": 25,
-    "SiglaAtivos": "AHEB5",
+    "SiglaAtivo": "AHEB5",
     "Valor": 22
   },
   {
     "CodAtivo": 26,
-    "SiglaAtivos": "AHEB6",
+    "SiglaAtivo": "AHEB6",
     "Valor": 33
   },
   {
     "CodAtivo": 27,
-    "SiglaAtivos": "ALBA3",
+    "SiglaAtivo": "ALBA3",
     "Valor": 2.15
   },
   {
     "CodAtivo": 28,
-    "SiglaAtivos": "ALLD3",
+    "SiglaAtivo": "ALLD3",
     "Valor": 9.85
   },
   {
     "CodAtivo": 29,
-    "SiglaAtivos": "ALLL11",
+    "SiglaAtivo": "ALLL11",
     "Valor": 16.5
   },
   {
     "CodAtivo": 30,
-    "SiglaAtivos": "ALLL3",
+    "SiglaAtivo": "ALLL3",
     "Valor": 3.97
   },
   {
     "CodAtivo": 31,
-    "SiglaAtivos": "ALLL4",
+    "SiglaAtivo": "ALLL4",
     "Valor": 3.32
   },
   {
     "CodAtivo": 32,
-    "SiglaAtivos": "ALPA3",
+    "SiglaAtivo": "ALPA3",
     "Valor": 17.05
   },
   {
     "CodAtivo": 33,
-    "SiglaAtivos": "ALPA4",
+    "SiglaAtivo": "ALPA4",
     "Valor": 20.63
   },
   {
     "CodAtivo": 34,
-    "SiglaAtivos": "ALPK3",
+    "SiglaAtivo": "ALPK3",
     "Valor": 3.64
   },
   {
     "CodAtivo": 35,
-    "SiglaAtivos": "ALSC3",
+    "SiglaAtivo": "ALSC3",
     "Valor": 27.75
   },
   {
     "CodAtivo": 36,
-    "SiglaAtivos": "ALSO3",
+    "SiglaAtivo": "ALSO3",
     "Valor": 16.68
   },
   {
     "CodAtivo": 37,
-    "SiglaAtivos": "ALUP11",
+    "SiglaAtivo": "ALUP11",
     "Valor": 26.98
   },
   {
     "CodAtivo": 38,
-    "SiglaAtivos": "ALUP3",
+    "SiglaAtivo": "ALUP3",
     "Valor": 8.94
   },
   {
     "CodAtivo": 39,
-    "SiglaAtivos": "ALUP4",
+    "SiglaAtivo": "ALUP4",
     "Valor": 8.89
   },
   {
     "CodAtivo": 40,
-    "SiglaAtivos": "AMAR3",
+    "SiglaAtivo": "AMAR3",
     "Valor": 2.3
   },
   {
     "CodAtivo": 41,
-    "SiglaAtivos": "AMBP3",
+    "SiglaAtivo": "AMBP3",
     "Valor": 26.15
   },
   {
     "CodAtivo": 42,
-    "SiglaAtivos": "AMBV3",
+    "SiglaAtivo": "AMBV3",
     "Valor": 87
   },
   {
     "CodAtivo": 43,
-    "SiglaAtivos": "AMBV4",
+    "SiglaAtivo": "AMBV4",
     "Valor": 86.8
   },
   {
     "CodAtivo": 44,
-    "SiglaAtivos": "AMER3",
+    "SiglaAtivo": "AMER3",
     "Valor": 15.93
   },
   {
     "CodAtivo": 45,
-    "SiglaAtivos": "AMIL3",
+    "SiglaAtivo": "AMIL3",
     "Valor": 32.2
   },
   {
     "CodAtivo": 46,
-    "SiglaAtivos": "AMPI3",
+    "SiglaAtivo": "AMPI3",
     "Valor": 55
   },
   {
     "CodAtivo": 47,
-    "SiglaAtivos": "ANIM3",
+    "SiglaAtivo": "ANIM3",
     "Valor": 4.57
   },
   {
     "CodAtivo": 48,
-    "SiglaAtivos": "APER3",
+    "SiglaAtivo": "APER3",
     "Valor": 27.99
   },
   {
     "CodAtivo": 49,
-    "SiglaAtivos": "APTI4",
+    "SiglaAtivo": "APTI4",
     "Valor": 3500
   },
   {
     "CodAtivo": 50,
-    "SiglaAtivos": "ARCE3",
+    "SiglaAtivo": "ARCE3",
     "Valor": 54
   },
   {
     "CodAtivo": 51,
-    "SiglaAtivos": "ARCZ3",
+    "SiglaAtivo": "ARCZ3",
     "Valor": 3.66
   },
   {
     "CodAtivo": 52,
-    "SiglaAtivos": "ARCZ6",
+    "SiglaAtivo": "ARCZ6",
     "Valor": 3.63
   },
   {
     "CodAtivo": 53,
-    "SiglaAtivos": "ARLA3",
+    "SiglaAtivo": "ARLA3",
     "Valor": 2.47
   },
   {
     "CodAtivo": 54,
-    "SiglaAtivos": "ARLA4",
+    "SiglaAtivo": "ARLA4",
     "Valor": 3.38
   },
   {
     "CodAtivo": 55,
-    "SiglaAtivos": "ARML3",
+    "SiglaAtivo": "ARML3",
     "Valor": 11.13
   },
   {
     "CodAtivo": 56,
-    "SiglaAtivos": "ARPS3",
+    "SiglaAtivo": "ARPS3",
     "Valor": 0.3
   },
   {
     "CodAtivo": 57,
-    "SiglaAtivos": "ARPS4",
+    "SiglaAtivo": "ARPS4",
     "Valor": 0
   },
   {
     "CodAtivo": 58,
-    "SiglaAtivos": "ARTE3",
+    "SiglaAtivo": "ARTE3",
     "Valor": 7.7
   },
   {
     "CodAtivo": 59,
-    "SiglaAtivos": "ARTE4",
+    "SiglaAtivo": "ARTE4",
     "Valor": 6.81
   },
   {
     "CodAtivo": 60,
-    "SiglaAtivos": "ARTR3",
+    "SiglaAtivo": "ARTR3",
     "Valor": 10.01
   },
   {
     "CodAtivo": 61,
-    "SiglaAtivos": "ARZZ3",
+    "SiglaAtivo": "ARZZ3",
     "Valor": 74.13
   },
   {
     "CodAtivo": 62,
-    "SiglaAtivos": "ASAI3",
+    "SiglaAtivo": "ASAI3",
     "Valor": 15.65
   },
   {
     "CodAtivo": 63,
-    "SiglaAtivos": "ASSM3",
+    "SiglaAtivo": "ASSM3",
     "Valor": 7.12
   },
   {
     "CodAtivo": 64,
-    "SiglaAtivos": "ASSM4",
+    "SiglaAtivo": "ASSM4",
     "Valor": 6.1
   },
   {
     "CodAtivo": 65,
-    "SiglaAtivos": "ASTA4",
+    "SiglaAtivo": "ASTA4",
     "Valor": 25.83
   },
   {
     "CodAtivo": 66,
-    "SiglaAtivos": "ATMP3",
+    "SiglaAtivo": "ATMP3",
     "Valor": 1.22
   },
   {
     "CodAtivo": 67,
-    "SiglaAtivos": "ATOM3",
+    "SiglaAtivo": "ATOM3",
     "Valor": 2.6
   },
   {
     "CodAtivo": 68,
-    "SiglaAtivos": "AURA33",
+    "SiglaAtivo": "AURA33",
     "Valor": 27.9
   },
   {
     "CodAtivo": 69,
-    "SiglaAtivos": "AURE3",
+    "SiglaAtivo": "AURE3",
     "Valor": 14.51
   },
   {
     "CodAtivo": 70,
-    "SiglaAtivos": "AUTM3",
+    "SiglaAtivo": "AUTM3",
     "Valor": 19.7
   },
   {
     "CodAtivo": 71,
-    "SiglaAtivos": "AVIL3",
+    "SiglaAtivo": "AVIL3",
     "Valor": 0.93
   },
   {
     "CodAtivo": 72,
-    "SiglaAtivos": "AVLL3",
+    "SiglaAtivo": "AVLL3",
     "Valor": 19.35
   },
   {
     "CodAtivo": 73,
-    "SiglaAtivos": "AZEV3",
+    "SiglaAtivo": "AZEV3",
     "Valor": 2.92
   },
   {
     "CodAtivo": 74,
-    "SiglaAtivos": "AZEV4",
+    "SiglaAtivo": "AZEV4",
     "Valor": 2.56
   },
   {
     "CodAtivo": 75,
-    "SiglaAtivos": "AZUL4",
+    "SiglaAtivo": "AZUL4",
     "Valor": 11.58
   },
   {
     "CodAtivo": 76,
-    "SiglaAtivos": "B3SA3",
+    "SiglaAtivo": "B3SA3",
     "Valor": 10.72
   },
   {
     "CodAtivo": 77,
-    "SiglaAtivos": "BAHI11",
+    "SiglaAtivo": "BAHI11",
     "Valor": 2
   },
   {
     "CodAtivo": 78,
-    "SiglaAtivos": "BAHI3",
+    "SiglaAtivo": "BAHI3",
     "Valor": 10.3
   },
   {
     "CodAtivo": 79,
-    "SiglaAtivos": "BAHI4",
+    "SiglaAtivo": "BAHI4",
     "Valor": 86
   },
   {
     "CodAtivo": 80,
-    "SiglaAtivos": "BAHI5",
+    "SiglaAtivo": "BAHI5",
     "Valor": 65
   },
   {
     "CodAtivo": 81,
-    "SiglaAtivos": "BALM3",
+    "SiglaAtivo": "BALM3",
     "Valor": 12.9
   },
   {
     "CodAtivo": 82,
-    "SiglaAtivos": "BALM4",
+    "SiglaAtivo": "BALM4",
     "Valor": 10.3
   },
   {
     "CodAtivo": 83,
-    "SiglaAtivos": "BAUH4",
+    "SiglaAtivo": "BAUH4",
     "Valor": 72.94
   },
   {
     "CodAtivo": 84,
-    "SiglaAtivos": "BAZA3",
+    "SiglaAtivo": "BAZA3",
     "Valor": 39
   },
   {
     "CodAtivo": 85,
-    "SiglaAtivos": "BBAS3",
+    "SiglaAtivo": "BBAS3",
     "Valor": 34.67
   },
   {
     "CodAtivo": 86,
-    "SiglaAtivos": "BBDC3",
+    "SiglaAtivo": "BBDC3",
     "Valor": 14.16
   },
   {
     "CodAtivo": 87,
-    "SiglaAtivos": "BBDC4",
+    "SiglaAtivo": "BBDC4",
     "Valor": 17.05
   },
   {
     "CodAtivo": 88,
-    "SiglaAtivos": "BBSE3",
+    "SiglaAtivo": "BBSE3",
     "Valor": 27.88
   },
   {
     "CodAtivo": 89,
-    "SiglaAtivos": "BBTG11",
+    "SiglaAtivo": "BBTG11",
     "Valor": 15.01
   },
   {
     "CodAtivo": 90,
-    "SiglaAtivos": "BBTG12",
+    "SiglaAtivo": "BBTG12",
     "Valor": 3.15
   },
   {
     "CodAtivo": 91,
-    "SiglaAtivos": "BBTG13",
+    "SiglaAtivo": "BBTG13",
     "Valor": 0
   },
   {
     "CodAtivo": 92,
-    "SiglaAtivos": "BCAL6",
+    "SiglaAtivo": "BCAL6",
     "Valor": 0.28
   },
   {
     "CodAtivo": 93,
-    "SiglaAtivos": "BDLL3",
+    "SiglaAtivo": "BDLL3",
     "Valor": 10.1
   },
   {
     "CodAtivo": 94,
-    "SiglaAtivos": "BDLL4",
+    "SiglaAtivo": "BDLL4",
     "Valor": 8.5
   },
   {
     "CodAtivo": 95,
-    "SiglaAtivos": "BECE3",
+    "SiglaAtivo": "BECE3",
     "Valor": 9.1
   },
   {
     "CodAtivo": 96,
-    "SiglaAtivos": "BECE4",
+    "SiglaAtivo": "BECE4",
     "Valor": 8.75
   },
   {
     "CodAtivo": 97,
-    "SiglaAtivos": "BEEF3",
+    "SiglaAtivo": "BEEF3",
     "Valor": 13.22
   },
   {
     "CodAtivo": 98,
-    "SiglaAtivos": "BEES3",
+    "SiglaAtivo": "BEES3",
     "Valor": 5.09
   },
   {
     "CodAtivo": 99,
-    "SiglaAtivos": "BEES4",
+    "SiglaAtivo": "BEES4",
     "Valor": 5.39
   },
   {
     "CodAtivo": 100,
-    "SiglaAtivos": "BELG3",
+    "SiglaAtivo": "BELG3",
     "Valor": 1375.5
   },
   {
     "CodAtivo": 101,
-    "SiglaAtivos": "BELG4",
+    "SiglaAtivo": "BELG4",
     "Valor": 1370
   },
   {
     "CodAtivo": 102,
-    "SiglaAtivos": "BEMA3",
+    "SiglaAtivo": "BEMA3",
     "Valor": 10.8
   },
   {
     "CodAtivo": 103,
-    "SiglaAtivos": "BERG3",
+    "SiglaAtivo": "BERG3",
     "Valor": 33
   },
   {
     "CodAtivo": 104,
-    "SiglaAtivos": "BESP3",
+    "SiglaAtivo": "BESP3",
     "Valor": 330
   },
   {
     "CodAtivo": 105,
-    "SiglaAtivos": "BESP4",
+    "SiglaAtivo": "BESP4",
     "Valor": 344
   },
   {
     "CodAtivo": 106,
-    "SiglaAtivos": "BFIT3",
+    "SiglaAtivo": "BFIT3",
     "Valor": 0.98
   },
   {
     "CodAtivo": 107,
-    "SiglaAtivos": "BFIT4",
+    "SiglaAtivo": "BFIT4",
     "Valor": 0.93
   },
   {
     "CodAtivo": 108,
-    "SiglaAtivos": "BGIP3",
+    "SiglaAtivo": "BGIP3",
     "Valor": 29.46
   },
   {
     "CodAtivo": 109,
-    "SiglaAtivos": "BGIP4",
+    "SiglaAtivo": "BGIP4",
     "Valor": 18.94
   },
   {
     "CodAtivo": 110,
-    "SiglaAtivos": "BHGR3",
+    "SiglaAtivo": "BHGR3",
     "Valor": 19.1
   },
   {
     "CodAtivo": 111,
-    "SiglaAtivos": "BICB3",
+    "SiglaAtivo": "BICB3",
     "Valor": 8
   },
   {
     "CodAtivo": 112,
-    "SiglaAtivos": "BICB4",
+    "SiglaAtivo": "BICB4",
     "Valor": 8.25
   },
   {
     "CodAtivo": 113,
-    "SiglaAtivos": "BIDI11",
+    "SiglaAtivo": "BIDI11",
     "Valor": 10.4
   },
   {
     "CodAtivo": 114,
-    "SiglaAtivos": "BIDI3",
+    "SiglaAtivo": "BIDI3",
     "Valor": 3.4
   },
   {
     "CodAtivo": 115,
-    "SiglaAtivos": "BIDI4",
+    "SiglaAtivo": "BIDI4",
     "Valor": 3.41
   },
   {
     "CodAtivo": 116,
-    "SiglaAtivos": "BIOM3",
+    "SiglaAtivo": "BIOM3",
     "Valor": 7.5
   },
   {
     "CodAtivo": 117,
-    "SiglaAtivos": "BIOM4",
+    "SiglaAtivo": "BIOM4",
     "Valor": 8.68
   },
   {
     "CodAtivo": 118,
-    "SiglaAtivos": "BISA3",
+    "SiglaAtivo": "BISA3",
     "Valor": 1.58
   },
   {
     "CodAtivo": 119,
-    "SiglaAtivos": "BKBR3",
+    "SiglaAtivo": "BKBR3",
     "Valor": 5.64
   },
   {
     "CodAtivo": 120,
-    "SiglaAtivos": "BLAU3",
+    "SiglaAtivo": "BLAU3",
     "Valor": 23.99
   },
   {
     "CodAtivo": 121,
-    "SiglaAtivos": "BLUT3",
+    "SiglaAtivo": "BLUT3",
     "Valor": 1.04
   },
   {
     "CodAtivo": 122,
-    "SiglaAtivos": "BLUT4",
+    "SiglaAtivo": "BLUT4",
     "Valor": 0.5
   },
   {
     "CodAtivo": 123,
-    "SiglaAtivos": "BMEB3",
+    "SiglaAtivo": "BMEB3",
     "Valor": 10.95
   },
   {
     "CodAtivo": 124,
-    "SiglaAtivos": "BMEB4",
+    "SiglaAtivo": "BMEB4",
     "Valor": 10
   },
   {
     "CodAtivo": 125,
-    "SiglaAtivos": "BMEF3",
+    "SiglaAtivo": "BMEF3",
     "Valor": 11
   },
   {
     "CodAtivo": 126,
-    "SiglaAtivos": "BMGB11",
+    "SiglaAtivo": "BMGB11",
     "Valor": 33.6
   },
   {
     "CodAtivo": 127,
-    "SiglaAtivos": "BMGB4",
+    "SiglaAtivo": "BMGB4",
     "Valor": 2.41
   },
   {
     "CodAtivo": 128,
-    "SiglaAtivos": "BMIN3",
+    "SiglaAtivo": "BMIN3",
     "Valor": 19.76
   },
   {
     "CodAtivo": 129,
-    "SiglaAtivos": "BMIN4",
+    "SiglaAtivo": "BMIN4",
     "Valor": 13.53
   },
   {
     "CodAtivo": 130,
-    "SiglaAtivos": "BMKS3",
+    "SiglaAtivo": "BMKS3",
     "Valor": 249.98
   },
   {
     "CodAtivo": 131,
-    "SiglaAtivos": "BMOB3",
+    "SiglaAtivo": "BMOB3",
     "Valor": 12.15
   },
   {
     "CodAtivo": 132,
-    "SiglaAtivos": "BMTO3",
+    "SiglaAtivo": "BMTO3",
     "Valor": 7.82
   },
   {
     "CodAtivo": 133,
-    "SiglaAtivos": "BMTO4",
+    "SiglaAtivo": "BMTO4",
     "Valor": 7.57
   },
   {
     "CodAtivo": 134,
-    "SiglaAtivos": "BNBR3",
+    "SiglaAtivo": "BNBR3",
     "Valor": 68.01
   },
   {
     "CodAtivo": 135,
-    "SiglaAtivos": "BNBR4",
+    "SiglaAtivo": "BNBR4",
     "Valor": 27.01
   },
   {
     "CodAtivo": 136,
-    "SiglaAtivos": "BNCA3",
+    "SiglaAtivo": "BNCA3",
     "Valor": 70.3
   },
   {
     "CodAtivo": 137,
-    "SiglaAtivos": "BOAS3",
+    "SiglaAtivo": "BOAS3",
     "Valor": 5.3
   },
   {
     "CodAtivo": 138,
-    "SiglaAtivos": "BOBR3",
+    "SiglaAtivo": "BOBR3",
     "Valor": 1
   },
   {
     "CodAtivo": 139,
-    "SiglaAtivos": "BOBR4",
+    "SiglaAtivo": "BOBR4",
     "Valor": 1.21
   },
   {
     "CodAtivo": 140,
-    "SiglaAtivos": "BOVH3",
+    "SiglaAtivo": "BOVH3",
     "Valor": 15.71
   },
   {
     "CodAtivo": 141,
-    "SiglaAtivos": "BPAC11",
+    "SiglaAtivo": "BPAC11",
     "Valor": 22.47
   },
   {
     "CodAtivo": 142,
-    "SiglaAtivos": "BPAC3",
+    "SiglaAtivo": "BPAC3",
     "Valor": 11.82
   },
   {
     "CodAtivo": 143,
-    "SiglaAtivos": "BPAC5",
+    "SiglaAtivo": "BPAC5",
     "Valor": 5.24
   },
   {
     "CodAtivo": 144,
-    "SiglaAtivos": "BPAN4",
+    "SiglaAtivo": "BPAN4",
     "Valor": 7.08
   },
   {
     "CodAtivo": 145,
-    "SiglaAtivos": "BPAR3",
+    "SiglaAtivo": "BPAR3",
     "Valor": 182.07
   },
   {
     "CodAtivo": 146,
-    "SiglaAtivos": "BPAT33",
+    "SiglaAtivo": "BPAT33",
     "Valor": 20
   },
   {
     "CodAtivo": 147,
-    "SiglaAtivos": "BPHA3",
+    "SiglaAtivo": "BPHA3",
     "Valor": 0.62
   },
   {
     "CodAtivo": 148,
-    "SiglaAtivos": "BPIA3",
+    "SiglaAtivo": "BPIA3",
     "Valor": 6.1
   },
   {
     "CodAtivo": 149,
-    "SiglaAtivos": "BPNM3",
+    "SiglaAtivo": "BPNM3",
     "Valor": 0
   },
   {
     "CodAtivo": 150,
-    "SiglaAtivos": "BRAP3",
+    "SiglaAtivo": "BRAP3",
     "Valor": 20.43
   },
   {
     "CodAtivo": 151,
-    "SiglaAtivos": "BRAP4",
+    "SiglaAtivo": "BRAP4",
     "Valor": 22.33
   },
   {
     "CodAtivo": 152,
-    "SiglaAtivos": "BRBI11",
+    "SiglaAtivo": "BRBI11",
     "Valor": 13.4
   },
   {
     "CodAtivo": 153,
-    "SiglaAtivos": "BRFS3",
+    "SiglaAtivo": "BRFS3",
     "Valor": 16.07
   },
   {
     "CodAtivo": 154,
-    "SiglaAtivos": "BRGE11",
+    "SiglaAtivo": "BRGE11",
     "Valor": 6.71
   },
   {
     "CodAtivo": 155,
-    "SiglaAtivos": "BRGE12",
+    "SiglaAtivo": "BRGE12",
     "Valor": 6.37
   },
   {
     "CodAtivo": 156,
-    "SiglaAtivos": "BRGE3",
+    "SiglaAtivo": "BRGE3",
     "Valor": 6.22
   },
   {
     "CodAtivo": 157,
-    "SiglaAtivos": "BRGE5",
+    "SiglaAtivo": "BRGE5",
     "Valor": 9.81
   },
   {
     "CodAtivo": 158,
-    "SiglaAtivos": "BRGE6",
+    "SiglaAtivo": "BRGE6",
     "Valor": 8.5
   },
   {
     "CodAtivo": 159,
-    "SiglaAtivos": "BRGE7",
+    "SiglaAtivo": "BRGE7",
     "Valor": 5.4
   },
   {
     "CodAtivo": 160,
-    "SiglaAtivos": "BRGE8",
+    "SiglaAtivo": "BRGE8",
     "Valor": 8.9
   },
   {
     "CodAtivo": 161,
-    "SiglaAtivos": "BRIT3",
+    "SiglaAtivo": "BRIT3",
     "Valor": 2.32
   },
   {
     "CodAtivo": 162,
-    "SiglaAtivos": "BRIV3",
+    "SiglaAtivo": "BRIV3",
     "Valor": 5.58
   },
   {
     "CodAtivo": 163,
-    "SiglaAtivos": "BRIV4",
+    "SiglaAtivo": "BRIV4",
     "Valor": 6.42
   },
   {
     "CodAtivo": 164,
-    "SiglaAtivos": "BRKM3",
+    "SiglaAtivo": "BRKM3",
     "Valor": 35.15
   },
   {
     "CodAtivo": 165,
-    "SiglaAtivos": "BRKM5",
+    "SiglaAtivo": "BRKM5",
     "Valor": 34.08
   },
   {
     "CodAtivo": 166,
-    "SiglaAtivos": "BRKM6",
+    "SiglaAtivo": "BRKM6",
     "Valor": 23.9
   },
   {
     "CodAtivo": 167,
-    "SiglaAtivos": "BRML3",
+    "SiglaAtivo": "BRML3",
     "Valor": 7.82
   },
   {
     "CodAtivo": 168,
-    "SiglaAtivos": "BRPR3",
+    "SiglaAtivo": "BRPR3",
     "Valor": 8.4
   },
   {
     "CodAtivo": 169,
-    "SiglaAtivos": "BRSR3",
+    "SiglaAtivo": "BRSR3",
     "Valor": 11.24
   },
   {
     "CodAtivo": 170,
-    "SiglaAtivos": "BRSR4",
+    "SiglaAtivo": "BRSR4",
     "Valor": 181.1
   },
   {
     "CodAtivo": 171,
-    "SiglaAtivos": "BRSR5",
+    "SiglaAtivo": "BRSR5",
     "Valor": 17.3
   },
   {
     "CodAtivo": 172,
-    "SiglaAtivos": "BRSR6",
+    "SiglaAtivo": "BRSR6",
     "Valor": 9.76
   },
   {
     "CodAtivo": 173,
-    "SiglaAtivos": "BRTP3",
+    "SiglaAtivo": "BRTP3",
     "Valor": 35.71
   },
   {
     "CodAtivo": 174,
-    "SiglaAtivos": "BRTP4",
+    "SiglaAtivo": "BRTP4",
     "Valor": 20.81
   },
   {
     "CodAtivo": 175,
-    "SiglaAtivos": "BSCT3",
+    "SiglaAtivo": "BSCT3",
     "Valor": 4.05
   },
   {
     "CodAtivo": 176,
-    "SiglaAtivos": "BSCT5",
+    "SiglaAtivo": "BSCT5",
     "Valor": 3.5
   },
   {
     "CodAtivo": 177,
-    "SiglaAtivos": "BSCT6",
+    "SiglaAtivo": "BSCT6",
     "Valor": 2.58
   },
   {
     "CodAtivo": 178,
-    "SiglaAtivos": "BSEV3",
+    "SiglaAtivo": "BSEV3",
     "Valor": 9
   },
   {
     "CodAtivo": 179,
-    "SiglaAtivos": "BSGR3",
+    "SiglaAtivo": "BSGR3",
     "Valor": 1091.28
   },
   {
     "CodAtivo": 180,
-    "SiglaAtivos": "BSLI3",
+    "SiglaAtivo": "BSLI3",
     "Valor": 21.49
   },
   {
     "CodAtivo": 181,
-    "SiglaAtivos": "BSLI4",
+    "SiglaAtivo": "BSLI4",
     "Valor": 15.47
   },
   {
     "CodAtivo": 182,
-    "SiglaAtivos": "BTTL3",
+    "SiglaAtivo": "BTTL3",
     "Valor": 20.19
   },
   {
     "CodAtivo": 183,
-    "SiglaAtivos": "BUET3",
+    "SiglaAtivo": "BUET3",
     "Valor": 24.99
   },
   {
     "CodAtivo": 184,
-    "SiglaAtivos": "BUET4",
+    "SiglaAtivo": "BUET4",
     "Valor": 18.49
   },
   {
     "CodAtivo": 185,
-    "SiglaAtivos": "CAFE3",
+    "SiglaAtivo": "CAFE3",
     "Valor": 2
   },
   {
     "CodAtivo": 186,
-    "SiglaAtivos": "CAFE4",
+    "SiglaAtivo": "CAFE4",
     "Valor": 0.5
   },
   {
     "CodAtivo": 187,
-    "SiglaAtivos": "CALI3",
+    "SiglaAtivo": "CALI3",
     "Valor": 9
   },
   {
     "CodAtivo": 188,
-    "SiglaAtivos": "CALI4",
+    "SiglaAtivo": "CALI4",
     "Valor": 50
   },
   {
     "CodAtivo": 189,
-    "SiglaAtivos": "CAMB3",
+    "SiglaAtivo": "CAMB3",
     "Valor": 4.5
   },
   {
     "CodAtivo": 190,
-    "SiglaAtivos": "CAMB4",
+    "SiglaAtivo": "CAMB4",
     "Valor": 6.25
   },
   {
     "CodAtivo": 191,
-    "SiglaAtivos": "CAML3",
+    "SiglaAtivo": "CAML3",
     "Valor": 9.6
   },
   {
     "CodAtivo": 192,
-    "SiglaAtivos": "CARD3",
+    "SiglaAtivo": "CARD3",
     "Valor": 13.99
   },
   {
     "CodAtivo": 193,
-    "SiglaAtivos": "CASH3",
+    "SiglaAtivo": "CASH3",
     "Valor": 1.08
   },
   {
     "CodAtivo": 194,
-    "SiglaAtivos": "CASN3",
+    "SiglaAtivo": "CASN3",
     "Valor": 15.01
   },
   {
     "CodAtivo": 195,
-    "SiglaAtivos": "CBAV3",
+    "SiglaAtivo": "CBAV3",
     "Valor": 10.15
   },
   {
     "CodAtivo": 196,
-    "SiglaAtivos": "CBEE3",
+    "SiglaAtivo": "CBEE3",
     "Valor": 15.72
   },
   {
     "CodAtivo": 197,
-    "SiglaAtivos": "CBMA3",
+    "SiglaAtivo": "CBMA3",
     "Valor": 0.01
   },
   {
     "CodAtivo": 198,
-    "SiglaAtivos": "CBMA4",
+    "SiglaAtivo": "CBMA4",
     "Valor": 0.01
   },
   {
     "CodAtivo": 199,
-    "SiglaAtivos": "CCHI3",
+    "SiglaAtivo": "CCHI3",
     "Valor": 0.02
   },
   {
     "CodAtivo": 200,
-    "SiglaAtivos": "CCHI4",
+    "SiglaAtivo": "CCHI4",
     "Valor": 0.02
   },
   {
     "CodAtivo": 201,
-    "SiglaAtivos": "CCIM3",
+    "SiglaAtivo": "CCIM3",
     "Valor": 5.52
   },
   {
     "CodAtivo": 202,
-    "SiglaAtivos": "CCRO3",
+    "SiglaAtivo": "CCRO3",
     "Valor": 12.28
   },
   {
     "CodAtivo": 203,
-    "SiglaAtivos": "CCTU4",
+    "SiglaAtivo": "CCTU4",
     "Valor": 37.28
   },
   {
     "CodAtivo": 204,
-    "SiglaAtivos": "CCXC3",
+    "SiglaAtivo": "CCXC3",
     "Valor": 1.16
   },
   {
     "CodAtivo": 205,
-    "SiglaAtivos": "CEAB3",
+    "SiglaAtivo": "CEAB3",
     "Valor": 2.5
   },
   {
     "CodAtivo": 206,
-    "SiglaAtivos": "CEBR3",
+    "SiglaAtivo": "CEBR3",
     "Valor": 14.91
   },
   {
     "CodAtivo": 207,
-    "SiglaAtivos": "CEBR5",
+    "SiglaAtivo": "CEBR5",
     "Valor": 12
   },
   {
     "CodAtivo": 208,
-    "SiglaAtivos": "CEBR6",
+    "SiglaAtivo": "CEBR6",
     "Valor": 11.93
   },
   {
     "CodAtivo": 209,
-    "SiglaAtivos": "CEDO3",
+    "SiglaAtivo": "CEDO3",
     "Valor": 6.72
   },
   {
     "CodAtivo": 210,
-    "SiglaAtivos": "CEDO4",
+    "SiglaAtivo": "CEDO4",
     "Valor": 4.7
   },
   {
     "CodAtivo": 211,
-    "SiglaAtivos": "CEEB3",
+    "SiglaAtivo": "CEEB3",
     "Valor": 36.7
   },
   {
     "CodAtivo": 212,
-    "SiglaAtivos": "CEEB5",
+    "SiglaAtivo": "CEEB5",
     "Valor": 36
   },
   {
     "CodAtivo": 213,
-    "SiglaAtivos": "CEED3",
+    "SiglaAtivo": "CEED3",
     "Valor": 42
   },
   {
     "CodAtivo": 214,
-    "SiglaAtivos": "CEED4",
+    "SiglaAtivo": "CEED4",
     "Valor": 65.5
   },
   {
     "CodAtivo": 215,
-    "SiglaAtivos": "CEGR3",
+    "SiglaAtivo": "CEGR3",
     "Valor": 89
   },
   {
     "CodAtivo": 216,
-    "SiglaAtivos": "CELM3",
+    "SiglaAtivo": "CELM3",
     "Valor": 15
   },
   {
     "CodAtivo": 217,
-    "SiglaAtivos": "CEPE3",
+    "SiglaAtivo": "CEPE3",
     "Valor": 128
   },
   {
     "CodAtivo": 218,
-    "SiglaAtivos": "CEPE5",
+    "SiglaAtivo": "CEPE5",
     "Valor": 39.5
   },
   {
     "CodAtivo": 219,
-    "SiglaAtivos": "CEPE6",
+    "SiglaAtivo": "CEPE6",
     "Valor": 40.15
   },
   {
     "CodAtivo": 220,
-    "SiglaAtivos": "CESP3",
+    "SiglaAtivo": "CESP3",
     "Valor": 25.55
   },
   {
     "CodAtivo": 221,
-    "SiglaAtivos": "CESP4",
+    "SiglaAtivo": "CESP4",
     "Valor": 16.29
   },
   {
     "CodAtivo": 222,
-    "SiglaAtivos": "CESP5",
+    "SiglaAtivo": "CESP5",
     "Valor": 25
   },
   {
     "CodAtivo": 223,
-    "SiglaAtivos": "CESP6",
+    "SiglaAtivo": "CESP6",
     "Valor": 25.25
   },
   {
     "CodAtivo": 224,
-    "SiglaAtivos": "CFLU4",
+    "SiglaAtivo": "CFLU4",
     "Valor": 1000
   },
   {
     "CodAtivo": 225,
-    "SiglaAtivos": "CGAS3",
+    "SiglaAtivo": "CGAS3",
     "Valor": 119.25
   },
   {
     "CodAtivo": 226,
-    "SiglaAtivos": "CGAS5",
+    "SiglaAtivo": "CGAS5",
     "Valor": 120.2
   },
   {
     "CodAtivo": 227,
-    "SiglaAtivos": "CGOS3",
+    "SiglaAtivo": "CGOS3",
     "Valor": 26.2
   },
   {
     "CodAtivo": 228,
-    "SiglaAtivos": "CGOS4",
+    "SiglaAtivo": "CGOS4",
     "Valor": 16
   },
   {
     "CodAtivo": 229,
-    "SiglaAtivos": "CGRA3",
+    "SiglaAtivo": "CGRA3",
     "Valor": 28.45
   },
   {
     "CodAtivo": 230,
-    "SiglaAtivos": "CGRA4",
+    "SiglaAtivo": "CGRA4",
     "Valor": 28.01
   },
   {
     "CodAtivo": 231,
-    "SiglaAtivos": "CIEL3",
+    "SiglaAtivo": "CIEL3",
     "Valor": 4.08
   },
   {
     "CodAtivo": 232,
-    "SiglaAtivos": "CIQU3",
+    "SiglaAtivo": "CIQU3",
     "Valor": 12.49
   },
   {
     "CodAtivo": 233,
-    "SiglaAtivos": "CIQU4",
+    "SiglaAtivo": "CIQU4",
     "Valor": 12.49
   },
   {
     "CodAtivo": 234,
-    "SiglaAtivos": "CLAN3",
+    "SiglaAtivo": "CLAN3",
     "Valor": 0
   },
   {
     "CodAtivo": 235,
-    "SiglaAtivos": "CLAN4",
+    "SiglaAtivo": "CLAN4",
     "Valor": 3
   },
   {
     "CodAtivo": 236,
-    "SiglaAtivos": "CLSA3",
+    "SiglaAtivo": "CLSA3",
     "Valor": 4.29
   },
   {
     "CodAtivo": 237,
-    "SiglaAtivos": "CLSC3",
+    "SiglaAtivo": "CLSC3",
     "Valor": 51
   },
   {
     "CodAtivo": 238,
-    "SiglaAtivos": "CLSC4",
+    "SiglaAtivo": "CLSC4",
     "Valor": 51.75
   },
   {
     "CodAtivo": 239,
-    "SiglaAtivos": "CLSC5",
+    "SiglaAtivo": "CLSC5",
     "Valor": 39.01
   },
   {
     "CodAtivo": 240,
-    "SiglaAtivos": "CLSC6",
+    "SiglaAtivo": "CLSC6",
     "Valor": 0
   },
   {
     "CodAtivo": 241,
-    "SiglaAtivos": "CMET4",
+    "SiglaAtivo": "CMET4",
     "Valor": 3.91
   },
   {
     "CodAtivo": 242,
-    "SiglaAtivos": "CMIG3",
+    "SiglaAtivo": "CMIG3",
     "Valor": 16.25
   },
   {
     "CodAtivo": 243,
-    "SiglaAtivos": "CMIG4",
+    "SiglaAtivo": "CMIG4",
     "Valor": 10.65
   },
   {
     "CodAtivo": 244,
-    "SiglaAtivos": "CMIN3",
+    "SiglaAtivo": "CMIN3",
     "Valor": 3.4
   },
   {
     "CodAtivo": 245,
-    "SiglaAtivos": "CMMA4",
+    "SiglaAtivo": "CMMA4",
     "Valor": 0.81
   },
   {
     "CodAtivo": 246,
-    "SiglaAtivos": "CNFB4",
+    "SiglaAtivo": "CNFB4",
     "Valor": 5.99
   },
   {
     "CodAtivo": 247,
-    "SiglaAtivos": "COCE3",
+    "SiglaAtivo": "COCE3",
     "Valor": 58.92
   },
   {
     "CodAtivo": 248,
-    "SiglaAtivos": "COCE5",
+    "SiglaAtivo": "COCE5",
     "Valor": 46.44
   },
   {
     "CodAtivo": 249,
-    "SiglaAtivos": "COCE6",
+    "SiglaAtivo": "COCE6",
     "Valor": 35
   },
   {
     "CodAtivo": 250,
-    "SiglaAtivos": "COGN3",
+    "SiglaAtivo": "COGN3",
     "Valor": 2.22
   },
   {
     "CodAtivo": 251,
-    "SiglaAtivos": "CORR3",
+    "SiglaAtivo": "CORR3",
     "Valor": 12
   },
   {
     "CodAtivo": 252,
-    "SiglaAtivos": "CORR4",
+    "SiglaAtivo": "CORR4",
     "Valor": 82
   },
   {
     "CodAtivo": 253,
-    "SiglaAtivos": "CPFE3",
+    "SiglaAtivo": "CPFE3",
     "Valor": 32.14
   },
   {
     "CodAtivo": 254,
-    "SiglaAtivos": "CPFG3",
+    "SiglaAtivo": "CPFG3",
     "Valor": 12.65
   },
   {
     "CodAtivo": 255,
-    "SiglaAtivos": "CPFG4",
+    "SiglaAtivo": "CPFG4",
     "Valor": 12.26
   },
   {
     "CodAtivo": 256,
-    "SiglaAtivos": "CPFP4",
+    "SiglaAtivo": "CPFP4",
     "Valor": 44
   },
   {
     "CodAtivo": 257,
-    "SiglaAtivos": "CPLE11",
+    "SiglaAtivo": "CPLE11",
     "Valor": 33.91
   },
   {
     "CodAtivo": 258,
-    "SiglaAtivos": "CPLE3",
+    "SiglaAtivo": "CPLE3",
     "Valor": 6.35
   },
   {
     "CodAtivo": 259,
-    "SiglaAtivos": "CPLE5",
+    "SiglaAtivo": "CPLE5",
     "Valor": 22.5
   },
   {
     "CodAtivo": 260,
-    "SiglaAtivos": "CPLE6",
+    "SiglaAtivo": "CPLE6",
     "Valor": 6.9
   },
   {
     "CodAtivo": 261,
-    "SiglaAtivos": "CPNY3",
+    "SiglaAtivo": "CPNY3",
     "Valor": 2.35
   },
   {
     "CodAtivo": 262,
-    "SiglaAtivos": "CPRE3",
+    "SiglaAtivo": "CPRE3",
     "Valor": 18.23
   },
   {
     "CodAtivo": 263,
-    "SiglaAtivos": "CPSL3",
+    "SiglaAtivo": "CPSL3",
     "Valor": 38.02
   },
   {
     "CodAtivo": 264,
-    "SiglaAtivos": "CRBM3",
+    "SiglaAtivo": "CRBM3",
     "Valor": 90
   },
   {
     "CodAtivo": 265,
-    "SiglaAtivos": "CRBM7",
+    "SiglaAtivo": "CRBM7",
     "Valor": 60
   },
   {
     "CodAtivo": 266,
-    "SiglaAtivos": "CRDE3",
+    "SiglaAtivo": "CRDE3",
     "Valor": 21.57
   },
   {
     "CodAtivo": 267,
-    "SiglaAtivos": "CREM3",
+    "SiglaAtivo": "CREM3",
     "Valor": 14.5
   },
   {
     "CodAtivo": 268,
-    "SiglaAtivos": "CREM4",
+    "SiglaAtivo": "CREM4",
     "Valor": 48
   },
   {
     "CodAtivo": 269,
-    "SiglaAtivos": "CRFB3",
+    "SiglaAtivo": "CRFB3",
     "Valor": 16.93
   },
   {
     "CodAtivo": 270,
-    "SiglaAtivos": "CRIV3",
+    "SiglaAtivo": "CRIV3",
     "Valor": 3.09
   },
   {
     "CodAtivo": 271,
-    "SiglaAtivos": "CRIV4",
+    "SiglaAtivo": "CRIV4",
     "Valor": 4.65
   },
   {
     "CodAtivo": 272,
-    "SiglaAtivos": "CRPG3",
+    "SiglaAtivo": "CRPG3",
     "Valor": 40.8
   },
   {
     "CodAtivo": 273,
-    "SiglaAtivos": "CRPG5",
+    "SiglaAtivo": "CRPG5",
     "Valor": 30.8
   },
   {
     "CodAtivo": 274,
-    "SiglaAtivos": "CRPG6",
+    "SiglaAtivo": "CRPG6",
     "Valor": 30.5
   },
   {
     "CodAtivo": 275,
-    "SiglaAtivos": "CRTP3",
+    "SiglaAtivo": "CRTP3",
     "Valor": 86.5
   },
   {
     "CodAtivo": 276,
-    "SiglaAtivos": "CRTP5",
+    "SiglaAtivo": "CRTP5",
     "Valor": 62.1
   },
   {
     "CodAtivo": 277,
-    "SiglaAtivos": "CRUZ3",
+    "SiglaAtivo": "CRUZ3",
     "Valor": 27.59
   },
   {
     "CodAtivo": 278,
-    "SiglaAtivos": "CSAB3",
+    "SiglaAtivo": "CSAB3",
     "Valor": 50
   },
   {
     "CodAtivo": 279,
-    "SiglaAtivos": "CSAB4",
+    "SiglaAtivo": "CSAB4",
     "Valor": 49.04
   },
   {
     "CodAtivo": 280,
-    "SiglaAtivos": "CSAN3",
+    "SiglaAtivo": "CSAN3",
     "Valor": 17.49
   },
   {
     "CodAtivo": 281,
-    "SiglaAtivos": "CSED3",
+    "SiglaAtivo": "CSED3",
     "Valor": 3.79
   },
   {
     "CodAtivo": 282,
-    "SiglaAtivos": "CSMG3",
+    "SiglaAtivo": "CSMG3",
     "Valor": 11.77
   },
   {
     "CodAtivo": 283,
-    "SiglaAtivos": "CSNA3",
+    "SiglaAtivo": "CSNA3",
     "Valor": 14.41
   },
   {
     "CodAtivo": 284,
-    "SiglaAtivos": "CSPC3",
+    "SiglaAtivo": "CSPC3",
     "Valor": 1.24
   },
   {
     "CodAtivo": 285,
-    "SiglaAtivos": "CSPC4",
+    "SiglaAtivo": "CSPC4",
     "Valor": 1.2
   },
   {
     "CodAtivo": 286,
-    "SiglaAtivos": "CSRN3",
+    "SiglaAtivo": "CSRN3",
     "Valor": 20.99
   },
   {
     "CodAtivo": 287,
-    "SiglaAtivos": "CSRN5",
+    "SiglaAtivo": "CSRN5",
     "Valor": 18
   },
   {
     "CodAtivo": 288,
-    "SiglaAtivos": "CSRN6",
+    "SiglaAtivo": "CSRN6",
     "Valor": 17.7
   },
   {
     "CodAtivo": 289,
-    "SiglaAtivos": "CSTB3",
+    "SiglaAtivo": "CSTB3",
     "Valor": 150
   },
   {
     "CodAtivo": 290,
-    "SiglaAtivos": "CSTB4",
+    "SiglaAtivo": "CSTB4",
     "Valor": 147.69
   },
   {
     "CodAtivo": 291,
-    "SiglaAtivos": "CTIP3",
+    "SiglaAtivo": "CTIP3",
     "Valor": 49.5
   },
   {
     "CodAtivo": 292,
-    "SiglaAtivos": "CTKA3",
+    "SiglaAtivo": "CTKA3",
     "Valor": 27.5
   },
   {
     "CodAtivo": 293,
-    "SiglaAtivos": "CTKA4",
+    "SiglaAtivo": "CTKA4",
     "Valor": 10.4
   },
   {
     "CodAtivo": 294,
-    "SiglaAtivos": "CTNM3",
+    "SiglaAtivo": "CTNM3",
     "Valor": 7.91
   },
   {
     "CodAtivo": 295,
-    "SiglaAtivos": "CTNM4",
+    "SiglaAtivo": "CTNM4",
     "Valor": 2.62
   },
   {
     "CodAtivo": 296,
-    "SiglaAtivos": "CTPC3",
+    "SiglaAtivo": "CTPC3",
     "Valor": 0.2
   },
   {
     "CodAtivo": 297,
-    "SiglaAtivos": "CTPC4",
+    "SiglaAtivo": "CTPC4",
     "Valor": 6.5
   },
   {
     "CodAtivo": 298,
-    "SiglaAtivos": "CTSA3",
+    "SiglaAtivo": "CTSA3",
     "Valor": 1.51
   },
   {
     "CodAtivo": 299,
-    "SiglaAtivos": "CTSA4",
+    "SiglaAtivo": "CTSA4",
     "Valor": 0.77
   },
   {
     "CodAtivo": 300,
-    "SiglaAtivos": "CTSA8",
+    "SiglaAtivo": "CTSA8",
     "Valor": 1
   },
   {
     "CodAtivo": 301,
-    "SiglaAtivos": "CTWR3",
+    "SiglaAtivo": "CTWR3",
     "Valor": 100
   },
   {
     "CodAtivo": 302,
-    "SiglaAtivos": "CURY3",
+    "SiglaAtivo": "CURY3",
     "Valor": 7.37
   },
   {
     "CodAtivo": 303,
-    "SiglaAtivos": "CVCB3",
+    "SiglaAtivo": "CVCB3",
     "Valor": 6.76
   },
   {
     "CodAtivo": 304,
-    "SiglaAtivos": "CXSE3",
+    "SiglaAtivo": "CXSE3",
     "Valor": 7
   },
   {
     "CodAtivo": 305,
-    "SiglaAtivos": "CYRE3",
+    "SiglaAtivo": "CYRE3",
     "Valor": 12.26
   },
   {
     "CodAtivo": 306,
-    "SiglaAtivos": "CYRE4",
+    "SiglaAtivo": "CYRE4",
     "Valor": 8.5
   },
   {
     "CodAtivo": 307,
-    "SiglaAtivos": "CZLT33",
+    "SiglaAtivo": "CZLT33",
     "Valor": 29.23
   },
   {
     "CodAtivo": 308,
-    "SiglaAtivos": "CZRS3",
+    "SiglaAtivo": "CZRS3",
     "Valor": 0
   },
   {
     "CodAtivo": 309,
-    "SiglaAtivos": "CZRS4",
+    "SiglaAtivo": "CZRS4",
     "Valor": 2.49
   },
   {
     "CodAtivo": 310,
-    "SiglaAtivos": "DAGB33",
+    "SiglaAtivo": "DAGB33",
     "Valor": 375
   },
   {
     "CodAtivo": 311,
-    "SiglaAtivos": "DASA3",
+    "SiglaAtivo": "DASA3",
     "Valor": 18.95
   },
   {
     "CodAtivo": 312,
-    "SiglaAtivos": "DAYC3",
+    "SiglaAtivo": "DAYC3",
     "Valor": 0
   },
   {
     "CodAtivo": 313,
-    "SiglaAtivos": "DAYC4",
+    "SiglaAtivo": "DAYC4",
     "Valor": 8.9
   },
   {
     "CodAtivo": 314,
-    "SiglaAtivos": "DESK3",
+    "SiglaAtivo": "DESK3",
     "Valor": 9.84
   },
   {
     "CodAtivo": 315,
-    "SiglaAtivos": "DEXP3",
+    "SiglaAtivo": "DEXP3",
     "Valor": 7.53
   },
   {
     "CodAtivo": 316,
-    "SiglaAtivos": "DEXP4",
+    "SiglaAtivo": "DEXP4",
     "Valor": 7.21
   },
   {
     "CodAtivo": 317,
-    "SiglaAtivos": "DFVA3",
+    "SiglaAtivo": "DFVA3",
     "Valor": 9.9
   },
   {
     "CodAtivo": 318,
-    "SiglaAtivos": "DFVA4",
+    "SiglaAtivo": "DFVA4",
     "Valor": 8
   },
   {
     "CodAtivo": 319,
-    "SiglaAtivos": "DHBI3",
+    "SiglaAtivo": "DHBI3",
     "Valor": 19
   },
   {
     "CodAtivo": 320,
-    "SiglaAtivos": "DHBI4",
+    "SiglaAtivo": "DHBI4",
     "Valor": 1.01
   },
   {
     "CodAtivo": 321,
-    "SiglaAtivos": "DIRR3",
+    "SiglaAtivo": "DIRR3",
     "Valor": 11.37
   },
   {
     "CodAtivo": 322,
-    "SiglaAtivos": "DJON4",
+    "SiglaAtivo": "DJON4",
     "Valor": 0.18
   },
   {
     "CodAtivo": 323,
-    "SiglaAtivos": "DMMO3",
+    "SiglaAtivo": "DMMO3",
     "Valor": 1.5
   },
   {
     "CodAtivo": 324,
-    "SiglaAtivos": "DMVF3",
+    "SiglaAtivo": "DMVF3",
     "Valor": 4.22
   },
   {
     "CodAtivo": 325,
-    "SiglaAtivos": "DOCA3",
+    "SiglaAtivo": "DOCA3",
     "Valor": 11
   },
   {
     "CodAtivo": 326,
-    "SiglaAtivos": "DOCA4",
+    "SiglaAtivo": "DOCA4",
     "Valor": 5
   },
   {
     "CodAtivo": 327,
-    "SiglaAtivos": "DOHL3",
+    "SiglaAtivo": "DOHL3",
     "Valor": 19
   },
   {
     "CodAtivo": 328,
-    "SiglaAtivos": "DOHL4",
+    "SiglaAtivo": "DOHL4",
     "Valor": 5.53
   },
   {
     "CodAtivo": 329,
-    "SiglaAtivos": "DOTZ3",
+    "SiglaAtivo": "DOTZ3",
     "Valor": 3.7
   },
   {
     "CodAtivo": 330,
-    "SiglaAtivos": "DPPI3",
+    "SiglaAtivo": "DPPI3",
     "Valor": 85
   },
   {
     "CodAtivo": 331,
-    "SiglaAtivos": "DPPI4",
+    "SiglaAtivo": "DPPI4",
     "Valor": 38.9
   },
   {
     "CodAtivo": 332,
-    "SiglaAtivos": "DSUL3",
+    "SiglaAtivo": "DSUL3",
     "Valor": 7.95
   },
   {
     "CodAtivo": 333,
-    "SiglaAtivos": "DTCY3",
+    "SiglaAtivo": "DTCY3",
     "Valor": 5.8
   },
   {
     "CodAtivo": 334,
-    "SiglaAtivos": "DUFB11",
+    "SiglaAtivo": "DUFB11",
     "Valor": 0
   },
   {
     "CodAtivo": 335,
-    "SiglaAtivos": "DUQE3",
+    "SiglaAtivo": "DUQE3",
     "Valor": 28
   },
   {
     "CodAtivo": 336,
-    "SiglaAtivos": "DUQE4",
+    "SiglaAtivo": "DUQE4",
     "Valor": 2.95
   },
   {
     "CodAtivo": 337,
-    "SiglaAtivos": "DURA3",
+    "SiglaAtivo": "DURA3",
     "Valor": 31.9
   },
   {
     "CodAtivo": 338,
-    "SiglaAtivos": "DURA4",
+    "SiglaAtivo": "DURA4",
     "Valor": 31.39
   },
   {
     "CodAtivo": 339,
-    "SiglaAtivos": "DXCO3",
+    "SiglaAtivo": "DXCO3",
     "Valor": 9.71
   },
   {
     "CodAtivo": 340,
-    "SiglaAtivos": "DXTG4",
+    "SiglaAtivo": "DXTG4",
     "Valor": 3.68
   },
   {
     "CodAtivo": 341,
-    "SiglaAtivos": "EALT3",
+    "SiglaAtivo": "EALT3",
     "Valor": 8.39
   },
   {
     "CodAtivo": 342,
-    "SiglaAtivos": "EALT4",
+    "SiglaAtivo": "EALT4",
     "Valor": 6.38
   },
   {
     "CodAtivo": 343,
-    "SiglaAtivos": "EBCO3",
+    "SiglaAtivo": "EBCO3",
     "Valor": 1.05
   },
   {
     "CodAtivo": 344,
-    "SiglaAtivos": "EBCO4",
+    "SiglaAtivo": "EBCO4",
     "Valor": 1
   },
   {
     "CodAtivo": 345,
-    "SiglaAtivos": "EBEN4",
+    "SiglaAtivo": "EBEN4",
     "Valor": 17.51
   },
   {
     "CodAtivo": 346,
-    "SiglaAtivos": "EBTP3",
+    "SiglaAtivo": "EBTP3",
     "Valor": 10.21
   },
   {
     "CodAtivo": 347,
-    "SiglaAtivos": "EBTP4",
+    "SiglaAtivo": "EBTP4",
     "Valor": 10
   },
   {
     "CodAtivo": 348,
-    "SiglaAtivos": "ECIS3",
+    "SiglaAtivo": "ECIS3",
     "Valor": 211.65
   },
   {
     "CodAtivo": 349,
-    "SiglaAtivos": "ECIS4",
+    "SiglaAtivo": "ECIS4",
     "Valor": 145
   },
   {
     "CodAtivo": 350,
-    "SiglaAtivos": "ECOR3",
+    "SiglaAtivo": "ECOR3",
     "Valor": 5.4
   },
   {
     "CodAtivo": 351,
-    "SiglaAtivos": "ECPR3",
+    "SiglaAtivo": "ECPR3",
     "Valor": 90.25
   },
   {
     "CodAtivo": 352,
-    "SiglaAtivos": "ECPR4",
+    "SiglaAtivo": "ECPR4",
     "Valor": 90.74
   },
   {
     "CodAtivo": 353,
-    "SiglaAtivos": "EEEL3",
+    "SiglaAtivo": "EEEL3",
     "Valor": 421.01
   },
   {
     "CodAtivo": 354,
-    "SiglaAtivos": "EEEL4",
+    "SiglaAtivo": "EEEL4",
     "Valor": 410
   },
   {
     "CodAtivo": 355,
-    "SiglaAtivos": "EGIE3",
+    "SiglaAtivo": "EGIE3",
     "Valor": 42.17
   },
   {
     "CodAtivo": 356,
-    "SiglaAtivos": "EKTR3",
+    "SiglaAtivo": "EKTR3",
     "Valor": 30
   },
   {
     "CodAtivo": 357,
-    "SiglaAtivos": "EKTR4",
+    "SiglaAtivo": "EKTR4",
     "Valor": 29
   },
   {
     "CodAtivo": 358,
-    "SiglaAtivos": "ELCA3",
+    "SiglaAtivo": "ELCA3",
     "Valor": 24.7
   },
   {
     "CodAtivo": 359,
-    "SiglaAtivos": "ELCA4",
+    "SiglaAtivo": "ELCA4",
     "Valor": 20.2
   },
   {
     "CodAtivo": 360,
-    "SiglaAtivos": "ELEK3",
+    "SiglaAtivo": "ELEK3",
     "Valor": 19.11
   },
   {
     "CodAtivo": 361,
-    "SiglaAtivos": "ELEK4",
+    "SiglaAtivo": "ELEK4",
     "Valor": 26
   },
   {
     "CodAtivo": 362,
-    "SiglaAtivos": "ELET3",
+    "SiglaAtivo": "ELET3",
     "Valor": 44.63
   },
   {
     "CodAtivo": 363,
-    "SiglaAtivos": "ELET5",
+    "SiglaAtivo": "ELET5",
     "Valor": 64.5
   },
   {
     "CodAtivo": 364,
-    "SiglaAtivos": "ELET6",
+    "SiglaAtivo": "ELET6",
     "Valor": 45.67
   },
   {
     "CodAtivo": 365,
-    "SiglaAtivos": "ELEV3",
+    "SiglaAtivo": "ELEV3",
     "Valor": 24.3
   },
   {
     "CodAtivo": 366,
-    "SiglaAtivos": "ELMD3",
+    "SiglaAtivo": "ELMD3",
     "Valor": 10.5
   },
   {
     "CodAtivo": 367,
-    "SiglaAtivos": "ELPL3",
+    "SiglaAtivo": "ELPL3",
     "Valor": 49.32
   },
   {
     "CodAtivo": 368,
-    "SiglaAtivos": "ELPL4",
+    "SiglaAtivo": "ELPL4",
     "Valor": 15.98
   },
   {
     "CodAtivo": 369,
-    "SiglaAtivos": "ELPL5",
+    "SiglaAtivo": "ELPL5",
     "Valor": 30.5
   },
   {
     "CodAtivo": 370,
-    "SiglaAtivos": "ELPL6",
+    "SiglaAtivo": "ELPL6",
     "Valor": 30.2
   },
   {
     "CodAtivo": 371,
-    "SiglaAtivos": "ELUM3",
+    "SiglaAtivo": "ELUM3",
     "Valor": 36
   },
   {
     "CodAtivo": 372,
-    "SiglaAtivos": "ELUM4",
+    "SiglaAtivo": "ELUM4",
     "Valor": 47.9
   },
   {
     "CodAtivo": 373,
-    "SiglaAtivos": "EMAE4",
+    "SiglaAtivo": "EMAE4",
     "Valor": 34.25
   },
   {
     "CodAtivo": 374,
-    "SiglaAtivos": "EMBR3",
+    "SiglaAtivo": "EMBR3",
     "Valor": 11.87
   },
   {
     "CodAtivo": 375,
-    "SiglaAtivos": "ENAT3",
+    "SiglaAtivo": "ENAT3",
     "Valor": 16.23
   },
   {
     "CodAtivo": 376,
-    "SiglaAtivos": "ENBR3",
+    "SiglaAtivo": "ENBR3",
     "Valor": 21.29
   },
   {
     "CodAtivo": 377,
-    "SiglaAtivos": "ENER3",
+    "SiglaAtivo": "ENER3",
     "Valor": 10.5
   },
   {
     "CodAtivo": 378,
-    "SiglaAtivos": "ENER5",
+    "SiglaAtivo": "ENER5",
     "Valor": 6
   },
   {
     "CodAtivo": 379,
-    "SiglaAtivos": "ENER6",
+    "SiglaAtivo": "ENER6",
     "Valor": 12
   },
   {
     "CodAtivo": 380,
-    "SiglaAtivos": "ENEV3",
+    "SiglaAtivo": "ENEV3",
     "Valor": 14.35
   },
   {
     "CodAtivo": 381,
-    "SiglaAtivos": "ENGI11",
+    "SiglaAtivo": "ENGI11",
     "Valor": 40.65
   },
   {
     "CodAtivo": 382,
-    "SiglaAtivos": "ENGI3",
+    "SiglaAtivo": "ENGI3",
     "Valor": 12.93
   },
   {
     "CodAtivo": 383,
-    "SiglaAtivos": "ENGI4",
+    "SiglaAtivo": "ENGI4",
     "Valor": 6.89
   },
   {
     "CodAtivo": 384,
-    "SiglaAtivos": "ENJU3",
+    "SiglaAtivo": "ENJU3",
     "Valor": 1.18
   },
   {
     "CodAtivo": 385,
-    "SiglaAtivos": "ENMT3",
+    "SiglaAtivo": "ENMT3",
     "Valor": 82
   },
   {
     "CodAtivo": 386,
-    "SiglaAtivos": "ENMT4",
+    "SiglaAtivo": "ENMT4",
     "Valor": 81.89
   },
   {
     "CodAtivo": 387,
-    "SiglaAtivos": "EPAR3",
+    "SiglaAtivo": "EPAR3",
     "Valor": 12.01
   },
   {
     "CodAtivo": 388,
-    "SiglaAtivos": "EPAR4",
+    "SiglaAtivo": "EPAR4",
     "Valor": 3.3
   },
   {
     "CodAtivo": 389,
-    "SiglaAtivos": "EQMA3B",
+    "SiglaAtivo": "EQMA3B",
     "Valor": 37.06
   },
   {
     "CodAtivo": 390,
-    "SiglaAtivos": "EQMA5B",
+    "SiglaAtivo": "EQMA5B",
     "Valor": 0
   },
   {
     "CodAtivo": 391,
-    "SiglaAtivos": "EQMA6B",
+    "SiglaAtivo": "EQMA6B",
     "Valor": 0
   },
   {
     "CodAtivo": 392,
-    "SiglaAtivos": "EQPA3",
+    "SiglaAtivo": "EQPA3",
     "Valor": 5.04
   },
   {
     "CodAtivo": 393,
-    "SiglaAtivos": "EQPA5",
+    "SiglaAtivo": "EQPA5",
     "Valor": 6.7
   },
   {
     "CodAtivo": 394,
-    "SiglaAtivos": "EQPA6",
+    "SiglaAtivo": "EQPA6",
     "Valor": 10.69
   },
   {
     "CodAtivo": 395,
-    "SiglaAtivos": "EQPA7",
+    "SiglaAtivo": "EQPA7",
     "Valor": 6.62
   },
   {
     "CodAtivo": 396,
-    "SiglaAtivos": "EQTL3",
+    "SiglaAtivo": "EQTL3",
     "Valor": 23.05
   },
   {
     "CodAtivo": 397,
-    "SiglaAtivos": "ESCE3",
+    "SiglaAtivo": "ESCE3",
     "Valor": 172
   },
   {
     "CodAtivo": 398,
-    "SiglaAtivos": "ESPA3",
+    "SiglaAtivo": "ESPA3",
     "Valor": 2.98
   },
   {
     "CodAtivo": 399,
-    "SiglaAtivos": "ESTC11",
+    "SiglaAtivo": "ESTC11",
     "Valor": 23.5
   },
   {
     "CodAtivo": 400,
-    "SiglaAtivos": "ESTC4",
+    "SiglaAtivo": "ESTC4",
     "Valor": 0
   },
   {
     "CodAtivo": 401,
-    "SiglaAtivos": "ESTR3",
+    "SiglaAtivo": "ESTR3",
     "Valor": 40
   },
   {
     "CodAtivo": 402,
-    "SiglaAtivos": "ESTR4",
+    "SiglaAtivo": "ESTR4",
     "Valor": 53
   },
   {
     "CodAtivo": 403,
-    "SiglaAtivos": "ETER3",
+    "SiglaAtivo": "ETER3",
     "Valor": 11.34
   },
   {
     "CodAtivo": 404,
-    "SiglaAtivos": "ETER4",
+    "SiglaAtivo": "ETER4",
     "Valor": 9.85
   },
   {
     "CodAtivo": 405,
-    "SiglaAtivos": "EUCA3",
+    "SiglaAtivo": "EUCA3",
     "Valor": 13.39
   },
   {
     "CodAtivo": 406,
-    "SiglaAtivos": "EUCA4",
+    "SiglaAtivo": "EUCA4",
     "Valor": 8.41
   },
   {
     "CodAtivo": 407,
-    "SiglaAtivos": "EVEN3",
+    "SiglaAtivo": "EVEN3",
     "Valor": 4.73
   },
   {
     "CodAtivo": 408,
-    "SiglaAtivos": "EZTC3",
+    "SiglaAtivo": "EZTC3",
     "Valor": 16.37
   },
   {
     "CodAtivo": 409,
-    "SiglaAtivos": "FBMC3",
+    "SiglaAtivo": "FBMC3",
     "Valor": 80
   },
   {
     "CodAtivo": 410,
-    "SiglaAtivos": "FBMC4",
+    "SiglaAtivo": "FBMC4",
     "Valor": 1.96
   },
   {
     "CodAtivo": 411,
-    "SiglaAtivos": "FBRA4",
+    "SiglaAtivo": "FBRA4",
     "Valor": 34.58
   },
   {
     "CodAtivo": 412,
-    "SiglaAtivos": "FCAP3",
+    "SiglaAtivo": "FCAP3",
     "Valor": 0.62
   },
   {
     "CodAtivo": 413,
-    "SiglaAtivos": "FCAP4",
+    "SiglaAtivo": "FCAP4",
     "Valor": 0.7
   },
   {
     "CodAtivo": 414,
-    "SiglaAtivos": "FESA3",
+    "SiglaAtivo": "FESA3",
     "Valor": 48.99
   },
   {
     "CodAtivo": 415,
-    "SiglaAtivos": "FESA4",
+    "SiglaAtivo": "FESA4",
     "Valor": 44.31
   },
   {
     "CodAtivo": 416,
-    "SiglaAtivos": "FFTL3",
+    "SiglaAtivo": "FFTL3",
     "Valor": 25
   },
   {
     "CodAtivo": 417,
-    "SiglaAtivos": "FFTL4",
+    "SiglaAtivo": "FFTL4",
     "Valor": 25.06
   },
   {
     "CodAtivo": 418,
-    "SiglaAtivos": "FGUI3",
+    "SiglaAtivo": "FGUI3",
     "Valor": 12
   },
   {
     "CodAtivo": 419,
-    "SiglaAtivos": "FGUI4",
+    "SiglaAtivo": "FGUI4",
     "Valor": 0.38
   },
   {
     "CodAtivo": 420,
-    "SiglaAtivos": "FHER3",
+    "SiglaAtivo": "FHER3",
     "Valor": 18.35
   },
   {
     "CodAtivo": 421,
-    "SiglaAtivos": "FIBR3",
+    "SiglaAtivo": "FIBR3",
     "Valor": 66.3
   },
   {
     "CodAtivo": 422,
-    "SiglaAtivos": "FIGE3",
+    "SiglaAtivo": "FIGE3",
     "Valor": 43
   },
   {
     "CodAtivo": 423,
-    "SiglaAtivos": "FIGE4",
+    "SiglaAtivo": "FIGE4",
     "Valor": 38.01
   },
   {
     "CodAtivo": 424,
-    "SiglaAtivos": "FIQE3",
+    "SiglaAtivo": "FIQE3",
     "Valor": 4.3
   },
   {
     "CodAtivo": 425,
-    "SiglaAtivos": "FLCL3",
+    "SiglaAtivo": "FLCL3",
     "Valor": 11.5
   },
   {
     "CodAtivo": 426,
-    "SiglaAtivos": "FLCL5",
+    "SiglaAtivo": "FLCL5",
     "Valor": 12.5
   },
   {
     "CodAtivo": 427,
-    "SiglaAtivos": "FLCL6",
+    "SiglaAtivo": "FLCL6",
     "Valor": 9.91
   },
   {
     "CodAtivo": 428,
-    "SiglaAtivos": "FLRY3",
+    "SiglaAtivo": "FLRY3",
     "Valor": 15.27
   },
   {
     "CodAtivo": 429,
-    "SiglaAtivos": "FRAS3",
+    "SiglaAtivo": "FRAS3",
     "Valor": 11.24
   },
   {
     "CodAtivo": 430,
-    "SiglaAtivos": "FRAS4",
+    "SiglaAtivo": "FRAS4",
     "Valor": 5.79
   },
   {
     "CodAtivo": 431,
-    "SiglaAtivos": "FRIO3",
+    "SiglaAtivo": "FRIO3",
     "Valor": 41.5
   },
   {
     "CodAtivo": 432,
-    "SiglaAtivos": "FRTA3",
+    "SiglaAtivo": "FRTA3",
     "Valor": 3.67
   },
   {
     "CodAtivo": 433,
-    "SiglaAtivos": "FTRX3",
+    "SiglaAtivo": "FTRX3",
     "Valor": 0.13
   },
   {
     "CodAtivo": 434,
-    "SiglaAtivos": "FTRX4",
+    "SiglaAtivo": "FTRX4",
     "Valor": 0.11
   },
   {
     "CodAtivo": 435,
-    "SiglaAtivos": "GAFP3",
+    "SiglaAtivo": "GAFP3",
     "Valor": 0.12
   },
   {
     "CodAtivo": 436,
-    "SiglaAtivos": "GAFP4",
+    "SiglaAtivo": "GAFP4",
     "Valor": 0.05
   },
   {
     "CodAtivo": 437,
-    "SiglaAtivos": "GALO3",
+    "SiglaAtivo": "GALO3",
     "Valor": 0
   },
   {
     "CodAtivo": 438,
-    "SiglaAtivos": "GALO4",
+    "SiglaAtivo": "GALO4",
     "Valor": 0.25
   },
   {
     "CodAtivo": 439,
-    "SiglaAtivos": "GAZO3",
+    "SiglaAtivo": "GAZO3",
     "Valor": 3.4
   },
   {
     "CodAtivo": 440,
-    "SiglaAtivos": "GAZO4",
+    "SiglaAtivo": "GAZO4",
     "Valor": 2.32
   },
   {
     "CodAtivo": 441,
-    "SiglaAtivos": "GBIO33",
+    "SiglaAtivo": "GBIO33",
     "Valor": 10.4
   },
   {
     "CodAtivo": 442,
-    "SiglaAtivos": "GEPA3",
+    "SiglaAtivo": "GEPA3",
     "Valor": 22.64
   },
   {
     "CodAtivo": 443,
-    "SiglaAtivos": "GEPA4",
+    "SiglaAtivo": "GEPA4",
     "Valor": 24.75
   },
   {
     "CodAtivo": 444,
-    "SiglaAtivos": "GETI3",
+    "SiglaAtivo": "GETI3",
     "Valor": 14.45
   },
   {
     "CodAtivo": 445,
-    "SiglaAtivos": "GETI4",
+    "SiglaAtivo": "GETI4",
     "Valor": 14.46
   },
   {
     "CodAtivo": 446,
-    "SiglaAtivos": "GETT3",
+    "SiglaAtivo": "GETT3",
     "Valor": 2.3
   },
   {
     "CodAtivo": 447,
-    "SiglaAtivos": "GETT4",
+    "SiglaAtivo": "GETT4",
     "Valor": 2.3
   },
   {
     "CodAtivo": 448,
-    "SiglaAtivos": "GFSA3",
+    "SiglaAtivo": "GFSA3",
     "Valor": 1.18
   },
   {
     "CodAtivo": 449,
-    "SiglaAtivos": "GGBR3",
+    "SiglaAtivo": "GGBR3",
     "Valor": 19.19
   },
   {
     "CodAtivo": 450,
-    "SiglaAtivos": "GGBR4",
+    "SiglaAtivo": "GGBR4",
     "Valor": 23.81
   },
   {
     "CodAtivo": 451,
-    "SiglaAtivos": "GGPS3",
+    "SiglaAtivo": "GGPS3",
     "Valor": 11.59
   },
   {
     "CodAtivo": 452,
-    "SiglaAtivos": "GLOB4",
+    "SiglaAtivo": "GLOB4",
     "Valor": 30.49
   },
   {
     "CodAtivo": 453,
-    "SiglaAtivos": "GMAT3",
+    "SiglaAtivo": "GMAT3",
     "Valor": 4.23
   },
   {
     "CodAtivo": 454,
-    "SiglaAtivos": "GNDI3",
+    "SiglaAtivo": "GNDI3",
     "Valor": 66.95
   },
   {
     "CodAtivo": 455,
-    "SiglaAtivos": "GOAU3",
+    "SiglaAtivo": "GOAU3",
     "Valor": 9.46
   },
   {
     "CodAtivo": 456,
-    "SiglaAtivos": "GOAU4",
+    "SiglaAtivo": "GOAU4",
     "Valor": 9.94
   },
   {
     "CodAtivo": 457,
-    "SiglaAtivos": "GOLL4",
+    "SiglaAtivo": "GOLL4",
     "Valor": 7.97
   },
   {
     "CodAtivo": 458,
-    "SiglaAtivos": "GPAR3",
+    "SiglaAtivo": "GPAR3",
     "Valor": 28.5
   },
   {
     "CodAtivo": 459,
-    "SiglaAtivos": "GPIV33",
+    "SiglaAtivo": "GPIV33",
     "Valor": 4.02
   },
   {
     "CodAtivo": 460,
-    "SiglaAtivos": "GRND3",
+    "SiglaAtivo": "GRND3",
     "Valor": 6.84
   },
   {
     "CodAtivo": 461,
-    "SiglaAtivos": "GRNL4",
+    "SiglaAtivo": "GRNL4",
     "Valor": 470
   },
   {
     "CodAtivo": 462,
-    "SiglaAtivos": "GSHP3",
+    "SiglaAtivo": "GSHP3",
     "Valor": 23.8
   },
   {
     "CodAtivo": 463,
-    "SiglaAtivos": "GUAR3",
+    "SiglaAtivo": "GUAR3",
     "Valor": 7.46
   },
   {
     "CodAtivo": 464,
-    "SiglaAtivos": "GUAR4",
+    "SiglaAtivo": "GUAR4",
     "Valor": 151
   },
   {
     "CodAtivo": 465,
-    "SiglaAtivos": "GVTT3",
+    "SiglaAtivo": "GVTT3",
     "Valor": 57.7
   },
   {
     "CodAtivo": 466,
-    "SiglaAtivos": "HAGA3",
+    "SiglaAtivo": "HAGA3",
     "Valor": 2.6
   },
   {
     "CodAtivo": 467,
-    "SiglaAtivos": "HAGA4",
+    "SiglaAtivo": "HAGA4",
     "Valor": 1.19
   },
   {
     "CodAtivo": 468,
-    "SiglaAtivos": "HAPV3",
+    "SiglaAtivo": "HAPV3",
     "Valor": 5.95
   },
   {
     "CodAtivo": 469,
-    "SiglaAtivos": "HBOR3",
+    "SiglaAtivo": "HBOR3",
     "Valor": 2.43
   },
   {
     "CodAtivo": 470,
-    "SiglaAtivos": "HBRE3",
+    "SiglaAtivo": "HBRE3",
     "Valor": 4.3
   },
   {
     "CodAtivo": 471,
-    "SiglaAtivos": "HBSA3",
+    "SiglaAtivo": "HBSA3",
     "Valor": 2.08
   },
   {
     "CodAtivo": 472,
-    "SiglaAtivos": "HBTS5",
+    "SiglaAtivo": "HBTS5",
     "Valor": 30.61
   },
   {
     "CodAtivo": 473,
-    "SiglaAtivos": "HETA3",
+    "SiglaAtivo": "HETA3",
     "Valor": 96
   },
   {
     "CodAtivo": 474,
-    "SiglaAtivos": "HETA4",
+    "SiglaAtivo": "HETA4",
     "Valor": 5.3
   },
   {
     "CodAtivo": 475,
-    "SiglaAtivos": "HGTX3",
+    "SiglaAtivo": "HGTX3",
     "Valor": 37.5
   },
   {
     "CodAtivo": 476,
-    "SiglaAtivos": "HGTX4",
+    "SiglaAtivo": "HGTX4",
     "Valor": 9.6
   },
   {
     "CodAtivo": 477,
-    "SiglaAtivos": "HOOT4",
+    "SiglaAtivo": "HOOT4",
     "Valor": 1.79
   },
   {
     "CodAtivo": 478,
-    "SiglaAtivos": "HYPE3",
+    "SiglaAtivo": "HYPE3",
     "Valor": 39.93
   },
   {
     "CodAtivo": 479,
-    "SiglaAtivos": "ICPI3",
+    "SiglaAtivo": "ICPI3",
     "Valor": 0
   },
   {
     "CodAtivo": 480,
-    "SiglaAtivos": "IDVL11",
+    "SiglaAtivo": "IDVL11",
     "Valor": 140
   },
   {
     "CodAtivo": 481,
-    "SiglaAtivos": "IDVL3",
+    "SiglaAtivo": "IDVL3",
     "Valor": 2.16
   },
   {
     "CodAtivo": 482,
-    "SiglaAtivos": "IDVL4",
+    "SiglaAtivo": "IDVL4",
     "Valor": 2.67
   },
   {
     "CodAtivo": 483,
-    "SiglaAtivos": "IENG3",
+    "SiglaAtivo": "IENG3",
     "Valor": 0.15
   },
   {
     "CodAtivo": 484,
-    "SiglaAtivos": "IENG5",
+    "SiglaAtivo": "IENG5",
     "Valor": 0.12
   },
   {
     "CodAtivo": 485,
-    "SiglaAtivos": "IFCM3",
+    "SiglaAtivo": "IFCM3",
     "Valor": 5.3
   },
   {
     "CodAtivo": 486,
-    "SiglaAtivos": "IGBR3",
+    "SiglaAtivo": "IGBR3",
     "Valor": 27.9
   },
   {
     "CodAtivo": 487,
-    "SiglaAtivos": "IGBR5",
+    "SiglaAtivo": "IGBR5",
     "Valor": 18.9
   },
   {
     "CodAtivo": 488,
-    "SiglaAtivos": "IGBR6",
+    "SiglaAtivo": "IGBR6",
     "Valor": 19
   },
   {
     "CodAtivo": 489,
-    "SiglaAtivos": "IGTA3",
+    "SiglaAtivo": "IGTA3",
     "Valor": 33.13
   },
   {
     "CodAtivo": 490,
-    "SiglaAtivos": "IGTI11",
+    "SiglaAtivo": "IGTI11",
     "Valor": 18.87
   },
   {
     "CodAtivo": 491,
-    "SiglaAtivos": "IGTI3",
+    "SiglaAtivo": "IGTI3",
     "Valor": 2.44
   },
   {
     "CodAtivo": 492,
-    "SiglaAtivos": "IGUA3",
+    "SiglaAtivo": "IGUA3",
     "Valor": 8.15
   },
   {
     "CodAtivo": 493,
-    "SiglaAtivos": "IGUA5",
+    "SiglaAtivo": "IGUA5",
     "Valor": 7.98
   },
   {
     "CodAtivo": 494,
-    "SiglaAtivos": "IGUA6",
+    "SiglaAtivo": "IGUA6",
     "Valor": 8.07
   },
   {
     "CodAtivo": 495,
-    "SiglaAtivos": "ILLS4",
+    "SiglaAtivo": "ILLS4",
     "Valor": 100.01
   },
   {
     "CodAtivo": 496,
-    "SiglaAtivos": "ILMD3",
+    "SiglaAtivo": "ILMD3",
     "Valor": 29
   },
   {
     "CodAtivo": 497,
-    "SiglaAtivos": "ILMD4",
+    "SiglaAtivo": "ILMD4",
     "Valor": 30
   },
   {
     "CodAtivo": 498,
-    "SiglaAtivos": "IMBI3",
+    "SiglaAtivo": "IMBI3",
     "Valor": 5.01
   },
   {
     "CodAtivo": 499,
-    "SiglaAtivos": "IMBI4",
+    "SiglaAtivo": "IMBI4",
     "Valor": 3.5
   },
   {
     "CodAtivo": 500,
-    "SiglaAtivos": "IMCH3",
+    "SiglaAtivo": "IMCH3",
     "Valor": 6.39
   },
   {
     "CodAtivo": 501,
-    "SiglaAtivos": "INEP3",
+    "SiglaAtivo": "INEP3",
     "Valor": 0.78
   },
   {
     "CodAtivo": 502,
-    "SiglaAtivos": "INEP4",
+    "SiglaAtivo": "INEP4",
     "Valor": 0.76
   },
   {
     "CodAtivo": 503,
-    "SiglaAtivos": "INHA3",
+    "SiglaAtivo": "INHA3",
     "Valor": 0
   },
   {
     "CodAtivo": 504,
-    "SiglaAtivos": "INTB3",
+    "SiglaAtivo": "INTB3",
     "Valor": 25.79
   },
   {
     "CodAtivo": 505,
-    "SiglaAtivos": "IRBR3",
+    "SiglaAtivo": "IRBR3",
     "Valor": 2
   },
   {
     "CodAtivo": 506,
-    "SiglaAtivos": "ITEC3",
+    "SiglaAtivo": "ITEC3",
     "Valor": 40.1
   },
   {
     "CodAtivo": 507,
-    "SiglaAtivos": "ITSA3",
+    "SiglaAtivo": "ITSA3",
     "Valor": 8.94
   },
   {
     "CodAtivo": 508,
-    "SiglaAtivos": "ITSA4",
+    "SiglaAtivo": "ITSA4",
     "Valor": 8.47
   },
   {
     "CodAtivo": 509,
-    "SiglaAtivos": "ITUB3",
+    "SiglaAtivo": "ITUB3",
     "Valor": 19.98
   },
   {
     "CodAtivo": 510,
-    "SiglaAtivos": "ITUB4",
+    "SiglaAtivo": "ITUB4",
     "Valor": 23.26
   },
   {
     "CodAtivo": 511,
-    "SiglaAtivos": "IVTT3",
+    "SiglaAtivo": "IVTT3",
     "Valor": 0
   },
   {
     "CodAtivo": 512,
-    "SiglaAtivos": "JALL3",
+    "SiglaAtivo": "JALL3",
     "Valor": 7.25
   },
   {
     "CodAtivo": 513,
-    "SiglaAtivos": "JBDU3",
+    "SiglaAtivo": "JBDU3",
     "Valor": 0
   },
   {
     "CodAtivo": 514,
-    "SiglaAtivos": "JBSS3",
+    "SiglaAtivo": "JBSS3",
     "Valor": 30.73
   },
   {
     "CodAtivo": 515,
-    "SiglaAtivos": "JFAB4",
+    "SiglaAtivo": "JFAB4",
     "Valor": 0.06
   },
   {
     "CodAtivo": 516,
-    "SiglaAtivos": "JFEN3",
+    "SiglaAtivo": "JFEN3",
     "Valor": 0.85
   },
   {
     "CodAtivo": 517,
-    "SiglaAtivos": "JHSF3",
+    "SiglaAtivo": "JHSF3",
     "Valor": 5.6
   },
   {
     "CodAtivo": 518,
-    "SiglaAtivos": "JOPA3",
+    "SiglaAtivo": "JOPA3",
     "Valor": 21.6
   },
   {
     "CodAtivo": 519,
-    "SiglaAtivos": "JOPA4",
+    "SiglaAtivo": "JOPA4",
     "Valor": 35.09
   },
   {
     "CodAtivo": 520,
-    "SiglaAtivos": "JPSA3",
+    "SiglaAtivo": "JPSA3",
     "Valor": 29.02
   },
   {
     "CodAtivo": 521,
-    "SiglaAtivos": "JSLG3",
+    "SiglaAtivo": "JSLG3",
     "Valor": 5
   },
   {
     "CodAtivo": 522,
-    "SiglaAtivos": "KEPL3",
+    "SiglaAtivo": "KEPL3",
     "Valor": 17.66
   },
   {
     "CodAtivo": 523,
-    "SiglaAtivos": "KLBN11",
+    "SiglaAtivo": "KLBN11",
     "Valor": 18.9
   },
   {
     "CodAtivo": 524,
-    "SiglaAtivos": "KLBN3",
+    "SiglaAtivo": "KLBN3",
     "Valor": 4.17
   },
   {
     "CodAtivo": 525,
-    "SiglaAtivos": "KLBN4",
+    "SiglaAtivo": "KLBN4",
     "Valor": 3.7
   },
   {
     "CodAtivo": 526,
-    "SiglaAtivos": "KROT11",
+    "SiglaAtivo": "KROT11",
     "Valor": 40
   },
   {
     "CodAtivo": 527,
-    "SiglaAtivos": "KROT4",
+    "SiglaAtivo": "KROT4",
     "Valor": 5.12
   },
   {
     "CodAtivo": 528,
-    "SiglaAtivos": "KRSA3",
+    "SiglaAtivo": "KRSA3",
     "Valor": 3.11
   },
   {
     "CodAtivo": 529,
-    "SiglaAtivos": "KSSA3",
+    "SiglaAtivo": "KSSA3",
     "Valor": 5.33
   },
   {
     "CodAtivo": 530,
-    "SiglaAtivos": "LAME3",
+    "SiglaAtivo": "LAME3",
     "Valor": 6.62
   },
   {
     "CodAtivo": 531,
-    "SiglaAtivos": "LAME4",
+    "SiglaAtivo": "LAME4",
     "Valor": 6.55
   },
   {
     "CodAtivo": 532,
-    "SiglaAtivos": "LAND3",
+    "SiglaAtivo": "LAND3",
     "Valor": 0
   },
   {
     "CodAtivo": 533,
-    "SiglaAtivos": "LATM11",
+    "SiglaAtivo": "LATM11",
     "Valor": 28.65
   },
   {
     "CodAtivo": 534,
-    "SiglaAtivos": "LATS3",
+    "SiglaAtivo": "LATS3",
     "Valor": 22
   },
   {
     "CodAtivo": 535,
-    "SiglaAtivos": "LAVV3",
+    "SiglaAtivo": "LAVV3",
     "Valor": 4.6
   },
   {
     "CodAtivo": 536,
-    "SiglaAtivos": "LCAM3",
+    "SiglaAtivo": "LCAM3",
     "Valor": 24.15
   },
   {
     "CodAtivo": 537,
-    "SiglaAtivos": "LCSA3",
+    "SiglaAtivo": "LCSA3",
     "Valor": 12.5
   },
   {
     "CodAtivo": 538,
-    "SiglaAtivos": "LCSA4",
+    "SiglaAtivo": "LCSA4",
     "Valor": 35.09
   },
   {
     "CodAtivo": 539,
-    "SiglaAtivos": "LECO3",
+    "SiglaAtivo": "LECO3",
     "Valor": 0
   },
   {
     "CodAtivo": 540,
-    "SiglaAtivos": "LECO4",
+    "SiglaAtivo": "LECO4",
     "Valor": 1.46
   },
   {
     "CodAtivo": 541,
-    "SiglaAtivos": "LETO3",
+    "SiglaAtivo": "LETO3",
     "Valor": 0.8
   },
   {
     "CodAtivo": 542,
-    "SiglaAtivos": "LETO5",
+    "SiglaAtivo": "LETO5",
     "Valor": 2.06
   },
   {
     "CodAtivo": 543,
-    "SiglaAtivos": "LEVE3",
+    "SiglaAtivo": "LEVE3",
     "Valor": 23.4
   },
   {
     "CodAtivo": 544,
-    "SiglaAtivos": "LEVE4",
+    "SiglaAtivo": "LEVE4",
     "Valor": 44.49
   },
   {
     "CodAtivo": 545,
-    "SiglaAtivos": "LFFE3",
+    "SiglaAtivo": "LFFE3",
     "Valor": 3.11
   },
   {
     "CodAtivo": 546,
-    "SiglaAtivos": "LFFE4",
+    "SiglaAtivo": "LFFE4",
     "Valor": 3.89
   },
   {
     "CodAtivo": 547,
-    "SiglaAtivos": "LGLO4",
+    "SiglaAtivo": "LGLO4",
     "Valor": 100
   },
   {
     "CodAtivo": 548,
-    "SiglaAtivos": "LIGH3",
+    "SiglaAtivo": "LIGH3",
     "Valor": 16.66
   },
   {
     "CodAtivo": 549,
-    "SiglaAtivos": "LIGT3",
+    "SiglaAtivo": "LIGT3",
     "Valor": 5.62
   },
   {
     "CodAtivo": 550,
-    "SiglaAtivos": "LINX3",
+    "SiglaAtivo": "LINX3",
     "Valor": 37.4
   },
   {
     "CodAtivo": 551,
-    "SiglaAtivos": "LIPR3",
+    "SiglaAtivo": "LIPR3",
     "Valor": 66.8
   },
   {
     "CodAtivo": 552,
-    "SiglaAtivos": "LIXC3",
+    "SiglaAtivo": "LIXC3",
     "Valor": 1.75
   },
   {
     "CodAtivo": 553,
-    "SiglaAtivos": "LIXC4",
+    "SiglaAtivo": "LIXC4",
     "Valor": 1.45
   },
   {
     "CodAtivo": 554,
-    "SiglaAtivos": "LJQQ3",
+    "SiglaAtivo": "LJQQ3",
     "Valor": 5.67
   },
   {
     "CodAtivo": 555,
-    "SiglaAtivos": "LLIS3",
+    "SiglaAtivo": "LLIS3",
     "Valor": 1.47
   },
   {
     "CodAtivo": 556,
-    "SiglaAtivos": "LOGG3",
+    "SiglaAtivo": "LOGG3",
     "Valor": 18.93
   },
   {
     "CodAtivo": 557,
-    "SiglaAtivos": "LOGN3",
+    "SiglaAtivo": "LOGN3",
     "Valor": 30.47
   },
   {
     "CodAtivo": 558,
-    "SiglaAtivos": "LPSB3",
+    "SiglaAtivo": "LPSB3",
     "Valor": 2.84
   },
   {
     "CodAtivo": 559,
-    "SiglaAtivos": "LREN3",
+    "SiglaAtivo": "LREN3",
     "Valor": 24.42
   },
   {
     "CodAtivo": 560,
-    "SiglaAtivos": "LREN4",
+    "SiglaAtivo": "LREN4",
     "Valor": 105
   },
   {
     "CodAtivo": 561,
-    "SiglaAtivos": "LUPA3",
+    "SiglaAtivo": "LUPA3",
     "Valor": 3.19
   },
   {
     "CodAtivo": 562,
-    "SiglaAtivos": "LUXM3",
+    "SiglaAtivo": "LUXM3",
     "Valor": 10
   },
   {
     "CodAtivo": 563,
-    "SiglaAtivos": "LUXM4",
+    "SiglaAtivo": "LUXM4",
     "Valor": 79.48
   },
   {
     "CodAtivo": 564,
-    "SiglaAtivos": "LVTC3",
+    "SiglaAtivo": "LVTC3",
     "Valor": 8.26
   },
   {
     "CodAtivo": 565,
-    "SiglaAtivos": "LWSA3",
+    "SiglaAtivo": "LWSA3",
     "Valor": 6.74
   },
   {
     "CodAtivo": 566,
-    "SiglaAtivos": "MAGG3",
+    "SiglaAtivo": "MAGG3",
     "Valor": 59.4
   },
   {
     "CodAtivo": 567,
-    "SiglaAtivos": "MAGS3",
+    "SiglaAtivo": "MAGS3",
     "Valor": 62.45
   },
   {
     "CodAtivo": 568,
-    "SiglaAtivos": "MAPT3",
+    "SiglaAtivo": "MAPT3",
     "Valor": 37
   },
   {
     "CodAtivo": 569,
-    "SiglaAtivos": "MAPT4",
+    "SiglaAtivo": "MAPT4",
     "Valor": 14.17
   },
   {
     "CodAtivo": 570,
-    "SiglaAtivos": "MARI3",
+    "SiglaAtivo": "MARI3",
     "Valor": 2.93
   },
   {
     "CodAtivo": 571,
-    "SiglaAtivos": "MATD3",
+    "SiglaAtivo": "MATD3",
     "Valor": 8.31
   },
   {
     "CodAtivo": 572,
-    "SiglaAtivos": "MBLY3",
+    "SiglaAtivo": "MBLY3",
     "Valor": 2.32
   },
   {
     "CodAtivo": 573,
-    "SiglaAtivos": "MDIA3",
+    "SiglaAtivo": "MDIA3",
     "Valor": 30.85
   },
   {
     "CodAtivo": 574,
-    "SiglaAtivos": "MDNE3",
+    "SiglaAtivo": "MDNE3",
     "Valor": 5.08
   },
   {
     "CodAtivo": 575,
-    "SiglaAtivos": "MEAL3",
+    "SiglaAtivo": "MEAL3",
     "Valor": 1.7
   },
   {
     "CodAtivo": 576,
-    "SiglaAtivos": "MEDI3",
+    "SiglaAtivo": "MEDI3",
     "Valor": 11.55
   },
   {
     "CodAtivo": 577,
-    "SiglaAtivos": "MEGA3",
+    "SiglaAtivo": "MEGA3",
     "Valor": 11.91
   },
   {
     "CodAtivo": 578,
-    "SiglaAtivos": "MELK3",
+    "SiglaAtivo": "MELK3",
     "Valor": 3.75
   },
   {
     "CodAtivo": 579,
-    "SiglaAtivos": "MEND5",
+    "SiglaAtivo": "MEND5",
     "Valor": 6.5
   },
   {
     "CodAtivo": 580,
-    "SiglaAtivos": "MEND6",
+    "SiglaAtivo": "MEND6",
     "Valor": 9.5
   },
   {
     "CodAtivo": 581,
-    "SiglaAtivos": "MERC3",
+    "SiglaAtivo": "MERC3",
     "Valor": 24.1
   },
   {
     "CodAtivo": 582,
-    "SiglaAtivos": "MERC4",
+    "SiglaAtivo": "MERC4",
     "Valor": 8.7
   },
   {
     "CodAtivo": 583,
-    "SiglaAtivos": "MGEL3",
+    "SiglaAtivo": "MGEL3",
     "Valor": 25
   },
   {
     "CodAtivo": 584,
-    "SiglaAtivos": "MGEL4",
+    "SiglaAtivo": "MGEL4",
     "Valor": 14.65
   },
   {
     "CodAtivo": 585,
-    "SiglaAtivos": "MGLU3",
+    "SiglaAtivo": "MGLU3",
     "Valor": 2.86
   },
   {
     "CodAtivo": 586,
-    "SiglaAtivos": "MILK33",
+    "SiglaAtivo": "MILK33",
     "Valor": 0.3
   },
   {
     "CodAtivo": 587,
-    "SiglaAtivos": "MILS3",
+    "SiglaAtivo": "MILS3",
     "Valor": 7.16
   },
   {
     "CodAtivo": 588,
-    "SiglaAtivos": "MLAS3",
+    "SiglaAtivo": "MLAS3",
     "Valor": 4.54
   },
   {
     "CodAtivo": 589,
-    "SiglaAtivos": "MLFT4",
+    "SiglaAtivo": "MLFT4",
     "Valor": 22.39
   },
   {
     "CodAtivo": 590,
-    "SiglaAtivos": "MLPA12",
+    "SiglaAtivo": "MLPA12",
     "Valor": 40
   },
   {
     "CodAtivo": 591,
-    "SiglaAtivos": "MLPA3",
+    "SiglaAtivo": "MLPA3",
     "Valor": 0
   },
   {
     "CodAtivo": 592,
-    "SiglaAtivos": "MLPA4",
+    "SiglaAtivo": "MLPA4",
     "Valor": 45
   },
   {
     "CodAtivo": 593,
-    "SiglaAtivos": "MMAQ3",
+    "SiglaAtivo": "MMAQ3",
     "Valor": 0
   },
   {
     "CodAtivo": 594,
-    "SiglaAtivos": "MMAQ4",
+    "SiglaAtivo": "MMAQ4",
     "Valor": 200.06
   },
   {
     "CodAtivo": 595,
-    "SiglaAtivos": "MMXM3",
+    "SiglaAtivo": "MMXM3",
     "Valor": 14
   },
   {
     "CodAtivo": 596,
-    "SiglaAtivos": "MNDL3",
+    "SiglaAtivo": "MNDL3",
     "Valor": 26.94
   },
   {
     "CodAtivo": 597,
-    "SiglaAtivos": "MNDL4",
+    "SiglaAtivo": "MNDL4",
     "Valor": 0.38
   },
   {
     "CodAtivo": 598,
-    "SiglaAtivos": "MNPR3",
+    "SiglaAtivo": "MNPR3",
     "Valor": 6.68
   },
   {
     "CodAtivo": 599,
-    "SiglaAtivos": "MNPR4",
+    "SiglaAtivo": "MNPR4",
     "Valor": 4.63
   },
   {
     "CodAtivo": 600,
-    "SiglaAtivos": "MNSA3",
+    "SiglaAtivo": "MNSA3",
     "Valor": 0.42
   },
   {
     "CodAtivo": 601,
-    "SiglaAtivos": "MNSA4",
+    "SiglaAtivo": "MNSA4",
     "Valor": 0.47
   },
   {
     "CodAtivo": 602,
-    "SiglaAtivos": "MOAR3",
+    "SiglaAtivo": "MOAR3",
     "Valor": 461.5
   },
   {
     "CodAtivo": 603,
-    "SiglaAtivos": "MODL11",
+    "SiglaAtivo": "MODL11",
     "Valor": 8.35
   },
   {
     "CodAtivo": 604,
-    "SiglaAtivos": "MODL3",
+    "SiglaAtivo": "MODL3",
     "Valor": 3.12
   },
   {
     "CodAtivo": 605,
-    "SiglaAtivos": "MODL4",
+    "SiglaAtivo": "MODL4",
     "Valor": 2.53
   },
   {
     "CodAtivo": 606,
-    "SiglaAtivos": "MOSI3",
+    "SiglaAtivo": "MOSI3",
     "Valor": 8.24
   },
   {
     "CodAtivo": 607,
-    "SiglaAtivos": "MOVI3",
+    "SiglaAtivo": "MOVI3",
     "Valor": 12.77
   },
   {
     "CodAtivo": 608,
-    "SiglaAtivos": "MPLU3",
+    "SiglaAtivo": "MPLU3",
     "Valor": 26.8
   },
   {
     "CodAtivo": 609,
-    "SiglaAtivos": "MRFG3",
+    "SiglaAtivo": "MRFG3",
     "Valor": 13.39
   },
   {
     "CodAtivo": 610,
-    "SiglaAtivos": "MRSA3B",
+    "SiglaAtivo": "MRSA3B",
     "Valor": 28.06
   },
   {
     "CodAtivo": 611,
-    "SiglaAtivos": "MRSA3B",
+    "SiglaAtivo": "MRSA3B",
     "Valor": 28.06
   },
   {
     "CodAtivo": 612,
-    "SiglaAtivos": "MRSA5B",
+    "SiglaAtivo": "MRSA5B",
     "Valor": 25.06
   },
   {
     "CodAtivo": 613,
-    "SiglaAtivos": "MRSA5B",
+    "SiglaAtivo": "MRSA5B",
     "Valor": 25.06
   },
   {
     "CodAtivo": 614,
-    "SiglaAtivos": "MRSA6B",
+    "SiglaAtivo": "MRSA6B",
     "Valor": 20.5
   },
   {
     "CodAtivo": 615,
-    "SiglaAtivos": "MRSA6B",
+    "SiglaAtivo": "MRSA6B",
     "Valor": 20.5
   },
   {
     "CodAtivo": 616,
-    "SiglaAtivos": "MRSL3",
+    "SiglaAtivo": "MRSL3",
     "Valor": 3.3
   },
   {
     "CodAtivo": 617,
-    "SiglaAtivos": "MRSL4",
+    "SiglaAtivo": "MRSL4",
     "Valor": 3.05
   },
   {
     "CodAtivo": 618,
-    "SiglaAtivos": "MRVE3",
+    "SiglaAtivo": "MRVE3",
     "Valor": 8.68
   },
   {
     "CodAtivo": 619,
-    "SiglaAtivos": "MSAN3",
+    "SiglaAtivo": "MSAN3",
     "Valor": 6.44
   },
   {
     "CodAtivo": 620,
-    "SiglaAtivos": "MSAN4",
+    "SiglaAtivo": "MSAN4",
     "Valor": 6.44
   },
   {
     "CodAtivo": 621,
-    "SiglaAtivos": "MSPA3",
+    "SiglaAtivo": "MSPA3",
     "Valor": 50.01
   },
   {
     "CodAtivo": 622,
-    "SiglaAtivos": "MSPA4",
+    "SiglaAtivo": "MSPA4",
     "Valor": 46.5
   },
   {
     "CodAtivo": 623,
-    "SiglaAtivos": "MTBR3",
+    "SiglaAtivo": "MTBR3",
     "Valor": 0.99
   },
   {
     "CodAtivo": 624,
-    "SiglaAtivos": "MTBR4",
+    "SiglaAtivo": "MTBR4",
     "Valor": 1.05
   },
   {
     "CodAtivo": 625,
-    "SiglaAtivos": "MTIG3",
+    "SiglaAtivo": "MTIG3",
     "Valor": 5.21
   },
   {
     "CodAtivo": 626,
-    "SiglaAtivos": "MTIG4",
+    "SiglaAtivo": "MTIG4",
     "Valor": 40
   },
   {
     "CodAtivo": 627,
-    "SiglaAtivos": "MTRE3",
+    "SiglaAtivo": "MTRE3",
     "Valor": 4.69
   },
   {
     "CodAtivo": 628,
-    "SiglaAtivos": "MTSA4",
+    "SiglaAtivo": "MTSA4",
     "Valor": 37.5
   },
   {
     "CodAtivo": 629,
-    "SiglaAtivos": "MULT3",
+    "SiglaAtivo": "MULT3",
     "Valor": 23.98
   },
   {
     "CodAtivo": 630,
-    "SiglaAtivos": "MWET3",
+    "SiglaAtivo": "MWET3",
     "Valor": 16.05
   },
   {
     "CodAtivo": 631,
-    "SiglaAtivos": "MWET4",
+    "SiglaAtivo": "MWET4",
     "Valor": 9.4
   },
   {
     "CodAtivo": 632,
-    "SiglaAtivos": "MYPK3",
+    "SiglaAtivo": "MYPK3",
     "Valor": 15.46
   },
   {
     "CodAtivo": 633,
-    "SiglaAtivos": "MYPK4",
+    "SiglaAtivo": "MYPK4",
     "Valor": 31.79
   },
   {
     "CodAtivo": 634,
-    "SiglaAtivos": "NAFG3",
+    "SiglaAtivo": "NAFG3",
     "Valor": 64.37
   },
   {
     "CodAtivo": 635,
-    "SiglaAtivos": "NAFG4",
+    "SiglaAtivo": "NAFG4",
     "Valor": 64.42
   },
   {
     "CodAtivo": 636,
-    "SiglaAtivos": "NATU3",
+    "SiglaAtivo": "NATU3",
     "Valor": 36.86
   },
   {
     "CodAtivo": 637,
-    "SiglaAtivos": "NEOE3",
+    "SiglaAtivo": "NEOE3",
     "Valor": 14.37
   },
   {
     "CodAtivo": 638,
-    "SiglaAtivos": "NETC3",
+    "SiglaAtivo": "NETC3",
     "Valor": 38.5
   },
   {
     "CodAtivo": 639,
-    "SiglaAtivos": "NETC4",
+    "SiglaAtivo": "NETC4",
     "Valor": 40
   },
   {
     "CodAtivo": 640,
-    "SiglaAtivos": "NEXP3",
+    "SiglaAtivo": "NEXP3",
     "Valor": 0.52
   },
   {
     "CodAtivo": 641,
-    "SiglaAtivos": "NGRD3",
+    "SiglaAtivo": "NGRD3",
     "Valor": 2.08
   },
   {
     "CodAtivo": 642,
-    "SiglaAtivos": "NINJ3",
+    "SiglaAtivo": "NINJ3",
     "Valor": 2.7
   },
   {
     "CodAtivo": 643,
-    "SiglaAtivos": "NORD3",
+    "SiglaAtivo": "NORD3",
     "Valor": 6.3
   },
   {
     "CodAtivo": 644,
-    "SiglaAtivos": "NTCO3",
+    "SiglaAtivo": "NTCO3",
     "Valor": 15.84
   },
   {
     "CodAtivo": 645,
-    "SiglaAtivos": "NUTR3",
+    "SiglaAtivo": "NUTR3",
     "Valor": 250
   },
   {
     "CodAtivo": 646,
-    "SiglaAtivos": "ODER3",
+    "SiglaAtivo": "ODER3",
     "Valor": 0
   },
   {
     "CodAtivo": 647,
-    "SiglaAtivos": "ODER4",
+    "SiglaAtivo": "ODER4",
     "Valor": 190
   },
   {
     "CodAtivo": 648,
-    "SiglaAtivos": "ODPV3",
+    "SiglaAtivo": "ODPV3",
     "Valor": 9.53
   },
   {
     "CodAtivo": 649,
-    "SiglaAtivos": "OFSA3",
+    "SiglaAtivo": "OFSA3",
     "Valor": 21.05
   },
   {
     "CodAtivo": 650,
-    "SiglaAtivos": "OGXP3",
+    "SiglaAtivo": "OGXP3",
     "Valor": 1.63
   },
   {
     "CodAtivo": 651,
-    "SiglaAtivos": "OIBR3",
+    "SiglaAtivo": "OIBR3",
     "Valor": 0.51
   },
   {
     "CodAtivo": 652,
-    "SiglaAtivos": "OIBR4",
+    "SiglaAtivo": "OIBR4",
     "Valor": 1
   },
   {
     "CodAtivo": 653,
-    "SiglaAtivos": "OMGE3",
+    "SiglaAtivo": "OMGE3",
     "Valor": 27.57
   },
   {
     "CodAtivo": 654,
-    "SiglaAtivos": "ONCO3",
+    "SiglaAtivo": "ONCO3",
     "Valor": 5.63
   },
   {
     "CodAtivo": 655,
-    "SiglaAtivos": "OPCT3",
+    "SiglaAtivo": "OPCT3",
     "Valor": 1.97
   },
   {
     "CodAtivo": 656,
-    "SiglaAtivos": "ORVR3",
+    "SiglaAtivo": "ORVR3",
     "Valor": 27.11
   },
   {
     "CodAtivo": 657,
-    "SiglaAtivos": "OSAO4",
+    "SiglaAtivo": "OSAO4",
     "Valor": 8.98
   },
   {
     "CodAtivo": 658,
-    "SiglaAtivos": "OSXB3",
+    "SiglaAtivo": "OSXB3",
     "Valor": 5.05
   },
   {
     "CodAtivo": 659,
-    "SiglaAtivos": "PALF11",
+    "SiglaAtivo": "PALF11",
     "Valor": 125
   },
   {
     "CodAtivo": 660,
-    "SiglaAtivos": "PALF3",
+    "SiglaAtivo": "PALF3",
     "Valor": 279.9
   },
   {
     "CodAtivo": 661,
-    "SiglaAtivos": "PALF5",
+    "SiglaAtivo": "PALF5",
     "Valor": 236.6
   },
   {
     "CodAtivo": 662,
-    "SiglaAtivos": "PARD3",
+    "SiglaAtivo": "PARD3",
     "Valor": 19.59
   },
   {
     "CodAtivo": 663,
-    "SiglaAtivos": "PATI3",
+    "SiglaAtivo": "PATI3",
     "Valor": 69.47
   },
   {
     "CodAtivo": 664,
-    "SiglaAtivos": "PATI4",
+    "SiglaAtivo": "PATI4",
     "Valor": 53.98
   },
   {
     "CodAtivo": 665,
-    "SiglaAtivos": "PCAR3",
+    "SiglaAtivo": "PCAR3",
     "Valor": 16.9
   },
   {
     "CodAtivo": 666,
-    "SiglaAtivos": "PCAR4",
+    "SiglaAtivo": "PCAR4",
     "Valor": 72.11
   },
   {
     "CodAtivo": 667,
-    "SiglaAtivos": "PCAR5",
+    "SiglaAtivo": "PCAR5",
     "Valor": 67.12
   },
   {
     "CodAtivo": 668,
-    "SiglaAtivos": "PDGR3",
+    "SiglaAtivo": "PDGR3",
     "Valor": 0.86
   },
   {
     "CodAtivo": 669,
-    "SiglaAtivos": "PDTC3",
+    "SiglaAtivo": "PDTC3",
     "Valor": 3.21
   },
   {
     "CodAtivo": 670,
-    "SiglaAtivos": "PEAB3",
+    "SiglaAtivo": "PEAB3",
     "Valor": 52
   },
   {
     "CodAtivo": 671,
-    "SiglaAtivos": "PEAB4",
+    "SiglaAtivo": "PEAB4",
     "Valor": 86.98
   },
   {
     "CodAtivo": 672,
-    "SiglaAtivos": "PEFX3",
+    "SiglaAtivo": "PEFX3",
     "Valor": 19
   },
   {
     "CodAtivo": 673,
-    "SiglaAtivos": "PEFX5",
+    "SiglaAtivo": "PEFX5",
     "Valor": 19
   },
   {
     "CodAtivo": 674,
-    "SiglaAtivos": "PETR3",
+    "SiglaAtivo": "PETR3",
     "Valor": 31.93
   },
   {
     "CodAtivo": 675,
-    "SiglaAtivos": "PETR4",
+    "SiglaAtivo": "PETR4",
     "Valor": 29.33
   },
   {
     "CodAtivo": 676,
-    "SiglaAtivos": "PETZ3",
+    "SiglaAtivo": "PETZ3",
     "Valor": 9.87
   },
   {
     "CodAtivo": 677,
-    "SiglaAtivos": "PFRM3",
+    "SiglaAtivo": "PFRM3",
     "Valor": 3.23
   },
   {
     "CodAtivo": 678,
-    "SiglaAtivos": "PGMN3",
+    "SiglaAtivo": "PGMN3",
     "Valor": 4.4
   },
   {
     "CodAtivo": 679,
-    "SiglaAtivos": "PINE3",
+    "SiglaAtivo": "PINE3",
     "Valor": 0
   },
   {
     "CodAtivo": 680,
-    "SiglaAtivos": "PINE4",
+    "SiglaAtivo": "PINE4",
     "Valor": 1.12
   },
   {
     "CodAtivo": 681,
-    "SiglaAtivos": "PITI4",
+    "SiglaAtivo": "PITI4",
     "Valor": 1.28
   },
   {
     "CodAtivo": 682,
-    "SiglaAtivos": "PLAS3",
+    "SiglaAtivo": "PLAS3",
     "Valor": 6.45
   },
   {
     "CodAtivo": 683,
-    "SiglaAtivos": "PLDN4",
+    "SiglaAtivo": "PLDN4",
     "Valor": 486
   },
   {
     "CodAtivo": 684,
-    "SiglaAtivos": "PLIM4",
+    "SiglaAtivo": "PLIM4",
     "Valor": 0.59
   },
   {
     "CodAtivo": 685,
-    "SiglaAtivos": "PLPL3",
+    "SiglaAtivo": "PLPL3",
     "Valor": 2.49
   },
   {
     "CodAtivo": 686,
-    "SiglaAtivos": "PLTO5",
+    "SiglaAtivo": "PLTO5",
     "Valor": 10.94
   },
   {
     "CodAtivo": 687,
-    "SiglaAtivos": "PLTO6",
+    "SiglaAtivo": "PLTO6",
     "Valor": 10.47
   },
   {
     "CodAtivo": 688,
-    "SiglaAtivos": "PMAM3",
+    "SiglaAtivo": "PMAM3",
     "Valor": 7.66
   },
   {
     "CodAtivo": 689,
-    "SiglaAtivos": "PMAM4",
+    "SiglaAtivo": "PMAM4",
     "Valor": 5.84
   },
   {
     "CodAtivo": 690,
-    "SiglaAtivos": "PMET3",
+    "SiglaAtivo": "PMET3",
     "Valor": 0
   },
   {
     "CodAtivo": 691,
-    "SiglaAtivos": "PMET5",
+    "SiglaAtivo": "PMET5",
     "Valor": 0.65
   },
   {
     "CodAtivo": 692,
-    "SiglaAtivos": "PMET6",
+    "SiglaAtivo": "PMET6",
     "Valor": 0.2
   },
   {
     "CodAtivo": 693,
-    "SiglaAtivos": "PNOR5",
+    "SiglaAtivo": "PNOR5",
     "Valor": 1.87
   },
   {
     "CodAtivo": 694,
-    "SiglaAtivos": "PNOR6",
+    "SiglaAtivo": "PNOR6",
     "Valor": 1.87
   },
   {
     "CodAtivo": 695,
-    "SiglaAtivos": "PNVL3",
+    "SiglaAtivo": "PNVL3",
     "Valor": 10.3
   },
   {
     "CodAtivo": 696,
-    "SiglaAtivos": "PNVL4",
+    "SiglaAtivo": "PNVL4",
     "Valor": 18.62
   },
   {
     "CodAtivo": 697,
-    "SiglaAtivos": "POMO3",
+    "SiglaAtivo": "POMO3",
     "Valor": 2.17
   },
   {
     "CodAtivo": 698,
-    "SiglaAtivos": "POMO4",
+    "SiglaAtivo": "POMO4",
     "Valor": 2.48
   },
   {
     "CodAtivo": 699,
-    "SiglaAtivos": "POPR4",
+    "SiglaAtivo": "POPR4",
     "Valor": 10.17
   },
   {
     "CodAtivo": 700,
-    "SiglaAtivos": "PORP4",
+    "SiglaAtivo": "PORP4",
     "Valor": 2.4
   },
   {
     "CodAtivo": 701,
-    "SiglaAtivos": "PORT3",
+    "SiglaAtivo": "PORT3",
     "Valor": 7.99
   },
   {
     "CodAtivo": 702,
-    "SiglaAtivos": "POSI3",
+    "SiglaAtivo": "POSI3",
     "Valor": 6.64
   },
   {
     "CodAtivo": 703,
-    "SiglaAtivos": "POWE3",
+    "SiglaAtivo": "POWE3",
     "Valor": 10.9
   },
   {
     "CodAtivo": 704,
-    "SiglaAtivos": "PQUN3",
+    "SiglaAtivo": "PQUN3",
     "Valor": 15.44
   },
   {
     "CodAtivo": 705,
-    "SiglaAtivos": "PQUN4",
+    "SiglaAtivo": "PQUN4",
     "Valor": 15.44
   },
   {
     "CodAtivo": 706,
-    "SiglaAtivos": "PRBC3",
+    "SiglaAtivo": "PRBC3",
     "Valor": 0
   },
   {
     "CodAtivo": 707,
-    "SiglaAtivos": "PRBC4",
+    "SiglaAtivo": "PRBC4",
     "Valor": 14.54
   },
   {
     "CodAtivo": 708,
-    "SiglaAtivos": "PRGA4",
+    "SiglaAtivo": "PRGA4",
     "Valor": 75
   },
   {
     "CodAtivo": 709,
-    "SiglaAtivos": "PRIO3",
+    "SiglaAtivo": "PRIO3",
     "Valor": 22.67
   },
   {
     "CodAtivo": 710,
-    "SiglaAtivos": "PRML3",
+    "SiglaAtivo": "PRML3",
     "Valor": 11.52
   },
   {
     "CodAtivo": 711,
-    "SiglaAtivos": "PRNR3",
+    "SiglaAtivo": "PRNR3",
     "Valor": 5.88
   },
   {
     "CodAtivo": 712,
-    "SiglaAtivos": "PRTX3",
+    "SiglaAtivo": "PRTX3",
     "Valor": 2.77
   },
   {
     "CodAtivo": 713,
-    "SiglaAtivos": "PRVI3",
+    "SiglaAtivo": "PRVI3",
     "Valor": 10.54
   },
   {
     "CodAtivo": 714,
-    "SiglaAtivos": "PSSA3",
+    "SiglaAtivo": "PSSA3",
     "Valor": 18.43
   },
   {
     "CodAtivo": 715,
-    "SiglaAtivos": "PTBL3",
+    "SiglaAtivo": "PTBL3",
     "Valor": 7.94
   },
   {
     "CodAtivo": 716,
-    "SiglaAtivos": "PTBL4",
+    "SiglaAtivo": "PTBL4",
     "Valor": 2.59
   },
   {
     "CodAtivo": 717,
-    "SiglaAtivos": "PTIP3",
+    "SiglaAtivo": "PTIP3",
     "Valor": 22
   },
   {
     "CodAtivo": 718,
-    "SiglaAtivos": "PTIP4",
+    "SiglaAtivo": "PTIP4",
     "Valor": 25.15
   },
   {
     "CodAtivo": 719,
-    "SiglaAtivos": "PTNT3",
+    "SiglaAtivo": "PTNT3",
     "Valor": 10.18
   },
   {
     "CodAtivo": 720,
-    "SiglaAtivos": "PTNT4",
+    "SiglaAtivo": "PTNT4",
     "Valor": 5.95
   },
   {
     "CodAtivo": 721,
-    "SiglaAtivos": "PTPA3",
+    "SiglaAtivo": "PTPA3",
     "Valor": 76.5
   },
   {
     "CodAtivo": 722,
-    "SiglaAtivos": "PTPA4",
+    "SiglaAtivo": "PTPA4",
     "Valor": 80
   },
   {
     "CodAtivo": 723,
-    "SiglaAtivos": "PTQS4",
+    "SiglaAtivo": "PTQS4",
     "Valor": 189.46
   },
   {
     "CodAtivo": 724,
-    "SiglaAtivos": "QUAL3",
+    "SiglaAtivo": "QUAL3",
     "Valor": 10.43
   },
   {
     "CodAtivo": 725,
-    "SiglaAtivos": "RADL3",
+    "SiglaAtivo": "RADL3",
     "Valor": 20.03
   },
   {
     "CodAtivo": 726,
-    "SiglaAtivos": "RAIA3",
+    "SiglaAtivo": "RAIA3",
     "Valor": 30.5
   },
   {
     "CodAtivo": 727,
-    "SiglaAtivos": "RAIL3",
+    "SiglaAtivo": "RAIL3",
     "Valor": 16.09
   },
   {
     "CodAtivo": 728,
-    "SiglaAtivos": "RAIZ4",
+    "SiglaAtivo": "RAIZ4",
     "Valor": 4.2
   },
   {
     "CodAtivo": 729,
-    "SiglaAtivos": "RANI3",
+    "SiglaAtivo": "RANI3",
     "Valor": 6.76
   },
   {
     "CodAtivo": 730,
-    "SiglaAtivos": "RANI4",
+    "SiglaAtivo": "RANI4",
     "Valor": 5.5
   },
   {
     "CodAtivo": 731,
-    "SiglaAtivos": "RAPT3",
+    "SiglaAtivo": "RAPT3",
     "Valor": 8.66
   },
   {
     "CodAtivo": 732,
-    "SiglaAtivos": "RAPT4",
+    "SiglaAtivo": "RAPT4",
     "Valor": 9.73
   },
   {
     "CodAtivo": 733,
-    "SiglaAtivos": "RCSL3",
+    "SiglaAtivo": "RCSL3",
     "Valor": 3.02
   },
   {
     "CodAtivo": 734,
-    "SiglaAtivos": "RCSL4",
+    "SiglaAtivo": "RCSL4",
     "Valor": 1.01
   },
   {
     "CodAtivo": 735,
-    "SiglaAtivos": "RCTB31",
+    "SiglaAtivo": "RCTB31",
     "Valor": 41
   },
   {
     "CodAtivo": 736,
-    "SiglaAtivos": "RCTB33",
+    "SiglaAtivo": "RCTB33",
     "Valor": 57
   },
   {
     "CodAtivo": 737,
-    "SiglaAtivos": "RCTB41",
+    "SiglaAtivo": "RCTB41",
     "Valor": 33.51
   },
   {
     "CodAtivo": 738,
-    "SiglaAtivos": "RCTB42",
+    "SiglaAtivo": "RCTB42",
     "Valor": 20
   },
   {
     "CodAtivo": 739,
-    "SiglaAtivos": "RDCD3",
+    "SiglaAtivo": "RDCD3",
     "Valor": 35.16
   },
   {
     "CodAtivo": 740,
-    "SiglaAtivos": "RDNI3",
+    "SiglaAtivo": "RDNI3",
     "Valor": 7.32
   },
   {
     "CodAtivo": 741,
-    "SiglaAtivos": "RDOR3",
+    "SiglaAtivo": "RDOR3",
     "Valor": 30.25
   },
   {
     "CodAtivo": 742,
-    "SiglaAtivos": "RDTR3",
+    "SiglaAtivo": "RDTR3",
     "Valor": 6.3
   },
   {
     "CodAtivo": 743,
-    "SiglaAtivos": "RECV3",
+    "SiglaAtivo": "RECV3",
     "Valor": 23.49
   },
   {
     "CodAtivo": 744,
-    "SiglaAtivos": "REDE3",
+    "SiglaAtivo": "REDE3",
     "Valor": 5.8
   },
   {
     "CodAtivo": 745,
-    "SiglaAtivos": "REDE4",
+    "SiglaAtivo": "REDE4",
     "Valor": 2.9
   },
   {
     "CodAtivo": 746,
-    "SiglaAtivos": "REEM4",
+    "SiglaAtivo": "REEM4",
     "Valor": 4.63
   },
   {
     "CodAtivo": 747,
-    "SiglaAtivos": "RENT3",
+    "SiglaAtivo": "RENT3",
     "Valor": 55.42
   },
   {
     "CodAtivo": 748,
-    "SiglaAtivos": "REPA3",
+    "SiglaAtivo": "REPA3",
     "Valor": 1
   },
   {
     "CodAtivo": 749,
-    "SiglaAtivos": "REPA4",
+    "SiglaAtivo": "REPA4",
     "Valor": 1.08
   },
   {
     "CodAtivo": 750,
-    "SiglaAtivos": "RGEG3",
+    "SiglaAtivo": "RGEG3",
     "Valor": 3
   },
   {
     "CodAtivo": 751,
-    "SiglaAtivos": "RHDS3",
+    "SiglaAtivo": "RHDS3",
     "Valor": 0.11
   },
   {
     "CodAtivo": 752,
-    "SiglaAtivos": "RHDS4",
+    "SiglaAtivo": "RHDS4",
     "Valor": 1
   },
   {
     "CodAtivo": 753,
-    "SiglaAtivos": "RIPI3",
+    "SiglaAtivo": "RIPI3",
     "Valor": 48.01
   },
   {
     "CodAtivo": 754,
-    "SiglaAtivos": "RIPI4",
+    "SiglaAtivo": "RIPI4",
     "Valor": 48.5
   },
   {
     "CodAtivo": 755,
-    "SiglaAtivos": "RJCP3",
+    "SiglaAtivo": "RJCP3",
     "Valor": 0.01
   },
   {
     "CodAtivo": 756,
-    "SiglaAtivos": "RLOG3",
+    "SiglaAtivo": "RLOG3",
     "Valor": 23.08
   },
   {
     "CodAtivo": 757,
-    "SiglaAtivos": "RNEW11",
+    "SiglaAtivo": "RNEW11",
     "Valor": 7.12
   },
   {
     "CodAtivo": 758,
-    "SiglaAtivos": "RNEW3",
+    "SiglaAtivo": "RNEW3",
     "Valor": 2.52
   },
   {
     "CodAtivo": 759,
-    "SiglaAtivos": "RNEW4",
+    "SiglaAtivo": "RNEW4",
     "Valor": 2.35
   },
   {
     "CodAtivo": 760,
-    "SiglaAtivos": "RNPT3",
+    "SiglaAtivo": "RNPT3",
     "Valor": 31.87
   },
   {
     "CodAtivo": 761,
-    "SiglaAtivos": "RNPT4",
+    "SiglaAtivo": "RNPT4",
     "Valor": 31.81
   },
   {
     "CodAtivo": 762,
-    "SiglaAtivos": "ROMI3",
+    "SiglaAtivo": "ROMI3",
     "Valor": 12.75
   },
   {
     "CodAtivo": 763,
-    "SiglaAtivos": "ROMI4",
+    "SiglaAtivo": "ROMI4",
     "Valor": 185
   },
   {
     "CodAtivo": 764,
-    "SiglaAtivos": "RPAD3",
+    "SiglaAtivo": "RPAD3",
     "Valor": 6.62
   },
   {
     "CodAtivo": 765,
-    "SiglaAtivos": "RPAD5",
+    "SiglaAtivo": "RPAD5",
     "Valor": 7.41
   },
   {
     "CodAtivo": 766,
-    "SiglaAtivos": "RPAD6",
+    "SiglaAtivo": "RPAD6",
     "Valor": 4.5
   },
   {
     "CodAtivo": 767,
-    "SiglaAtivos": "RPMG3",
+    "SiglaAtivo": "RPMG3",
     "Valor": 2.06
   },
   {
     "CodAtivo": 768,
-    "SiglaAtivos": "RPMG4",
+    "SiglaAtivo": "RPMG4",
     "Valor": 0.26
   },
   {
     "CodAtivo": 769,
-    "SiglaAtivos": "RPSA4",
+    "SiglaAtivo": "RPSA4",
     "Valor": 4.9
   },
   {
     "CodAtivo": 770,
-    "SiglaAtivos": "RRRP3",
+    "SiglaAtivo": "RRRP3",
     "Valor": 29.43
   },
   {
     "CodAtivo": 771,
-    "SiglaAtivos": "RSID3",
+    "SiglaAtivo": "RSID3",
     "Valor": 2.58
   },
   {
     "CodAtivo": 772,
-    "SiglaAtivos": "RSIP3",
+    "SiglaAtivo": "RSIP3",
     "Valor": 0.44
   },
   {
     "CodAtivo": 773,
-    "SiglaAtivos": "RSIP4",
+    "SiglaAtivo": "RSIP4",
     "Valor": 0.44
   },
   {
     "CodAtivo": 774,
-    "SiglaAtivos": "RSUL4",
+    "SiglaAtivo": "RSUL4",
     "Valor": 58.49
   },
   {
     "CodAtivo": 775,
-    "SiglaAtivos": "SALM3",
+    "SiglaAtivo": "SALM3",
     "Valor": 5.7
   },
   {
     "CodAtivo": 776,
-    "SiglaAtivos": "SALM4",
+    "SiglaAtivo": "SALM4",
     "Valor": 5.9
   },
   {
     "CodAtivo": 777,
-    "SiglaAtivos": "SANB11",
+    "SiglaAtivo": "SANB11",
     "Valor": 27.53
   },
   {
     "CodAtivo": 778,
-    "SiglaAtivos": "SANB3",
+    "SiglaAtivo": "SANB3",
     "Valor": 13.13
   },
   {
     "CodAtivo": 779,
-    "SiglaAtivos": "SANB4",
+    "SiglaAtivo": "SANB4",
     "Valor": 14.42
   },
   {
     "CodAtivo": 780,
-    "SiglaAtivos": "SAPR11",
+    "SiglaAtivo": "SAPR11",
     "Valor": 17.9
   },
   {
     "CodAtivo": 781,
-    "SiglaAtivos": "SAPR3",
+    "SiglaAtivo": "SAPR3",
     "Valor": 3.5
   },
   {
     "CodAtivo": 782,
-    "SiglaAtivos": "SAPR4",
+    "SiglaAtivo": "SAPR4",
     "Valor": 3.64
   },
   {
     "CodAtivo": 783,
-    "SiglaAtivos": "SASG3",
+    "SiglaAtivo": "SASG3",
     "Valor": 0.98
   },
   {
     "CodAtivo": 784,
-    "SiglaAtivos": "SBFG3",
+    "SiglaAtivo": "SBFG3",
     "Valor": 19.82
   },
   {
     "CodAtivo": 785,
-    "SiglaAtivos": "SBSP3",
+    "SiglaAtivo": "SBSP3",
     "Valor": 43.55
   },
   {
     "CodAtivo": 786,
-    "SiglaAtivos": "SCAR3",
+    "SiglaAtivo": "SCAR3",
     "Valor": 25.25
   },
   {
     "CodAtivo": 787,
-    "SiglaAtivos": "SCAR4",
+    "SiglaAtivo": "SCAR4",
     "Valor": 10
   },
   {
     "CodAtivo": 788,
-    "SiglaAtivos": "SCLO3",
+    "SiglaAtivo": "SCLO3",
     "Valor": 14.1
   },
   {
     "CodAtivo": 789,
-    "SiglaAtivos": "SCLO4",
+    "SiglaAtivo": "SCLO4",
     "Valor": 0.41
   },
   {
     "CodAtivo": 790,
-    "SiglaAtivos": "SDIA3",
+    "SiglaAtivo": "SDIA3",
     "Valor": 6.42
   },
   {
     "CodAtivo": 791,
-    "SiglaAtivos": "SDIA4",
+    "SiglaAtivo": "SDIA4",
     "Valor": 6.42
   },
   {
     "CodAtivo": 792,
-    "SiglaAtivos": "SEBB11",
+    "SiglaAtivo": "SEBB11",
     "Valor": 23.27
   },
   {
     "CodAtivo": 793,
-    "SiglaAtivos": "SEBB3",
+    "SiglaAtivo": "SEBB3",
     "Valor": 0
   },
   {
     "CodAtivo": 794,
-    "SiglaAtivos": "SEBB4",
+    "SiglaAtivo": "SEBB4",
     "Valor": 0
   },
   {
     "CodAtivo": 795,
-    "SiglaAtivos": "SEDU3",
+    "SiglaAtivo": "SEDU3",
     "Valor": 23.8
   },
   {
     "CodAtivo": 796,
-    "SiglaAtivos": "SEER3",
+    "SiglaAtivo": "SEER3",
     "Valor": 6.1
   },
   {
     "CodAtivo": 797,
-    "SiglaAtivos": "SEMP3",
+    "SiglaAtivo": "SEMP3",
     "Valor": 16.86
   },
   {
     "CodAtivo": 798,
-    "SiglaAtivos": "SEQL3",
+    "SiglaAtivo": "SEQL3",
     "Valor": 5.4
   },
   {
     "CodAtivo": 799,
-    "SiglaAtivos": "SFSA3",
+    "SiglaAtivo": "SFSA3",
     "Valor": 0
   },
   {
     "CodAtivo": 800,
-    "SiglaAtivos": "SFSA4",
+    "SiglaAtivo": "SFSA4",
     "Valor": 4.4
   },
   {
     "CodAtivo": 801,
-    "SiglaAtivos": "SGEN3",
+    "SiglaAtivo": "SGEN3",
     "Valor": 5
   },
   {
     "CodAtivo": 802,
-    "SiglaAtivos": "SGEN4",
+    "SiglaAtivo": "SGEN4",
     "Valor": 0.6
   },
   {
     "CodAtivo": 803,
-    "SiglaAtivos": "SGPS3",
+    "SiglaAtivo": "SGPS3",
     "Valor": 3.52
   },
   {
     "CodAtivo": 804,
-    "SiglaAtivos": "SHOW3",
+    "SiglaAtivo": "SHOW3",
     "Valor": 2.47
   },
   {
     "CodAtivo": 805,
-    "SiglaAtivos": "SHUL4",
+    "SiglaAtivo": "SHUL4",
     "Valor": 4.2
   },
   {
     "CodAtivo": 806,
-    "SiglaAtivos": "SIMH3",
+    "SiglaAtivo": "SIMH3",
     "Valor": 9.55
   },
   {
     "CodAtivo": 807,
-    "SiglaAtivos": "SJOS3",
+    "SiglaAtivo": "SJOS3",
     "Valor": 1.19
   },
   {
     "CodAtivo": 808,
-    "SiglaAtivos": "SJOS4",
+    "SiglaAtivo": "SJOS4",
     "Valor": 0.09
   },
   {
     "CodAtivo": 809,
-    "SiglaAtivos": "SLCE3",
+    "SiglaAtivo": "SLCE3",
     "Valor": 42.35
   },
   {
     "CodAtivo": 810,
-    "SiglaAtivos": "SLCP3",
+    "SiglaAtivo": "SLCP3",
     "Valor": 610.02
   },
   {
     "CodAtivo": 811,
-    "SiglaAtivos": "SLED3",
+    "SiglaAtivo": "SLED3",
     "Valor": 9.18
   },
   {
     "CodAtivo": 812,
-    "SiglaAtivos": "SLED4",
+    "SiglaAtivo": "SLED4",
     "Valor": 3.65
   },
   {
     "CodAtivo": 813,
-    "SiglaAtivos": "SMFT3",
+    "SiglaAtivo": "SMFT3",
     "Valor": 10.66
   },
   {
     "CodAtivo": 814,
-    "SiglaAtivos": "SMLE3",
+    "SiglaAtivo": "SMLE3",
     "Valor": 92.82
   },
   {
     "CodAtivo": 815,
-    "SiglaAtivos": "SMLS3",
+    "SiglaAtivo": "SMLS3",
     "Valor": 22.4
   },
   {
     "CodAtivo": 816,
-    "SiglaAtivos": "SMTO3",
+    "SiglaAtivo": "SMTO3",
     "Valor": 35.21
   },
   {
     "CodAtivo": 817,
-    "SiglaAtivos": "SNSY5",
+    "SiglaAtivo": "SNSY5",
     "Valor": 2.95
   },
   {
     "CodAtivo": 818,
-    "SiglaAtivos": "SOJA3",
+    "SiglaAtivo": "SOJA3",
     "Valor": 10.65
   },
   {
     "CodAtivo": 819,
-    "SiglaAtivos": "SOMA3",
+    "SiglaAtivo": "SOMA3",
     "Valor": 9.77
   },
   {
     "CodAtivo": 820,
-    "SiglaAtivos": "SOND3",
+    "SiglaAtivo": "SOND3",
     "Valor": 46.01
   },
   {
     "CodAtivo": 821,
-    "SiglaAtivos": "SOND5",
+    "SiglaAtivo": "SOND5",
     "Valor": 43.99
   },
   {
     "CodAtivo": 822,
-    "SiglaAtivos": "SOND6",
+    "SiglaAtivo": "SOND6",
     "Valor": 43
   },
   {
     "CodAtivo": 823,
-    "SiglaAtivos": "SPRI3",
+    "SiglaAtivo": "SPRI3",
     "Valor": 10.51
   },
   {
     "CodAtivo": 824,
-    "SiglaAtivos": "SPRI5",
+    "SiglaAtivo": "SPRI5",
     "Valor": 8.52
   },
   {
     "CodAtivo": 825,
-    "SiglaAtivos": "SPRI6",
+    "SiglaAtivo": "SPRI6",
     "Valor": 11
   },
   {
     "CodAtivo": 826,
-    "SiglaAtivos": "SQIA3",
+    "SiglaAtivo": "SQIA3",
     "Valor": 16.82
   },
   {
     "CodAtivo": 827,
-    "SiglaAtivos": "STBP11",
+    "SiglaAtivo": "STBP11",
     "Valor": 14.4
   },
   {
     "CodAtivo": 828,
-    "SiglaAtivos": "STBP3",
+    "SiglaAtivo": "STBP3",
     "Valor": 6.25
   },
   {
     "CodAtivo": 829,
-    "SiglaAtivos": "STRP4",
+    "SiglaAtivo": "STRP4",
     "Valor": 0.21
   },
   {
     "CodAtivo": 830,
-    "SiglaAtivos": "SUBA3",
+    "SiglaAtivo": "SUBA3",
     "Valor": 84
   },
   {
     "CodAtivo": 831,
-    "SiglaAtivos": "SULA11",
+    "SiglaAtivo": "SULA11",
     "Valor": 22.1
   },
   {
     "CodAtivo": 832,
-    "SiglaAtivos": "SULA3",
+    "SiglaAtivo": "SULA3",
     "Valor": 7.47
   },
   {
     "CodAtivo": 833,
-    "SiglaAtivos": "SULA4",
+    "SiglaAtivo": "SULA4",
     "Valor": 7.35
   },
   {
     "CodAtivo": 834,
-    "SiglaAtivos": "SULT3",
+    "SiglaAtivo": "SULT3",
     "Valor": 0.56
   },
   {
     "CodAtivo": 835,
-    "SiglaAtivos": "SULT4",
+    "SiglaAtivo": "SULT4",
     "Valor": 0.43
   },
   {
     "CodAtivo": 836,
-    "SiglaAtivos": "SUZA4",
+    "SiglaAtivo": "SUZA4",
     "Valor": 13.9
   },
   {
     "CodAtivo": 837,
-    "SiglaAtivos": "SUZB3",
+    "SiglaAtivo": "SUZB3",
     "Valor": 46.91
   },
   {
     "CodAtivo": 838,
-    "SiglaAtivos": "SUZB5",
+    "SiglaAtivo": "SUZB5",
     "Valor": 21.13
   },
   {
     "CodAtivo": 839,
-    "SiglaAtivos": "SUZB6",
+    "SiglaAtivo": "SUZB6",
     "Valor": 17.88
   },
   {
     "CodAtivo": 840,
-    "SiglaAtivos": "SYNE3",
+    "SiglaAtivo": "SYNE3",
     "Valor": 4.1
   },
   {
     "CodAtivo": 841,
-    "SiglaAtivos": "SZPQ4",
+    "SiglaAtivo": "SZPQ4",
     "Valor": 6.64
   },
   {
     "CodAtivo": 842,
-    "SiglaAtivos": "TAEE11",
+    "SiglaAtivo": "TAEE11",
     "Valor": 40.25
   },
   {
     "CodAtivo": 843,
-    "SiglaAtivos": "TAEE3",
+    "SiglaAtivo": "TAEE3",
     "Valor": 13.39
   },
   {
     "CodAtivo": 844,
-    "SiglaAtivos": "TAEE4",
+    "SiglaAtivo": "TAEE4",
     "Valor": 13.41
   },
   {
     "CodAtivo": 845,
-    "SiglaAtivos": "TAMM3",
+    "SiglaAtivo": "TAMM3",
     "Valor": 52.6
   },
   {
     "CodAtivo": 846,
-    "SiglaAtivos": "TAMM4",
+    "SiglaAtivo": "TAMM4",
     "Valor": 52.73
   },
   {
     "CodAtivo": 847,
-    "SiglaAtivos": "TANC4",
+    "SiglaAtivo": "TANC4",
     "Valor": 43
   },
   {
     "CodAtivo": 848,
-    "SiglaAtivos": "TARP11",
+    "SiglaAtivo": "TARP11",
     "Valor": 18.02
   },
   {
     "CodAtivo": 849,
-    "SiglaAtivos": "TASA3",
+    "SiglaAtivo": "TASA3",
     "Valor": 17.99
   },
   {
     "CodAtivo": 850,
-    "SiglaAtivos": "TASA4",
+    "SiglaAtivo": "TASA4",
     "Valor": 17.97
   },
   {
     "CodAtivo": 851,
-    "SiglaAtivos": "TBLE5",
+    "SiglaAtivo": "TBLE5",
     "Valor": 12
   },
   {
     "CodAtivo": 852,
-    "SiglaAtivos": "TBLE6",
+    "SiglaAtivo": "TBLE6",
     "Valor": 10.65
   },
   {
     "CodAtivo": 853,
-    "SiglaAtivos": "TCNO3",
+    "SiglaAtivo": "TCNO3",
     "Valor": 1.35
   },
   {
     "CodAtivo": 854,
-    "SiglaAtivos": "TCNO4",
+    "SiglaAtivo": "TCNO4",
     "Valor": 1.03
   },
   {
     "CodAtivo": 855,
-    "SiglaAtivos": "TCOC3",
+    "SiglaAtivo": "TCOC3",
     "Valor": 38.85
   },
   {
     "CodAtivo": 856,
-    "SiglaAtivos": "TCOC4",
+    "SiglaAtivo": "TCOC4",
     "Valor": 27.2
   },
   {
     "CodAtivo": 857,
-    "SiglaAtivos": "TCSA3",
+    "SiglaAtivo": "TCSA3",
     "Valor": 2.35
   },
   {
     "CodAtivo": 858,
-    "SiglaAtivos": "TCSL4",
+    "SiglaAtivo": "TCSL4",
     "Valor": 7.82
   },
   {
     "CodAtivo": 859,
-    "SiglaAtivos": "TDBH3",
+    "SiglaAtivo": "TDBH3",
     "Valor": 0.56
   },
   {
     "CodAtivo": 860,
-    "SiglaAtivos": "TDBH4",
+    "SiglaAtivo": "TDBH4",
     "Valor": 0.66
   },
   {
     "CodAtivo": 861,
-    "SiglaAtivos": "TECN3",
+    "SiglaAtivo": "TECN3",
     "Valor": 2.23
   },
   {
     "CodAtivo": 862,
-    "SiglaAtivos": "TEFC11",
+    "SiglaAtivo": "TEFC11",
     "Valor": 35.5
   },
   {
     "CodAtivo": 863,
-    "SiglaAtivos": "TEKA3",
+    "SiglaAtivo": "TEKA3",
     "Valor": 26.1
   },
   {
     "CodAtivo": 864,
-    "SiglaAtivos": "TEKA4",
+    "SiglaAtivo": "TEKA4",
     "Valor": 16.4
   },
   {
     "CodAtivo": 865,
-    "SiglaAtivos": "TELB3",
+    "SiglaAtivo": "TELB3",
     "Valor": 19
   },
   {
     "CodAtivo": 866,
-    "SiglaAtivos": "TELB4",
+    "SiglaAtivo": "TELB4",
     "Valor": 12.35
   },
   {
     "CodAtivo": 867,
-    "SiglaAtivos": "TEMP3",
+    "SiglaAtivo": "TEMP3",
     "Valor": 4.15
   },
   {
     "CodAtivo": 868,
-    "SiglaAtivos": "TEND3",
+    "SiglaAtivo": "TEND3",
     "Valor": 4.44
   },
   {
     "CodAtivo": 869,
-    "SiglaAtivos": "TENE5",
+    "SiglaAtivo": "TENE5",
     "Valor": 0.5
   },
   {
     "CodAtivo": 870,
-    "SiglaAtivos": "TENE7",
+    "SiglaAtivo": "TENE7",
     "Valor": 9.8
   },
   {
     "CodAtivo": 871,
-    "SiglaAtivos": "TERI3",
+    "SiglaAtivo": "TERI3",
     "Valor": 64.28
   },
   {
     "CodAtivo": 872,
-    "SiglaAtivos": "TESA3",
+    "SiglaAtivo": "TESA3",
     "Valor": 48
   },
   {
     "CodAtivo": 873,
-    "SiglaAtivos": "TFCO4",
+    "SiglaAtivo": "TFCO4",
     "Valor": 9.21
   },
   {
     "CodAtivo": 874,
-    "SiglaAtivos": "TGMA3",
+    "SiglaAtivo": "TGMA3",
     "Valor": 13.64
   },
   {
     "CodAtivo": 875,
-    "SiglaAtivos": "TIET11",
+    "SiglaAtivo": "TIET11",
     "Valor": 17.44
   },
   {
     "CodAtivo": 876,
-    "SiglaAtivos": "TIET3",
+    "SiglaAtivo": "TIET3",
     "Valor": 3.49
   },
   {
     "CodAtivo": 877,
-    "SiglaAtivos": "TIET4",
+    "SiglaAtivo": "TIET4",
     "Valor": 3.51
   },
   {
     "CodAtivo": 878,
-    "SiglaAtivos": "TIMP3",
+    "SiglaAtivo": "TIMP3",
     "Valor": 13.46
   },
   {
     "CodAtivo": 879,
-    "SiglaAtivos": "TIMS3",
+    "SiglaAtivo": "TIMS3",
     "Valor": 12.9
   },
   {
     "CodAtivo": 880,
-    "SiglaAtivos": "TKNO4",
+    "SiglaAtivo": "TKNO4",
     "Valor": 79.93
   },
   {
     "CodAtivo": 881,
-    "SiglaAtivos": "TLCP3",
+    "SiglaAtivo": "TLCP3",
     "Valor": 48
   },
   {
     "CodAtivo": 882,
-    "SiglaAtivos": "TLCP4",
+    "SiglaAtivo": "TLCP4",
     "Valor": 34.11
   },
   {
     "CodAtivo": 883,
-    "SiglaAtivos": "TMAR3",
+    "SiglaAtivo": "TMAR3",
     "Valor": 62
   },
   {
     "CodAtivo": 884,
-    "SiglaAtivos": "TMAR5",
+    "SiglaAtivo": "TMAR5",
     "Valor": 42.67
   },
   {
     "CodAtivo": 885,
-    "SiglaAtivos": "TMAR6",
+    "SiglaAtivo": "TMAR6",
     "Valor": 42.01
   },
   {
     "CodAtivo": 886,
-    "SiglaAtivos": "TMCP3",
+    "SiglaAtivo": "TMCP3",
     "Valor": 56
   },
   {
     "CodAtivo": 887,
-    "SiglaAtivos": "TMCP4",
+    "SiglaAtivo": "TMCP4",
     "Valor": 58.2
   },
   {
     "CodAtivo": 888,
-    "SiglaAtivos": "TMGC11",
+    "SiglaAtivo": "TMGC11",
     "Valor": 900
   },
   {
     "CodAtivo": 889,
-    "SiglaAtivos": "TMGC12",
+    "SiglaAtivo": "TMGC12",
     "Valor": 550
   },
   {
     "CodAtivo": 890,
-    "SiglaAtivos": "TMGC13",
+    "SiglaAtivo": "TMGC13",
     "Valor": 966.14
   },
   {
     "CodAtivo": 891,
-    "SiglaAtivos": "TMGC3",
+    "SiglaAtivo": "TMGC3",
     "Valor": 1500
   },
   {
     "CodAtivo": 892,
-    "SiglaAtivos": "TMGC7",
+    "SiglaAtivo": "TMGC7",
     "Valor": 800.01
   },
   {
     "CodAtivo": 893,
-    "SiglaAtivos": "TNCP3",
+    "SiglaAtivo": "TNCP3",
     "Valor": 184.85
   },
   {
     "CodAtivo": 894,
-    "SiglaAtivos": "TNCP4",
+    "SiglaAtivo": "TNCP4",
     "Valor": 182.6
   },
   {
     "CodAtivo": 895,
-    "SiglaAtivos": "TNEP3",
+    "SiglaAtivo": "TNEP3",
     "Valor": 3.01
   },
   {
     "CodAtivo": 896,
-    "SiglaAtivos": "TNEP4",
+    "SiglaAtivo": "TNEP4",
     "Valor": 3.95
   },
   {
     "CodAtivo": 897,
-    "SiglaAtivos": "TNLP3",
+    "SiglaAtivo": "TNLP3",
     "Valor": 27.75
   },
   {
     "CodAtivo": 898,
-    "SiglaAtivos": "TNLP4",
+    "SiglaAtivo": "TNLP4",
     "Valor": 20.36
   },
   {
     "CodAtivo": 899,
-    "SiglaAtivos": "TOTS3",
+    "SiglaAtivo": "TOTS3",
     "Valor": 25.89
   },
   {
     "CodAtivo": 900,
-    "SiglaAtivos": "TOYB3",
+    "SiglaAtivo": "TOYB3",
     "Valor": 2.29
   },
   {
     "CodAtivo": 901,
-    "SiglaAtivos": "TOYB4",
+    "SiglaAtivo": "TOYB4",
     "Valor": 2.5
   },
   {
     "CodAtivo": 902,
-    "SiglaAtivos": "TPIS3",
+    "SiglaAtivo": "TPIS3",
     "Valor": 1.32
   },
   {
     "CodAtivo": 903,
-    "SiglaAtivos": "TPRC3",
+    "SiglaAtivo": "TPRC3",
     "Valor": 113.5
   },
   {
     "CodAtivo": 904,
-    "SiglaAtivos": "TPRC6",
+    "SiglaAtivo": "TPRC6",
     "Valor": 105
   },
   {
     "CodAtivo": 905,
-    "SiglaAtivos": "TRAD3",
+    "SiglaAtivo": "TRAD3",
     "Valor": 4
   },
   {
     "CodAtivo": 906,
-    "SiglaAtivos": "TRFO3",
+    "SiglaAtivo": "TRFO3",
     "Valor": 4.53
   },
   {
     "CodAtivo": 907,
-    "SiglaAtivos": "TRFO4",
+    "SiglaAtivo": "TRFO4",
     "Valor": 4.7
   },
   {
     "CodAtivo": 908,
-    "SiglaAtivos": "TRIS3",
+    "SiglaAtivo": "TRIS3",
     "Valor": 3.83
   },
   {
     "CodAtivo": 909,
-    "SiglaAtivos": "TROR3",
+    "SiglaAtivo": "TROR3",
     "Valor": 2.63
   },
   {
     "CodAtivo": 910,
-    "SiglaAtivos": "TROR4",
+    "SiglaAtivo": "TROR4",
     "Valor": 1.56
   },
   {
     "CodAtivo": 911,
-    "SiglaAtivos": "TRPL3",
+    "SiglaAtivo": "TRPL3",
     "Valor": 29.45
   },
   {
     "CodAtivo": 912,
-    "SiglaAtivos": "TRPL4",
+    "SiglaAtivo": "TRPL4",
     "Valor": 23.02
   },
   {
     "CodAtivo": 913,
-    "SiglaAtivos": "TRPN3",
+    "SiglaAtivo": "TRPN3",
     "Valor": 0.71
   },
   {
     "CodAtivo": 914,
-    "SiglaAtivos": "TSEP3",
+    "SiglaAtivo": "TSEP3",
     "Valor": 40
   },
   {
     "CodAtivo": 915,
-    "SiglaAtivos": "TSEP4",
+    "SiglaAtivo": "TSEP4",
     "Valor": 29.01
   },
   {
     "CodAtivo": 916,
-    "SiglaAtivos": "TSPP3",
+    "SiglaAtivo": "TSPP3",
     "Valor": 12.6
   },
   {
     "CodAtivo": 917,
-    "SiglaAtivos": "TSPP4",
+    "SiglaAtivo": "TSPP4",
     "Valor": 9.05
   },
   {
     "CodAtivo": 918,
-    "SiglaAtivos": "TTEN3",
+    "SiglaAtivo": "TTEN3",
     "Valor": 8.83
   },
   {
     "CodAtivo": 919,
-    "SiglaAtivos": "TUPY3",
+    "SiglaAtivo": "TUPY3",
     "Valor": 22.09
   },
   {
     "CodAtivo": 920,
-    "SiglaAtivos": "TUPY4",
+    "SiglaAtivo": "TUPY4",
     "Valor": 48.21
   },
   {
     "CodAtivo": 921,
-    "SiglaAtivos": "TVIT3",
+    "SiglaAtivo": "TVIT3",
     "Valor": 19.3
   },
   {
     "CodAtivo": 922,
-    "SiglaAtivos": "TXRX3",
+    "SiglaAtivo": "TXRX3",
     "Valor": 22.96
   },
   {
     "CodAtivo": 923,
-    "SiglaAtivos": "TXRX4",
+    "SiglaAtivo": "TXRX4",
     "Valor": 4
   },
   {
     "CodAtivo": 924,
-    "SiglaAtivos": "UBBR11",
+    "SiglaAtivo": "UBBR11",
     "Valor": 14.75
   },
   {
     "CodAtivo": 925,
-    "SiglaAtivos": "UBBR3",
+    "SiglaAtivo": "UBBR3",
     "Valor": 18
   },
   {
     "CodAtivo": 926,
-    "SiglaAtivos": "UBBR4",
+    "SiglaAtivo": "UBBR4",
     "Valor": 7.49
   },
   {
     "CodAtivo": 927,
-    "SiglaAtivos": "UCAS3",
+    "SiglaAtivo": "UCAS3",
     "Valor": 2.47
   },
   {
     "CodAtivo": 928,
-    "SiglaAtivos": "UCOP4",
+    "SiglaAtivo": "UCOP4",
     "Valor": 6.5
   },
   {
     "CodAtivo": 929,
-    "SiglaAtivos": "UGPA3",
+    "SiglaAtivo": "UGPA3",
     "Valor": 12.46
   },
   {
     "CodAtivo": 930,
-    "SiglaAtivos": "UGPA4",
+    "SiglaAtivo": "UGPA4",
     "Valor": 27.1
   },
   {
     "CodAtivo": 931,
-    "SiglaAtivos": "UNIP3",
+    "SiglaAtivo": "UNIP3",
     "Valor": 82.65
   },
   {
     "CodAtivo": 932,
-    "SiglaAtivos": "UNIP5",
+    "SiglaAtivo": "UNIP5",
     "Valor": 90
   },
   {
     "CodAtivo": 933,
-    "SiglaAtivos": "UNIP6",
+    "SiglaAtivo": "UNIP6",
     "Valor": 88.5
   },
   {
     "CodAtivo": 934,
-    "SiglaAtivos": "UOLL4",
+    "SiglaAtivo": "UOLL4",
     "Valor": 19.62
   },
   {
     "CodAtivo": 935,
-    "SiglaAtivos": "USIM3",
+    "SiglaAtivo": "USIM3",
     "Valor": 8.39
   },
   {
     "CodAtivo": 936,
-    "SiglaAtivos": "USIM5",
+    "SiglaAtivo": "USIM5",
     "Valor": 8.91
   },
   {
     "CodAtivo": 937,
-    "SiglaAtivos": "USIM6",
+    "SiglaAtivo": "USIM6",
     "Valor": 14.5
   },
   {
     "CodAtivo": 938,
-    "SiglaAtivos": "VAGV3",
+    "SiglaAtivo": "VAGV3",
     "Valor": 1.14
   },
   {
     "CodAtivo": 939,
-    "SiglaAtivos": "VAGV4",
+    "SiglaAtivo": "VAGV4",
     "Valor": 1.02
   },
   {
     "CodAtivo": 940,
-    "SiglaAtivos": "VALE3",
+    "SiglaAtivo": "VALE3",
     "Valor": 69.21
   },
   {
     "CodAtivo": 941,
-    "SiglaAtivos": "VALE5",
+    "SiglaAtivo": "VALE5",
     "Valor": 33.36
   },
   {
     "CodAtivo": 942,
-    "SiglaAtivos": "VAMO3",
+    "SiglaAtivo": "VAMO3",
     "Valor": 12.14
   },
   {
     "CodAtivo": 943,
-    "SiglaAtivos": "VBBR3",
+    "SiglaAtivo": "VBBR3",
     "Valor": 16.54
   },
   {
     "CodAtivo": 944,
-    "SiglaAtivos": "VCPA4",
+    "SiglaAtivo": "VCPA4",
     "Valor": 26.01
   },
   {
     "CodAtivo": 945,
-    "SiglaAtivos": "VGOR3",
+    "SiglaAtivo": "VGOR3",
     "Valor": 0
   },
   {
     "CodAtivo": 946,
-    "SiglaAtivos": "VGOR4",
+    "SiglaAtivo": "VGOR4",
     "Valor": 5.87
   },
   {
     "CodAtivo": 947,
-    "SiglaAtivos": "VIGR3",
+    "SiglaAtivo": "VIGR3",
     "Valor": 25
   },
   {
     "CodAtivo": 948,
-    "SiglaAtivos": "VIIA3",
+    "SiglaAtivo": "VIIA3",
     "Valor": 2.51
   },
   {
     "CodAtivo": 949,
-    "SiglaAtivos": "VINE3",
+    "SiglaAtivo": "VINE3",
     "Valor": 17.2
   },
   {
     "CodAtivo": 950,
-    "SiglaAtivos": "VINE5",
+    "SiglaAtivo": "VINE5",
     "Valor": 17.64
   },
   {
     "CodAtivo": 951,
-    "SiglaAtivos": "VITT3",
+    "SiglaAtivo": "VITT3",
     "Valor": 9.28
   },
   {
     "CodAtivo": 952,
-    "SiglaAtivos": "VIVA3",
+    "SiglaAtivo": "VIVA3",
     "Valor": 21.24
   },
   {
     "CodAtivo": 953,
-    "SiglaAtivos": "VIVO3",
+    "SiglaAtivo": "VIVO3",
     "Valor": 65.79
   },
   {
     "CodAtivo": 954,
-    "SiglaAtivos": "VIVO4",
+    "SiglaAtivo": "VIVO4",
     "Valor": 71.8
   },
   {
     "CodAtivo": 955,
-    "SiglaAtivos": "VIVR3",
+    "SiglaAtivo": "VIVR3",
     "Valor": 0.62
   },
   {
     "CodAtivo": 956,
-    "SiglaAtivos": "VIVT3",
+    "SiglaAtivo": "VIVT3",
     "Valor": 46.83
   },
   {
     "CodAtivo": 957,
-    "SiglaAtivos": "VIVT4",
+    "SiglaAtivo": "VIVT4",
     "Valor": 45.34
   },
   {
     "CodAtivo": 958,
-    "SiglaAtivos": "VLID3",
+    "SiglaAtivo": "VLID3",
     "Valor": 9.98
   },
   {
     "CodAtivo": 959,
-    "SiglaAtivos": "VNET3",
+    "SiglaAtivo": "VNET3",
     "Valor": 0
   },
   {
     "CodAtivo": 960,
-    "SiglaAtivos": "VPSC3",
+    "SiglaAtivo": "VPSC3",
     "Valor": 6.03
   },
   {
     "CodAtivo": 961,
-    "SiglaAtivos": "VPSC4",
+    "SiglaAtivo": "VPSC4",
     "Valor": 9.99
   },
   {
     "CodAtivo": 962,
-    "SiglaAtivos": "VPTA3",
+    "SiglaAtivo": "VPTA3",
     "Valor": 5
   },
   {
     "CodAtivo": 963,
-    "SiglaAtivos": "VPTA4",
+    "SiglaAtivo": "VPTA4",
     "Valor": 10.5
   },
   {
     "CodAtivo": 964,
-    "SiglaAtivos": "VSPT3",
+    "SiglaAtivo": "VSPT3",
     "Valor": 0
   },
   {
     "CodAtivo": 965,
-    "SiglaAtivos": "VSPT4",
+    "SiglaAtivo": "VSPT4",
     "Valor": 0
   },
   {
     "CodAtivo": 966,
-    "SiglaAtivos": "VTLM3",
+    "SiglaAtivo": "VTLM3",
     "Valor": 0.79
   },
   {
     "CodAtivo": 967,
-    "SiglaAtivos": "VULC3",
+    "SiglaAtivo": "VULC3",
     "Valor": 10.81
   },
   {
     "CodAtivo": 968,
-    "SiglaAtivos": "VULC4",
+    "SiglaAtivo": "VULC4",
     "Valor": 18
   },
   {
     "CodAtivo": 969,
-    "SiglaAtivos": "VVAR11",
+    "SiglaAtivo": "VVAR11",
     "Valor": 14.58
   },
   {
     "CodAtivo": 970,
-    "SiglaAtivos": "VVAR4",
+    "SiglaAtivo": "VVAR4",
     "Valor": 4.84
   },
   {
     "CodAtivo": 971,
-    "SiglaAtivos": "VVAX3",
+    "SiglaAtivo": "VVAX3",
     "Valor": 0
   },
   {
     "CodAtivo": 972,
-    "SiglaAtivos": "VVAX4",
+    "SiglaAtivo": "VVAX4",
     "Valor": 0
   },
   {
     "CodAtivo": 973,
-    "SiglaAtivos": "VVEO3",
+    "SiglaAtivo": "VVEO3",
     "Valor": 15.95
   },
   {
     "CodAtivo": 974,
-    "SiglaAtivos": "WEGE3",
+    "SiglaAtivo": "WEGE3",
     "Valor": 25.84
   },
   {
     "CodAtivo": 975,
-    "SiglaAtivos": "WEGE4",
+    "SiglaAtivo": "WEGE4",
     "Valor": 16.1
   },
   {
     "CodAtivo": 976,
-    "SiglaAtivos": "WEST3",
+    "SiglaAtivo": "WEST3",
     "Valor": 2.18
   },
   {
     "CodAtivo": 977,
-    "SiglaAtivos": "WHRL3",
+    "SiglaAtivo": "WHRL3",
     "Valor": 4.66
   },
   {
     "CodAtivo": 978,
-    "SiglaAtivos": "WHRL4",
+    "SiglaAtivo": "WHRL4",
     "Valor": 4.75
   },
   {
     "CodAtivo": 979,
-    "SiglaAtivos": "WISA3",
+    "SiglaAtivo": "WISA3",
     "Valor": 0.2
   },
   {
     "CodAtivo": 980,
-    "SiglaAtivos": "WISA4",
+    "SiglaAtivo": "WISA4",
     "Valor": 0.25
   },
   {
     "CodAtivo": 981,
-    "SiglaAtivos": "WIZS3",
+    "SiglaAtivo": "WIZS3",
     "Valor": 7.33
   },
   {
     "CodAtivo": 982,
-    "SiglaAtivos": "WLMM3",
+    "SiglaAtivo": "WLMM3",
     "Valor": 24.9
   },
   {
     "CodAtivo": 983,
-    "SiglaAtivos": "WLMM4",
+    "SiglaAtivo": "WLMM4",
     "Valor": 21.06
   },
   {
     "CodAtivo": 984,
-    "SiglaAtivos": "WMBY3",
+    "SiglaAtivo": "WMBY3",
     "Valor": 25.39
   },
   {
     "CodAtivo": 985,
-    "SiglaAtivos": "WSON33",
+    "SiglaAtivo": "WSON33",
     "Valor": 67
   },
   {
     "CodAtivo": 986,
-    "SiglaAtivos": "YDUQ3",
+    "SiglaAtivo": "YDUQ3",
     "Valor": 13.9
   }
 ]

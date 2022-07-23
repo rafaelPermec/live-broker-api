@@ -1,6 +1,6 @@
 interface IListaAcoes {
-  CodAtivo?: number;
-  SiglaAtivos: string;
+  CodAtivo: number;
+  SiglaAtivo: string;
   Valor: number;
 }
 

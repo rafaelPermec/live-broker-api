@@ -28,7 +28,7 @@ async function apiBovespa(): Promise<IListaAcoes[]> {
     // todos os itens do HTML, que estão no trecho resgatado;
     listItems.each((_index, element) => {
       // Objeto que vamos montar para a analise;
-      const papel: IListaAcoes = { CodAtivo: 0, SiglaAtivos: '', Valor: 0 };
+      const papel: IListaAcoes = { CodAtivo: 0, SiglaAtivo: '', Valor: 0 };
 
       // Metodos de busca em HTML elaborados pela lib 'cheerio'
       // 1º - atribui os valores para codigo do ativo
@@ -39,7 +39,7 @@ async function apiBovespa(): Promise<IListaAcoes[]> {
         .first()
         .text()
         .trim();
-      papel.SiglaAtivos = codigosDeAtivos;
+      papel.SiglaAtivo = codigosDeAtivos;
 
       const precoDeAtivos = $(element)
         .children('td:nth-child(2)')
@@ -54,8 +54,8 @@ async function apiBovespa(): Promise<IListaAcoes[]> {
     });
     // Ordena a lista de ações por ordem alfabetica;
     const ativosOrdenados = acoes
-      .sort((a, b) => a.SiglaAtivos.localeCompare(b.SiglaAtivos))
-      .map(({ SiglaAtivos, Valor }, index) => ({ CodAtivo: index + 1, SiglaAtivos, Valor }));
+      .sort((a, b) => a.SiglaAtivo.localeCompare(b.SiglaAtivo))
+      .map(({ SiglaAtivo, Valor }, index) => ({ CodAtivo: index + 1, SiglaAtivo, Valor }));
 
     // Escreve a lista de ações em um .json local;
     fs.writeFileSync(
@@ -81,14 +81,14 @@ async function apiBovespaSegmentada(): Promise<IAcoesSegmentadas> {
   // Filtra vetor de ações com objetivo de identifica unicamente, na ordem alfabetica
   // e segmentar de acordo com a negociação adequada, como seria na API da B3.
   const ativosOrdinarios = acoes
-    .filter((item) => item.SiglaAtivos.includes('3'))
-    .filter((item) => !(item.SiglaAtivos.includes('13')) && !(item.SiglaAtivos.includes('33')))
+    .filter((item) => item.SiglaAtivo.includes('3'))
+    .filter((item) => !(item.SiglaAtivo.includes('13')) && !(item.SiglaAtivo.includes('33')))
     .filter((item) => item.Valor > 0);
   const ativosPreferenciais = acoes
-    .filter((item) => item.SiglaAtivos.includes('4'))
+    .filter((item) => item.SiglaAtivo.includes('4'))
     .filter((item) => item.Valor > 0);
   const unitsDBR = acoes
-    .filter((item) => item.SiglaAtivos.includes('11'))
+    .filter((item) => item.SiglaAtivo.includes('11'))
     .filter((item) => item.Valor > 0);
 
   // Monta o objeto designado pela interface IAcoesSegmentadas para devido retorno;

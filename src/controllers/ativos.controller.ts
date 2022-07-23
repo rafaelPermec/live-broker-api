@@ -13,7 +13,7 @@ export default class AtivosController {
   public ativosCorretora = async (_req: Request, res: Response) => {
     const assets = await this.service.ativosCorretora();
 
-    res.status(StatusCodes.ACCEPTED).json({ assets });
+    res.status(StatusCodes.ACCEPTED).json(assets);
   };
 
   // public createNewAcc = async (req: Request, res: Response) => {
