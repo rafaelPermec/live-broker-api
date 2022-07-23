@@ -44,7 +44,6 @@ const LoginNotFoundMiddleware = async (req: Request, _res: Response, next: NextF
 const antiMiddleManById = async (req: Request, res: Response, next: NextFunction) => {
   const { id } = req.params;
   const { CodCliente } = res.locals.user.user;
-  console.log(res.locals.user.user);
 
   if (CodCliente !== Number(id)) {
     throw new HttpException(
@@ -58,7 +57,6 @@ const antiMiddleManById = async (req: Request, res: Response, next: NextFunction
 const antiMiddleManByBody = async (req: Request, res: Response, next: NextFunction) => {
   const { CodCliente } = req.body;
   const { user } = res.locals.user;
-  console.log(res.locals.user.user);
 
   if (Number(CodCliente) !== Number(user.CodCliente)) {
     throw new HttpException(
