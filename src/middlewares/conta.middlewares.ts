@@ -4,7 +4,7 @@ import Joi from 'joi';
 import { ContasService } from '../services';
 import HttpException from '../shared/HttpException';
 
-const ContasSchema = Joi.object({
+const ContasClienteSchema = Joi.object({
   Nome: Joi.string().min(3).required().messages({
     'any.required': 'Você precisa informar seu nome.',
     'string.empty': 'Por favor, digite seu nome.',
@@ -27,8 +27,20 @@ const ContasSchema = Joi.object({
   }),
 });
 
+const ContasFinanceiroSchema = Joi.object({
+  CodCliente: Joi.number().required().messages({
+    'any.required': 'Você precisa informar seu código de cliente.',
+    'number.base': 'O seu código de cliente é composto apenas por números.',
+  }),
+  Valor: Joi.number().min(1).required().messages({
+    'any.required': 'Você precisa informar um valor.',
+    'number.base': 'Por favor, digite somente números decimais.',
+    'number.min': 'O valor de transferencia deve ser maior do que zero.',
+  }),
+});
+
 const ContasTypoMiddleware = (req: Request, _res: Response, next: NextFunction) => {
-  const { error } = ContasSchema.validate(req.body);
+  const { error } = ContasClienteSchema.validate(req.body);
   // console.log(error?.details[0].type);
   if (error) throw new HttpException(StatusCodes.NOT_ACCEPTABLE, `${error.message}`);
 
@@ -51,7 +63,16 @@ const ContasNotFoundMiddleware = async (req: Request, _res: Response, next: Next
   next();
 };
 
+const ContasFinanceiroTypoMiddleware = (req: Request, _res: Response, next: NextFunction) => {
+  const { error } = ContasFinanceiroSchema.validate(req.body);
+  // console.log(error?.details[0].type);
+  if (error) throw new HttpException(StatusCodes.NOT_ACCEPTABLE, `${error.message}`);
+
+  next();
+};
+
 export {
   ContasTypoMiddleware,
   ContasNotFoundMiddleware,
+  ContasFinanceiroTypoMiddleware,
 };

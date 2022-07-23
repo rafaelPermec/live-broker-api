@@ -5,6 +5,7 @@ import {
   ContasTypoMiddleware,
   ValidationMiddleware,
 } from '../middlewares';
+import { ContasFinanceiroTypoMiddleware } from '../middlewares/conta.middlewares';
 
 const routes = Router();
 
@@ -13,8 +14,18 @@ const contasController = new ContasController();
 routes
   .post('/cadastro', ContasTypoMiddleware, contasController.createNewAcc)
   .get('/:id', ValidationMiddleware, contasController.getAccById)
-  .post('/saque', ValidationMiddleware, contasController.accWithdraw)
-  .post('/deposito', ValidationMiddleware, contasController.accDeposit)
+  .post(
+    '/saque',
+    ValidationMiddleware,
+    ContasFinanceiroTypoMiddleware,
+    contasController.accWithdraw,
+  )
+  .post(
+    '/deposito',
+    ValidationMiddleware,
+    ContasFinanceiroTypoMiddleware,
+    contasController.accDeposit,
+  )
   .put(
     '/editar-perfil/:id',
     ValidationMiddleware,
