@@ -49,21 +49,6 @@ const ContasTypoMiddleware = (req: Request, _res: Response, next: NextFunction) 
   next();
 };
 
-const ContasNotFoundMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
-  const { Email } = req.body;
-  const getUsers = await contasService.getAll();
-  const thereIsUserEmail = getUsers.filter((item) => item.Email.includes(Email));
-
-  if (!thereIsUserEmail || thereIsUserEmail.length <= 0) {
-    throw new HttpException(
-      StatusCodes.NOT_FOUND,
-      'E-mail não encontrado. Para se cadastrar, você precisa ir até /contas/cadastro',
-    );
-  }
-
-  next();
-};
-
 const ContasAlreadyExistMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
   const { Email } = req.body;
   const getUsers = await contasService.getAll();
@@ -105,7 +90,6 @@ const ContasFinanceiroMiddleware = async (req: Request, _res: Response, next: Ne
 
 export {
   ContasTypoMiddleware,
-  ContasNotFoundMiddleware,
   ContasAlreadyExistMiddleware,
   ContasFinanceiroTypoMiddleware,
   ContasFinanceiroMiddleware,

@@ -1,9 +1,13 @@
 import ErrorMiddleware from './error.middleware';
 import ValidationMiddleware from './validate.token.middleware';
-import { LoginNotFoundMiddleware, LoginTypoMiddleware } from './login.middlewares';
+import {
+  LoginNotFoundMiddleware,
+  LoginTypoMiddleware,
+  antiMiddleManById,
+  antiMiddleManByBody,
+} from './login.middlewares';
 import {
   ContasTypoMiddleware,
-  ContasNotFoundMiddleware,
   ContasAlreadyExistMiddleware,
   ContasFinanceiroTypoMiddleware,
   ContasFinanceiroMiddleware,
@@ -14,8 +18,9 @@ export {
   ValidationMiddleware,
   LoginNotFoundMiddleware,
   LoginTypoMiddleware,
+  antiMiddleManById,
+  antiMiddleManByBody,
   ContasTypoMiddleware,
-  ContasNotFoundMiddleware,
   ContasAlreadyExistMiddleware,
   ContasFinanceiroTypoMiddleware,
   ContasFinanceiroMiddleware,

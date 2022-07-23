@@ -6,6 +6,11 @@ const routes = Router();
 
 const authController = new AuthController();
 
-routes.post('/', LoginTypoMiddleware, LoginNotFoundMiddleware, authController.authenticate);
+routes.post(
+  '/',
+  LoginTypoMiddleware,
+  LoginNotFoundMiddleware,
+  authController.authenticate,
+);
 
 export default routes;

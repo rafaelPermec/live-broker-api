@@ -13,10 +13,16 @@ export default class ContasController {
   public getAccById = async (req: Request, res: Response) => {
     const { id } = req.params;
     const { CodCliente } = res.locals.user.user;
+
     const cliente = await this.service.getAccById(Number(id));
 
     if (!cliente) throw new HttpException(404, 'Código do Cliente inválido. Tente Novamente!');
-    if (CodCliente !== Number(id)) throw new HttpException(401, 'Você não pode ir ai!');
+    if (CodCliente !== Number(id)) {
+      throw new HttpException(
+        StatusCodes.NOT_FOUND,
+        'These are not the droids you\'re looking for.',
+      );
+    }
 
     const { Nome, Sobrenome, Email, Saldo } = cliente;
 

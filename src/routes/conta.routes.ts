@@ -2,11 +2,12 @@ import { Router } from 'express';
 import { ContasController } from '../controllers';
 import {
   ContasFinanceiroTypoMiddleware,
-  ContasNotFoundMiddleware,
   ContasTypoMiddleware,
   ValidationMiddleware,
   ContasAlreadyExistMiddleware,
   ContasFinanceiroMiddleware,
+  antiMiddleManByBody,
+  antiMiddleManById,
 } from '../middlewares';
 
 const routes = Router();
@@ -20,10 +21,15 @@ routes
     ContasAlreadyExistMiddleware,
     contasController.createNewAcc,
   )
-  .get('/:id', ValidationMiddleware, contasController.getAccById)
+  .get(
+    '/:id',
+    ValidationMiddleware,
+    contasController.getAccById,
+  )
   .post(
     '/saque',
     ValidationMiddleware,
+    antiMiddleManByBody,
     ContasFinanceiroTypoMiddleware,
     ContasFinanceiroMiddleware,
     contasController.accWithdraw,
@@ -37,8 +43,8 @@ routes
   .put(
     '/editar-perfil/:id',
     ValidationMiddleware,
+    antiMiddleManById,
     ContasTypoMiddleware,
-    ContasNotFoundMiddleware,
     contasController.updateAcc,
   );
 
