@@ -24,11 +24,11 @@ export default class AtivosController {
     res.status(StatusCodes.ACCEPTED).json(sttdout);
   };
 
-  // public createNewAcc = async (req: Request, res: Response) => {
-  //   const novoCliente = req.body;
-  //   const criandoCliente = await this.service.createNewAcc(novoCliente);
-  //   res.status(StatusCodes.CREATED).json(criandoCliente);
-  // };
+  public ativosCliente = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    const criandoCliente = await this.service.ativosCliente(Number(id));
+    res.status(StatusCodes.OK).json(criandoCliente);
+  };
 
   // public updateAcc = async (req: Request, res: Response) => {
   //   const { id } = req.params;

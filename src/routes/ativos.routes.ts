@@ -7,6 +7,7 @@ const routes = Router();
 const ativosController = new AtivosController();
 
 routes
-  .get('/corretora', ativosController.ativosCorretora);
+  .get('/corretora', ativosController.ativosCorretora)
+  .get('/:id', ativosController.ativosCliente);
 
 export default routes;

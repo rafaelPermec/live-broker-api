@@ -22,9 +22,9 @@ export default class AtivosModel {
   }
 
   public async ativosCliente(id: number): Promise<IAtivos[]> {
-    const query = `SELECT IdAtivos AS CodAtivos, SiglaAtivos, QtdeAtivos 
+    const query = `SELECT IdAtivos AS CodAtivo, SiglaAtivos AS SiglaAtivo, QtdeAtivos AS QtdeAtivo
       FROM ProcessoSeletivoXP.Portfolio
-      WHERE IdCliente = ?;`;
+      WHERE IdCliente = ? ORDER BY IdAtivos ASC;`;
 
     const result = await this.connection.execute(query, [id]);
     const [rows] = result;

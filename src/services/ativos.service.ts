@@ -21,12 +21,12 @@ export default class AtivosService {
 
     assets.forEach((item) => {
       const Valor = { CodAtivo: 0, SiglaAtivo: '', QtdeAtivo: 0, Valor: 0 } as IAtivos;
-      const filtraDados = ativosPreferenciais.filter((e) => e.CodAtivo === item.CodAtivo)
-        .map((e) => {
-          Valor.Valor = e.Valor;
-          Valor.CodAtivo = e.CodAtivo;
+      const filtraDados = ativosPreferenciais.filter((ativo) => ativo.CodAtivo === item.CodAtivo)
+        .map((element) => {
+          Valor.Valor = element.Valor;
+          Valor.CodAtivo = element.CodAtivo;
           Valor.QtdeAtivo = item.QtdeAtivo;
-          Valor.SiglaAtivo = e.SiglaAtivo;
+          Valor.SiglaAtivo = element.SiglaAtivo;
           vetorDeValores.push(Valor);
           return vetorDeValores;
         });
@@ -36,10 +36,40 @@ export default class AtivosService {
     return vetorDeValores;
   }
 
-  // public async getAccById(id: number): Promise<IAtivos> {
-  //   const cliente = await this.model.getAccById(id);
-  //   return cliente;
-  // }
+  public async ativosCliente(id: number): Promise<IAtivos[]> {
+    const clienteAssets = await this.model.ativosCliente(id);
+
+    // Extraindo valores dos ativos em tempo real, de acordo com a API de raspagem de dados;
+    const { ativosPreferenciais } = await apiBovespaSegmentada();
+
+    const vetorDeValores = [] as IAtivos[];
+
+    clienteAssets.forEach((item) => {
+      const Valor = {
+        CodCliente: 0,
+        CodAtivo: 0,
+        SiglaAtivo: '',
+        QtdeAtivo: 0,
+        Valor: 0,
+        SaldoEmAtivo: 0,
+      } as IAtivos;
+
+      const filtraDados = ativosPreferenciais.filter((ativo) => ativo.CodAtivo === item.CodAtivo)
+        .map((element) => {
+          Valor.CodCliente = id;
+          Valor.Valor = element.Valor;
+          Valor.CodAtivo = element.CodAtivo;
+          Valor.QtdeAtivo = item.QtdeAtivo;
+          Valor.SiglaAtivo = element.SiglaAtivo;
+          Valor.SaldoEmAtivo = (item.QtdeAtivo * element.Valor).toFixed(2);
+          vetorDeValores.push(Valor);
+          return vetorDeValores;
+        });
+      return filtraDados;
+    });
+
+    return vetorDeValores;
+  }
 
   // public async createNewAcc(user: IConta): Promise<Omit<IConta, 'Senha'>> {
   //   const salt = bcrypt.genSaltSync(5);

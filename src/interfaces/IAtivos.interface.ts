@@ -4,6 +4,7 @@ interface IAtivos {
   SiglaAtivo: string;
   QtdeAtivo: number;
   Valor?: number;
+  SaldoEmAtivo?: number | string;
 }
 
 interface IAtivosCorretora {
