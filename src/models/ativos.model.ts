@@ -15,6 +15,8 @@ export default class AtivosModel {
 
     const result = await this.connection.execute(query);
     const [rows] = result;
+    const [assets] = rows as IAtivos[];
+    return [assets];
 
     // Extraindo valores dos ativos em tempo real, de acordo com a API de raspagem de dados;
     // const { ativosOrdinarios } = await apiBovespaSegmentada();
@@ -27,7 +29,7 @@ export default class AtivosModel {
     //     Valor: item.Valor,
     //   }));
 
-    return rows as IAtivos[];
+    // return rows as IAtivos[];
   }
 
   public async ativosCliente(id: number): Promise<IAtivos[]> {

@@ -1,5 +1,5 @@
 // import bcrypt from 'bcrypt-nodejs';
-import { IAtivos } from '../interfaces';
+import { IAtivosCorretora } from '../interfaces';
 import { AtivosModel, connection } from '../models';
 // import HttpException from '../shared/HttpException';
 
@@ -10,9 +10,16 @@ export default class AtivosService {
     this.model = new AtivosModel(connection);
   }
 
-  public async ativosCorretora(): Promise<IAtivos[]> {
-    const clients = await this.model.ativosCorretora();
-    return clients;
+  public async ativosCorretora(): Promise<IAtivosCorretora> {
+    const assets = await this.model.ativosCorretora();
+    const sttdout = {
+      nomeCorretora: 'Aspen Investimentos',
+      Endereço: 'Rua Wilson Rocha Lima, 137 - Estoril',
+      Cidade: 'Belo Horizonte - MG',
+      AtivosDisponiveis: assets,
+    };
+
+    return sttdout;
   }
 
   // public async getAccById(id: number): Promise<IAtivos> {

@@ -10,13 +10,10 @@ export default class AtivosController {
     this.service = new AtivosService();
   }
 
-  public getAccById = async (_req: Request, res: Response) => {
-    const { CodCliente } = res.locals.user.user;
+  public ativosCorretora = async (_req: Request, res: Response) => {
     const assets = await this.service.ativosCorretora();
 
-    const { } = assets;
-
-    res.status(StatusCodes.ACCEPTED).json();
+    res.status(StatusCodes.ACCEPTED).json({ assets });
   };
 
   // public createNewAcc = async (req: Request, res: Response) => {
