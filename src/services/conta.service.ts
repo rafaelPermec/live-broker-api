@@ -35,7 +35,7 @@ export default class ContasService {
     return this.model.updateAcc(id, user);
   }
 
-  public async accWithdraw(/* id: number, */ values: ITransacao): Promise<IOperacao> {
+  public async accWithdraw(values: ITransacao): Promise<IOperacao> {
     const transaction: IOperacao = await this.model.accWithdraw(values);
     return transaction;
   }
