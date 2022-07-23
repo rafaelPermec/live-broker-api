@@ -11,8 +11,8 @@ const routes = Router();
 const contasController = new ContasController();
 
 routes
-  .get('/:id', ValidationMiddleware, contasController.getAccById)
   .post('/cadastro', ContasTypoMiddleware, contasController.createNewAcc)
+  .get('/:id', ValidationMiddleware, contasController.getAccById)
   .post('/saque', ValidationMiddleware, contasController.accWithdraw)
   .post('/deposito', ValidationMiddleware, contasController.accDeposit)
   .put(

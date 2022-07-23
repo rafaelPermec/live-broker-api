@@ -5,12 +5,12 @@ import { ContasService } from '../services';
 import HttpException from '../shared/HttpException';
 
 const ContasSchema = Joi.object({
-  Nome: Joi.string().min(2).required().messages({
+  Nome: Joi.string().min(3).required().messages({
     'any.required': 'Você precisa informar seu nome.',
     'string.empty': 'Por favor, digite seu nome.',
     'string.min': 'Seu nome é composto por mais de duas letras.',
   }),
-  Sobrenome: Joi.string().min(2).required().messages({
+  Sobrenome: Joi.string().min(3).required().messages({
     'any.required': 'Você precisa informar seu sobrenome',
     'string.empty': 'Por favor, digite seu sobrenome.',
     'string.min': 'Seu sobrenome é composto por mais de duas letras.',
