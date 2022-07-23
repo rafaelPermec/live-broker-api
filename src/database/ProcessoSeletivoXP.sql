@@ -18,7 +18,8 @@ CREATE TABLE `ProcessoSeletivoXP`.`Trade`(
     `QtdeAtivos` INT NOT NULL,
     `ValorOperacao` DECIMAL(13, 2),
     `IdCarteira` INT NOT NULL,
-    `IdPortfolio` INT NOT NULL
+    `IdPortfolio` INT NOT NULL,
+    `CreatedAt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) engine = InnoDB;
 
 CREATE TABLE `ProcessoSeletivoXP`.`Corretora`(
@@ -47,8 +48,7 @@ CREATE TABLE `ProcessoSeletivoXP`.`Portfolio`(
     `IdCliente` INT NOT NULL,
     `IdAtivos` INT NOT NULL,
     `SiglaAtivos` VARCHAR(6) NOT NULL,
-    `QtdeAtivos` INT NOT NULL,
-    `CreatedAt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    `QtdeAtivos` INT NOT NULL
 ) engine = InnoDB;
 
 ALTER TABLE `ProcessoSeletivoXP`.`Carteira`

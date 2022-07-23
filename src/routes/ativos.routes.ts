@@ -8,8 +8,8 @@ const ativosController = new AtivosController();
 
 routes
   .get('/corretora', ativosController.ativosCorretora)
-  .get('/:id', ativosController.ativosCliente)
-  .get('/por-codigo/:id', ativosController.ativosPorId)
-  .get('/por-sigla/:sigla', ativosController.ativosPorSigla);
+  .get('/cliente/:id', ativosController.ativosCliente)
+  .get('/codigo/:id', ativosController.ativosPorId)
+  .get('/sigla/:sigla', ativosController.ativosPorSigla);
 
 export default routes;
