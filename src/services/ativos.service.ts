@@ -1,5 +1,5 @@
 // import bcrypt from 'bcrypt-nodejs';
-import { IAtivosCorretora } from '../interfaces';
+import { IAtivos } from '../interfaces';
 import { AtivosModel, connection } from '../models';
 import { apiBovespaSegmentada } from '../models/Simulação-API-Bovespa/fundamentus-scrapping.model';
 // import HttpException from '../shared/HttpException';
@@ -11,47 +11,29 @@ export default class AtivosService {
     this.model = new AtivosModel(connection);
   }
 
-  public async ativosCorretora(): Promise<IAtivosCorretora> {
+  public async ativosCorretora(): Promise<IAtivos[]> {
     const assets = await this.model.ativosCorretora();
 
     // Extraindo valores dos ativos em tempo real, de acordo com a API de raspagem de dados;
     const { ativosPreferenciais } = await apiBovespaSegmentada();
-    // const filtraValor = ativosPreferenciais.filter((item) => {
-    //   const xablau = assets
-    //     .filter((element) => (item.CodAtivo === element.CodAtivo))
-    //     .map((e) => ({
-    //       CodAtivo: e.CodAtivo,
-    //       SiglaAtivo: e.SiglaAtivo,
-    //       QtdeAtivos: e.QtdeAtivos,
-    //       Valor: item.Valor,
-    //     }));
-    //   return xablau;
-    // });
-    const x = [];
-    const filtraValor = assets.forEach((item) => {
-      const Valor = { CodAtivo: 0, SiglaAtivo: '', QtdeAtivo: 0, Valor: 0 };
-      const xablau = ativosPreferenciais.filter((e) => e.CodAtivo === item.CodAtivo)
+
+    const vetorDeValores = [] as IAtivos[];
+
+    assets.forEach((item) => {
+      const Valor = { CodAtivo: 0, SiglaAtivo: '', QtdeAtivo: 0, Valor: 0 } as IAtivos;
+      const filtraDados = ativosPreferenciais.filter((e) => e.CodAtivo === item.CodAtivo)
         .map((e) => {
           Valor.Valor = e.Valor;
           Valor.CodAtivo = e.CodAtivo;
-          Valor.QtdeAtivo = item.QtdeAtivos;
+          Valor.QtdeAtivo = item.QtdeAtivo;
           Valor.SiglaAtivo = e.SiglaAtivo;
-          return Valor;
+          vetorDeValores.push(Valor);
+          return vetorDeValores;
         });
-      x.push(xablau);
+      return filtraDados;
     });
 
-    // return rows as IAtivos[];
-    console.log(x);
-
-    const sttdout = {
-      nomeCorretora: 'Aspen Investimentos',
-      Endereço: 'Rua Wilson Rocha Lima, 137 - Estoril',
-      Cidade: 'Belo Horizonte - MG',
-      AtivosDisponiveis: assets,
-    };
-
-    return sttdout;
+    return vetorDeValores;
   }
 
   // public async getAccById(id: number): Promise<IAtivos> {

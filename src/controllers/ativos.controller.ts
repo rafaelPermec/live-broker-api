@@ -13,7 +13,15 @@ export default class AtivosController {
   public ativosCorretora = async (_req: Request, res: Response) => {
     const assets = await this.service.ativosCorretora();
 
-    res.status(StatusCodes.ACCEPTED).json(assets);
+    // Monta objeto escalonavel, se cada corretora tivesse listada na aplicação;
+    const sttdout = {
+      nomeCorretora: 'Aspen Investimentos',
+      Endereço: 'Rua Wilson Rocha Lima, 137 - Estoril',
+      Cidade: 'Belo Horizonte - MG',
+      AtivosDisponiveis: assets,
+    };
+
+    res.status(StatusCodes.ACCEPTED).json(sttdout);
   };
 
   // public createNewAcc = async (req: Request, res: Response) => {
