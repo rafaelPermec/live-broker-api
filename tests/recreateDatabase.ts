@@ -6,7 +6,7 @@ import connection from '../src/models/connection';
 
 export default async function recreateDatabase(conn: Pool) {
   try {
-    const importPath = path.resolve(__dirname, '../src/database/ProcessoSeletivoXP.sql');
+    const importPath = path.resolve(__dirname, 'ProcessoSeletivoXP.test.sql');
     const seedDBContent = fs.readFileSync(importPath).toString();
     const queries = seedDBContent.split(';').filter((p) => p.trim());
     for (let i = 0; i < queries.length; i += 1) {

@@ -23,3 +23,5 @@ app.use('/investimentos', InvestimentosRoutes);
 app.use(ErrorMiddleware);
 
 app.listen(PORT, () => console.log(`Estamos presentes em http://localhost:${PORT}`));
+
+export default app;
