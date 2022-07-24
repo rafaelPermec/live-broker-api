@@ -1,6 +1,6 @@
 import { Pool, ResultSetHeader } from 'mysql2/promise';
 import { ITrade, IInvestimentos } from '../interfaces';
-import { AtivosModel } from '.';
+import AtivosModel from './ativos.model';
 
 export default class InvestimentosModel {
   private ativosModel: AtivosModel;
