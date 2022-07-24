@@ -11,7 +11,7 @@
   
   2 - Entre com o comando `cd processo-seletivo-XP-inc && cd xp-inc && npm install` para entrar no diretorio principal e instalar as dependencias do projeto.
   
-  3 - Digite `npm start` para começar a rodar o servidor. Ele estará na porta `3800`.
+  3 - Digite `npm start` ou `npm run dev` para começar a rodar o servidor. Ele estará na porta `3800`.
   
   4 - Abra seu GUI preferido (Postman, Insomnia ou Thunder Cliente) para fazer as requisições à minha API! 😃
   
