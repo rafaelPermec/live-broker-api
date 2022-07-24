@@ -62,7 +62,7 @@
 </details>
 
 <details>
-  <summary>📚 Bibliotecas e Frameworks</summary>
+  <summary>📚 Bibliotecas e Frameworks</summary><br>
 
 - eslint
 - express
