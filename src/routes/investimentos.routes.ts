@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { InvestimentosController } from '../controllers';
-import { InvestimentosTypoMiddleware } from '../middlewares';
+import { InvestimentosCompraMiddleware, InvestimentosTypoMiddleware } from '../middlewares';
 
 const routes = Router();
 
@@ -10,6 +10,7 @@ routes
   .post(
     '/compra',
     InvestimentosTypoMiddleware,
+    InvestimentosCompraMiddleware,
     investimentosController.compraAtivo,
   )
   .post(

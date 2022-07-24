@@ -13,7 +13,10 @@ import {
   ContasFinanceiroMiddleware,
 } from './conta.middlewares';
 
-import { InvestimentosTypoMiddleware } from './investimentos.middlewares';
+import {
+  InvestimentosTypoMiddleware,
+  InvestimentosCompraMiddleware,
+} from './investimentos.middlewares';
 
 export {
   ErrorMiddleware,
@@ -27,4 +30,5 @@ export {
   ContasFinanceiroTypoMiddleware,
   ContasFinanceiroMiddleware,
   InvestimentosTypoMiddleware,
+  InvestimentosCompraMiddleware,
 };

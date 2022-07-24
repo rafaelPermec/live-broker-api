@@ -1,10 +1,12 @@
 import { NextFunction, Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import Joi from 'joi';
-// import { ContasService } from '../services';
+import { apiBovespaSegmentada } from '../models/Simulação-API-Bovespa/fundamentus-scrapping.model';
+import { AtivosService, ContasService } from '../services';
 import HttpException from '../shared/HttpException';
 
-// const contasService = new ContasService();
+const contasService = new ContasService();
+const ativosService = new AtivosService();
 
 const InvestimentosSchema = Joi.object({
   CodCliente: Joi.number().required().messages({
@@ -30,10 +32,46 @@ const InvestimentosSchema = Joi.object({
 const InvestimentosTypoMiddleware = (req: Request, _res: Response, next: NextFunction) => {
   const { error } = InvestimentosSchema.validate(req.body);
   if (error) throw new HttpException(StatusCodes.NOT_ACCEPTABLE, `${error.message}`);
-
   next();
 };
 
+const InvestimentosCompraMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
+  const { CodCliente, CodAtivo, QtdeAtivo } = req.body;
+  const { ativosPreferenciais } = await apiBovespaSegmentada();
+
+  const valorTempoReal = ativosPreferenciais.find((item) => item.CodAtivo === CodAtivo);
+  if (!valorTempoReal) {
+    throw new HttpException(
+      StatusCodes.NOT_FOUND,
+      'Ativo não encontrado, ou código de ativo inválido.',
+    );
+  }
+  const valor = valorTempoReal?.Valor;
+
+  const saldoCliente = await contasService.getAccById(CodCliente);
+  const saldo = saldoCliente.Saldo as number;
+
+  const portfolioCorretora = await ativosService.ativosCorretora();
+  const ativoCorretora = portfolioCorretora.find((item) => item.CodAtivo === CodAtivo);
+  const qtdeCorretora = ativoCorretora?.QtdeAtivo as number;
+
+  const temSaldo = (saldo - (valor * QtdeAtivo));
+  const corretoraTemAtivo = (qtdeCorretora - QtdeAtivo);
+
+  if (temSaldo < 0) {
+    throw new HttpException(
+      StatusCodes.FORBIDDEN,
+      'Você não tem Saldo suficiente para a transação. Deposite em /contas/deposito.',
+    );
+  } if (corretoraTemAtivo < 0) {
+    throw new HttpException(
+      StatusCodes.FORBIDDEN,
+      'Não podemos efetuar a transação por conta do número de ativos disponivel.',
+    );
+  }
+
+  next();
+};
 // const ContasAlreadyExistMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
 //   const { Email } = req.body;
 //   const getUsers = await contasService.getAll();
@@ -57,22 +95,7 @@ const InvestimentosTypoMiddleware = (req: Request, _res: Response, next: NextFun
 //   next();
 // };
 
-// const InvestimentosFinanceiroMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
-//   const { CodCliente, QtdeAtivo } = req.body;
-//   const accCliente = await contasService.getAccById(CodCliente);
-//   const saldo = accCliente.Saldo as number;
-//   const hasEnough = (saldo - Valor);
-
-//   if (hasEnough < 0) {
-//     throw new HttpException(
-//       StatusCodes.FORBIDDEN,
-//       'Você não tem Saldo suficiente para a transação. Deposite em /contas/deposito.',
-//     );
-//   }
-
-//   next();
-// };
-
 export {
   InvestimentosTypoMiddleware,
+  InvestimentosCompraMiddleware,
 };
