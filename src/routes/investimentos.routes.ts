@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import { InvestimentosController } from '../controllers';
 import {
+  antiMiddleManByBody,
   InvestimentosCompraMiddleware,
   InvestimentosTypoMiddleware,
   InvestimentosVendaMiddleware,
@@ -13,12 +14,14 @@ const investimentosController = new InvestimentosController();
 routes
   .post(
     '/compra',
+    antiMiddleManByBody,
     InvestimentosTypoMiddleware,
     InvestimentosCompraMiddleware,
     investimentosController.compraAtivo,
   )
   .post(
     '/venda',
+    antiMiddleManByBody,
     InvestimentosTypoMiddleware,
     InvestimentosVendaMiddleware,
     investimentosController.vendeAtivo,
