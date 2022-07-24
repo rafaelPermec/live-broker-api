@@ -103,6 +103,7 @@ export default class InvestimentosModel {
     // Verifica se ativo já consta no Portfolio:
     const vetorListaAtivosCliente = await this.ativosModel.ativosCliente(CodCliente);
     const existeAtivo = vetorListaAtivosCliente.find((item) => item.CodAtivo === CodAtivo);
+    console.log(Promise.resolve(existeAtivo));
     // Se ativo constar no Portifolio:
     if (existeAtivo) {
       const queryAtualizaAtivo = `UPDATE ProcessoSeletivoXP.Portfolio 
@@ -111,14 +112,12 @@ export default class InvestimentosModel {
         .execute<ResultSetHeader>(queryAtualizaAtivo, [QtdeAtivo, CodAtivo, CodCliente]);
       // Se ativo não constar no Portfolio:
     } else {
-      const queryAtualizaAtivo = `INSERT INTO ProcessoSeletivoXP.Portfolio
-      (IdCliente, IdAtivos, SiglaAtivos QtdeAtivos)
-      VALUES (?, ?, ?, ?);`;
-      const atualizaAtivo = await this.connection.execute<ResultSetHeader>(
+      const queryAtualizaAtivo = `INSERT INTO ProcessoSeletivoXP.Portfolio 
+      (IdCliente, IdAtivos, SiglaAtivos, QtdeAtivos) VALUES (?, ?, ?, ?);`;
+      await this.connection.execute<ResultSetHeader>(
         queryAtualizaAtivo,
         [CodCliente, CodAtivo, SiglaAtivo, QtdeAtivo],
       );
-      await Promise.resolve(atualizaAtivo);
     }
 
     // Monta o comprovante que devolveremos ao cliente;
@@ -129,7 +128,7 @@ export default class InvestimentosModel {
     const [ops] = rows as ITrade[];
 
     // Realiza as promises assincronas simultaneamente;
-    const atualizaCorretora = await this.atualizaCorretora(`+ ${QtdeAtivo}`, CodAtivo);
+    const atualizaCorretora = await this.atualizaCorretora(`- ${QtdeAtivo}`, CodAtivo);
     await Promise.all([criaTrade, atualizaSaldo, localizaOperacao, atualizaCorretora]);
 
     // Monta objeto comprovante da operação financeira

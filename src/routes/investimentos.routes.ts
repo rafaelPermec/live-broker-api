@@ -1,13 +1,30 @@
 import { Router } from 'express';
 import { InvestimentosController } from '../controllers';
-// import { LoginNotFoundMiddleware, LoginTypoMiddleware } from '../middlewares';
+import {
+  antiMiddleManByBody,
+  InvestimentosCompraMiddleware,
+  InvestimentosTypoMiddleware,
+  InvestimentosVendaMiddleware,
+} from '../middlewares';
 
 const routes = Router();
 
 const investimentosController = new InvestimentosController();
 
 routes
-  .post('/compra', investimentosController.compraAtivo)
-  .post('/venda', investimentosController.vendeAtivo);
+  .post(
+    '/compra',
+    antiMiddleManByBody,
+    InvestimentosTypoMiddleware,
+    InvestimentosCompraMiddleware,
+    investimentosController.compraAtivo,
+  )
+  .post(
+    '/venda',
+    antiMiddleManByBody,
+    InvestimentosTypoMiddleware,
+    InvestimentosVendaMiddleware,
+    investimentosController.vendeAtivo,
+  );
 
 export default routes;

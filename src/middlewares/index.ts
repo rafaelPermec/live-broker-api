@@ -13,6 +13,12 @@ import {
   ContasFinanceiroMiddleware,
 } from './conta.middlewares';
 
+import {
+  InvestimentosTypoMiddleware,
+  InvestimentosCompraMiddleware,
+  InvestimentosVendaMiddleware,
+} from './investimentos.middlewares';
+
 export {
   ErrorMiddleware,
   ValidationMiddleware,
@@ -24,4 +30,7 @@ export {
   ContasAlreadyExistMiddleware,
   ContasFinanceiroTypoMiddleware,
   ContasFinanceiroMiddleware,
+  InvestimentosTypoMiddleware,
+  InvestimentosCompraMiddleware,
+  InvestimentosVendaMiddleware,
 };
