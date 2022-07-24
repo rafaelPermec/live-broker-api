@@ -16,6 +16,7 @@ import {
 import {
   InvestimentosTypoMiddleware,
   InvestimentosCompraMiddleware,
+  InvestimentosVendaMiddleware,
 } from './investimentos.middlewares';
 
 export {
@@ -31,4 +32,5 @@ export {
   ContasFinanceiroMiddleware,
   InvestimentosTypoMiddleware,
   InvestimentosCompraMiddleware,
+  InvestimentosVendaMiddleware,
 };

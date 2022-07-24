@@ -72,30 +72,28 @@ const InvestimentosCompraMiddleware = async (req: Request, _res: Response, next:
 
   next();
 };
-// const ContasAlreadyExistMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
-//   const { Email } = req.body;
-//   const getUsers = await contasService.getAll();
-//   const thereIsUserEmail = getUsers.find((item) => item.Email === Email);
 
-//   if (thereIsUserEmail) {
-//     throw new HttpException(
-//       StatusCodes.CONFLICT,
-//       'Este e-mail já está cadastrado em nossa plataforma.',
-//     );
-//   }
+const InvestimentosVendaMiddleware = async (req: Request, _res: Response, next: NextFunction) => {
+  const { CodCliente, CodAtivo, QtdeAtivo } = req.body;
 
-//   next();
-// };
+  const portfolioCliente = await ativosService.ativosCliente(CodCliente);
+  const ativoCliente = portfolioCliente.find((item) => item.CodAtivo === CodAtivo);
+  const qtdeCliente = ativoCliente?.QtdeAtivo as number;
 
-// const ContasFinanceiroTypoMiddleware = (req: Request, _res: Response, next: NextFunction) => {
-//   const { error } = ContasFinanceiroSchema.validate(req.body);
-//   // console.log(error?.details[0].type);
-//   if (error) throw new HttpException(StatusCodes.NOT_ACCEPTABLE, `${error.message}`);
+  const clienteTemAtivo = (qtdeCliente - QtdeAtivo);
 
-//   next();
-// };
+  if (clienteTemAtivo < 0) {
+    throw new HttpException(
+      StatusCodes.FORBIDDEN,
+      'No momento, você não tem possui a quantidade de ativos que quer vender.',
+    );
+  }
+
+  next();
+};
 
 export {
   InvestimentosTypoMiddleware,
   InvestimentosCompraMiddleware,
+  InvestimentosVendaMiddleware,
 };
