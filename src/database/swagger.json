@@ -1,0 +1,619 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Processo seletivo XP inc. - Software Engineer I",
+    "description": "Desenvolvi uma API para controle de serviçoes da platarforma web de uma corretora, que resgata os preços das ações em tempo real e desenvolve a lógica de negócios de Venda e Compra de Ativos, Saques e Depositos financeiros e correções de estoque e saldo. Dentro da aplicação, desenvolvida em Typescript, Node.Js e MySQL, existe um algoritmo de raspagem de dados que criei fazendo web-scrapping diretamente de um dos principais sites de consulta do mercado financeiro: Fundamentus. Esse Projeto foi desenvolvido e elaborado por Rafael Perdigão Melo Castro. Todos os direitos legais são pertencentes ao mesmo.",
+    "contact": {
+      "email": "dev.rafaelpermec@gmail.com"
+    },
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3800",
+      "description": "Porta local"
+    },
+    {
+      "url": "https://fundamentus.com.br/",
+      "description": "Para conferencia dos preços, siglas e indicativos das ações que colhi em tempo real."
+    }
+  ],
+  "paths": {
+    "/login": {
+      "post": {
+        "summary": "",
+        "description": "Endpoint para realizar o Login após cadastro",
+        "tags": [
+          "Login:"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              },
+              "examples": {
+                "Login": {
+                  "value": {
+                    "Email": "jonhdoe@trybe.com",
+                    "Senha": "MyAwsomePwd123"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "406": {
+            "description": "Typo Errors"
+          },
+          "404": {
+            "description": "Not Found in Database"
+          },
+          "201": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/LoginResponse"
+                  }
+                },
+                "examples": {
+                  "Login": {
+                    "value": {
+                      "Cliente": "Bem vindo de volta, John Doe Pereira da Costa Silva e Val!",
+                      "auth": true,
+                      "token": "ey9184u123i5hn2085u2.ey19840123ujhpaishnc.ey12o34y12804ehujo"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/conta/{cod-cliente}": {
+      "get": {
+        "summary": "É necessário fazer o cadastro seguido de login, pois essa rota depende de token JWT.",
+        "description": "É aqui que o cliente verifica o status de sua conta.",
+        "tags": [
+          "Conta:"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/conta/editar-perfil/{cod-cliente}": {
+      "put": {
+        "summary": "É necessário fazer o cadastro seguido de login, pois essa rota depende de token JWT.",
+        "description": "Se o cliente achar necessário, é aqui que ele edita seu cadastro.",
+        "tags": [
+          "Conta:"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Cadastro"
+              },
+              "examples": {
+                "Cadastro": {
+                  "value": {
+                    "Nome": "Jane",
+                    "Sobrenome": "Doing",
+                    "Email": "janedoing@trybe.com",
+                    "Senha": "NotCreativePwd987"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "406": {
+            "description": "Typo Errors"
+          },
+          "404": {
+            "description": "Not Found in Database"
+          },
+          "204": {
+            "description": "CREATED"
+          }
+        }
+      }
+    },
+    "/conta/cadastro": {
+      "post": {
+        "summary": "",
+        "description": "Endpoint para realizar o cadastro em nosso site:",
+        "tags": [
+          "Conta:"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Cadastro"
+              },
+              "examples": {
+                "Cadastro": {
+                  "value": {
+                    "Nome": "John",
+                    "Sobrenome": "Doe",
+                    "Email": "jonhdoe@trybe.com",
+                    "Senha": "MyAwsomePwd123"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "406": {
+            "description": "Typo Errors"
+          },
+          "401": {
+            "description": "No Authentication"
+          },
+          "202": {
+            "description": "ACCEPTED",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/FinanceiroResponse"
+                  }
+                },
+                "examples": {
+                  "Deposito": {
+                    "value": {
+                      "CodCliente": 8,
+                      "Nome": "Jonh",
+                      "Sobrenome": "Doe",
+                      "Email": "jonhdoe@trybe.com@gmail.com"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/conta/deposito": {
+      "post": {
+        "summary": "É necessário fazer o cadastro seguido de login, pois essa rota depende de token JWT.",
+        "description": "Aqui o cliente deposita dinheiro para efetuar compra de ativos!",
+        "tags": [
+          "Conta:"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Financeiro"
+              },
+              "examples": {
+                "Cadastro": {
+                  "value": {
+                    "CodCliente": 6,
+                    "Valor": 5000.99
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "406": {
+            "description": "Typo Errors"
+          },
+          "202": {
+            "description": "ACCEPTED",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/FinanceiroResponse"
+                  }
+                },
+                "examples": {
+                  "Deposito": {
+                    "value": {
+                      "CodCliente": 6,
+                      "IdFinanceiro": 20,
+                      "TipoOperacao": "Deposito",
+                      "Valor": "30000.00",
+                      "DataOperacao": "2022-07-24T23:27:53.000Z"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/conta/saque": {
+      "post": {
+        "summary": "É necessário fazer o cadastro seguido de login, pois essa rota depende de token JWT.",
+        "description": "Aqui o cliente pode sacar os rendimentos de sua conta!",
+        "tags": [
+          "Conta:"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Financeiro"
+              },
+              "examples": {
+                "Cadastro": {
+                  "value": {
+                    "CodCliente": 6,
+                    "Valor": 4999.99
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "406": {
+            "description": "Typo Errors"
+          },
+          "401": {
+            "description": "No Authentication"
+          },
+          "202": {
+            "description": "ACCEPTED",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/FinanceiroResponse"
+                  }
+                },
+                "examples": {
+                  "Deposito": {
+                    "value": {
+                      "CodCliente": 6,
+                      "IdFinanceiro": 23,
+                      "TipoOperacao": "Saque",
+                      "Valor": "30000.00",
+                      "DataOperacao": "2022-07-24T23:32:40.000Z"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ativos/corretora": {
+      "get": {
+        "summary": "",
+        "description": "É a rota que especifica quais são os ativos a corretora possui no momento, sua quantidade, código de ativo, sigla do ativo e valor unitário (em tempo real).",
+        "tags": [
+          "Ativos:"
+        ]
+      }
+    },
+    "/ativos/cliente/{cod-cliente}": {
+      "get": {
+        "summary": "É necessário fazer o cadastro seguido de login, pois essa rota depende de token JWT.",
+        "description": "É a rota que especifica quais são os ativos o cliente possui no momento, sua quantidade, código de ativo, sigla do ativo, valor unitário (em tempo real) e saldo por ativo (em tempo real).",
+        "tags": [
+          "Ativos:"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/ativos/codigo/{cod-ativo}": {
+      "get": {
+        "summary": "É necessário fazer o cadastro seguido de login, pois essa rota depende de token JWT.",
+        "description": "É a rota que mostra qual é o ativo com o código identificador unico, dentro da lista de ações da corretora. Entrega seu cógido de ativo, sigla de ativo e valor unitário em tempo real.",
+        "tags": [
+          "Ativos:"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/ativos/sigla/{sigla-ativo}": {
+      "get": {
+        "summary": "É necessário fazer o cadastro seguido de login, pois essa rota depende de token JWT.",
+        "description": "É a rota que mostra qual é o ativo com a sigla de ativo composta por 4 caracteres e um número (para units, BDRs, FII e algumas outras modalidades exclusivas são dois), dentro da lista de ações da corretora. Entrega seu cógido de ativo, sigla de ativo e valor unitário em tempo real.",
+        "tags": [
+          "Ativos:"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    },
+    "/investimentos/compra": {
+      "post": {
+        "summary": "É necessário fazer o cadastro seguido de login, pois essa rota depende de token JWT.",
+        "description": "É um endpoint exclusivo para que os clientes consigam fazer compras de ativos através de seu identificador unico e a quantidade que querem comprar (se houver na corretora) deste ativo.",
+        "tags": [
+          "Investimentos:"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Investimento"
+              },
+              "examples": {
+                "Investimento": {
+                  "value": {
+                    "CodCliente": 6,
+                    "CodAtivo": 145,
+                    "QtdeAtivo": 15
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "406": {
+            "description": "Typo Errors"
+          },
+          "202": {
+            "description": "ACCEPTED",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/InvestimentoResponse"
+                  }
+                },
+                "examples": {
+                  "Deposito": {
+                    "value": {
+                      "CodCliente": 6,
+                      "IdTrade": 35,
+                      "TipoOperacao": "Compra",
+                      "CodAtivo": 99,
+                      "SiglaAtivo": "BEES4",
+                      "QtdeAtivo": 40,
+                      "Valor": "215.60",
+                      "DataOperacao": "2022-07-24T23:39:59.000Z"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/investimentos/venda": {
+      "post": {
+        "summary": "É necessário fazer o cadastro seguido de login, pois essa rota depende de token JWT.",
+        "description": "É um endpoint exclusivo para que os clientes consigam fazer vendas de ativos através de seu identificador unico e a quantidade que querem vender (se constar na carteira) deste ativo.",
+        "tags": [
+          "Investimentos:"
+        ],
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Investimento"
+              },
+              "examples": {
+                "Investimento": {
+                  "value": {
+                    "CodCliente": 6,
+                    "CodAtivo": 140,
+                    "QtdeAtivo": 15
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "406": {
+            "description": "Typo Errors"
+          },
+          "202": {
+            "description": "ACCEPTED",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/InvestimentoResponse"
+                  }
+                },
+                "examples": {
+                  "Deposito": {
+                    "value": {
+                      "CodCliente": 6,
+                      "IdTrade": 34,
+                      "TipoOperacao": "Venda",
+                      "CodAtivo": 99,
+                      "SiglaAtivo": "BEES4",
+                      "QtdeAtivo": 53,
+                      "Valor": "285.67",
+                      "DataOperacao": "2022-07-24T23:39:10.000Z"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Login": {
+        "type": "object",
+        "properties": {
+          "Email": {
+            "type": "string"
+          },
+          "Senha": {
+            "type": "string"
+          }
+        }
+      },
+      "LoginResponse": {
+        "type": "object",
+        "properties": {
+          "Cliente": {
+            "type": "number"
+          },
+          "auth": {
+            "type": "boolean"
+          },
+          "token": {
+            "type": "number"
+          }
+        }
+      },
+      "Cadastro": {
+        "type": "object",
+        "properties": {
+          "Nome": {
+            "type": "string"
+          },
+          "Sobrenome": {
+            "type": "string"
+          },
+          "Email": {
+            "type": "string"
+          },
+          "Senha": {
+            "type": "string"
+          }
+        }
+      },
+      "Financeiro": {
+        "type": "object",
+        "properties": {
+          "CodCliente": {
+            "type": "number"
+          },
+          "Valor": {
+            "type": "decimal"
+          }
+        }
+      },
+      "FinanceiroResponse": {
+        "type": "object",
+        "properties": {
+          "CodCliente": {
+            "type": "number"
+          },
+          "IdFinanceiro": {
+            "type": "number"
+          },
+          "TipoOperacao": {
+            "type": "string"
+          },
+          "Valor": {
+            "type": "number"
+          },
+          "DataOperacao": {
+            "type": "timestamp"
+          }
+        }
+      },
+      "Investimento": {
+        "type": "object",
+        "properties": {
+          "CodCliente": {
+            "type": "number"
+          },
+          "CodAtivo": {
+            "type": "number"
+          },
+          "QtdeAtivo": {
+            "type": "number"
+          }
+        }
+      },
+      "InvestimentoResponse": {
+        "type": "object",
+        "properties": {
+          "CodCliente": {
+            "type": "number"
+          },
+          "IdTrade": {
+            "type": "number"
+          },
+          "TipoOperacao": {
+            "type": "string"
+          },
+          "CodAtivo": {
+            "type": "number"
+          },
+          "SiglaAtivo": {
+            "type": "string"
+          },
+          "QtdeAtivo": {
+            "type": "number"
+          },
+          "Valor": {
+            "type": "number"
+          },
+          "DataOperacao": {
+            "type": "timestamp"
+          }
+        }
+      }
+    }
+  },
+  "securitySchemes": {
+    "bearerAuth": {
+      "type": "http",
+      "scheme": "bearer",
+      "bearerFormat": "JWT"
+    }
+  }
+}

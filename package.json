@@ -23,6 +23,7 @@
   "homepage": "https://github.com/rafaelPermec/processo-seletivo-XP-inc#readme",
   "dependencies": {
     "@types/bcrypt-nodejs": "^0.0.31",
+    "@types/swagger-ui-express": "^4.1.3",
     "axios": "^0.27.2",
     "bcrypt-nodejs": "^0.0.3",
     "cheerio": "^1.0.0-rc.12",
@@ -34,7 +35,8 @@
     "iconv-lite": "^0.6.3",
     "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "swagger-ui-express": "^4.5.0"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
