@@ -14,6 +14,8 @@
   3 - Digite `npm start` para começar a rodar o servidor. Ele estará na porta `3800`.
   
   4 - Abra seu GUI preferido (Postman, Insomnia ou Thunder Cliente) para fazer as requisições à minha API! 😃
+  
+  5 - Não se esqueça de direcionar sua GUI de requisições ou Browser para http://localhost:3800.
  
 </details>
 
