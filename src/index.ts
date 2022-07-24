@@ -3,7 +3,7 @@ import 'express-async-errors';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
 import { ErrorMiddleware, ValidationMiddleware } from './middlewares';
-import { ContasRoutes, LoginRoutes, AtivosRoutes } from './routes';
+import { ContasRoutes, LoginRoutes, AtivosRoutes, InvestimentosRoutes } from './routes';
 
 dotenv.config();
 
@@ -18,6 +18,7 @@ app.use('/login', LoginRoutes);
 app.use('/conta', ContasRoutes);
 app.use(ValidationMiddleware);
 app.use('/ativos', AtivosRoutes);
+app.use('/investimentos', InvestimentosRoutes);
 
 app.use(ErrorMiddleware);
 

@@ -14,10 +14,10 @@ export default class InvestimentosModel {
 
   public async atualizaCorretora(qtdeAtivos: string, idAtivo: number): Promise<void> {
     const queryAtualizaCorretora = `UPDATE ProcessoSeletivoXP.Corretora 
-    SET QtdeAtivosCorretora = (QtdeAtivosCorretora + ?) WHERE IdAtivos = ?;`;
+    SET QtdeAtivosCorretora = (QtdeAtivosCorretora ${qtdeAtivos}) WHERE IdAtivos = ?;`;
     await this.connection.execute<ResultSetHeader>(
       queryAtualizaCorretora,
-      [qtdeAtivos, idAtivo],
+      [idAtivo],
     );
   }
 
@@ -48,7 +48,7 @@ export default class InvestimentosModel {
     // Se ativo constar no Portifolio:
     if (existeAtivo) {
       const queryAtualizaAtivo = `UPDATE ProcessoSeletivoXP.Portfolio 
-        SET QtdeAtivos = (QtdeAtivos - ?) WHERE WHERE IdAtivos = ? AND IdCliente = ?;`;
+        SET QtdeAtivos = (QtdeAtivos - ?) WHERE IdAtivos = ? AND IdCliente = ?;`;
       await this.connection.execute<ResultSetHeader>(
         queryAtualizaAtivo,
         [QtdeAtivo, CodAtivo, CodCliente],
@@ -66,8 +66,8 @@ export default class InvestimentosModel {
     const [ops] = rows as ITrade[];
 
     // Realiza as promises assincronas simultaneamente;
-    await Promise.all([criaTrade, atualizaSaldo, localizaOperacao]);
-    this.atualizaCorretora(`+ ${QtdeAtivo}`, CodAtivo);
+    const atualizaCorretora = await this.atualizaCorretora(`+ ${QtdeAtivo}`, CodAtivo);
+    await Promise.all([criaTrade, atualizaSaldo, localizaOperacao, atualizaCorretora]);
 
     // Monta objeto comprovante da operação financeira
     const { DataOperacao, IdTrade, TipoOperacao } = ops;
@@ -106,7 +106,7 @@ export default class InvestimentosModel {
     // Se ativo constar no Portifolio:
     if (existeAtivo) {
       const queryAtualizaAtivo = `UPDATE ProcessoSeletivoXP.Portfolio 
-        SET QtdeAtivos = (QtdeAtivos + ?) WHERE WHERE IdAtivos = ? AND IdCliente = ?;`;
+        SET QtdeAtivos = (QtdeAtivos + ?) WHERE IdAtivos = ? AND IdCliente = ?;`;
       await this.connection
         .execute<ResultSetHeader>(queryAtualizaAtivo, [QtdeAtivo, CodAtivo, CodCliente]);
       // Se ativo não constar no Portfolio:
@@ -129,8 +129,8 @@ export default class InvestimentosModel {
     const [ops] = rows as ITrade[];
 
     // Realiza as promises assincronas simultaneamente;
-    await Promise.all([criaTrade, atualizaSaldo, localizaOperacao]);
-    this.atualizaCorretora(`- ${QtdeAtivo}`, CodAtivo);
+    const atualizaCorretora = await this.atualizaCorretora(`+ ${QtdeAtivo}`, CodAtivo);
+    await Promise.all([criaTrade, atualizaSaldo, localizaOperacao, atualizaCorretora]);
 
     // Monta objeto comprovante da operação financeira
     const { DataOperacao, IdTrade, TipoOperacao } = ops;

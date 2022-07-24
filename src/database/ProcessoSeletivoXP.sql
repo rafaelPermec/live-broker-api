@@ -103,23 +103,23 @@ SET IdCarteira = 5 WHERE idCliente = 4;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
 SET IdCarteira = 4 WHERE idCliente = 5;
 
-INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, IdCarteira, IdPortfolio)
+INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, IdCarteira)
 VALUES 
-('Compra', 423, 60, 1, 3), ('Venda', 423, 13, 1, 3), ('Compra', 406, 94, 1, 3), ('Compra', 436, 600, 1, 3), 
+('Compra', 423, 60, 1), ('Venda', 423, 13, 1), ('Compra', 406, 94, 1), ('Compra', 436, 600, 1), 
 
-('Compra', 252, 81, 2, 4), ('Venda', 252, 41, 2, 4), ('Compra', 101, 546, 2, 4), ('Compra', 139, 45, 2, 4),
-('Compra', 115, 816, 2, 4), ('Venda', 115, 200, 2, 4),
+('Compra', 252, 81, 2), ('Venda', 252, 41, 2), ('Compra', 101, 546, 2), ('Compra', 139, 45, 2),
+('Compra', 115, 816, 2), ('Venda', 115, 200, 2),
 
-('Compra', 445, 198, 3, 1), ('Compra', 295, 62, 3, 1), ('Venda', 445, 100, 3, 1), ('Compra', 406, 74, 3, 1), 
-('Venda', 295, 36, 3, 1), ('Compra', 423, 484, 3, 1), ('Compra', 436, 1149, 3, 1), ('Venda', 436, 300, 3, 1),
+('Compra', 445, 198, 3), ('Compra', 295, 62, 3), ('Venda', 445, 100, 3), ('Compra', 406, 74, 3), 
+('Venda', 295, 36, 3), ('Compra', 423, 484, 3), ('Compra', 436, 1149, 3), ('Venda', 436, 300, 3),
 
 
-('Compra', 49, 630, 5, 2), ('Venda', 49, 15, 5, 2), ('Compra', 15, 364, 5, 2), 
-('Compra', 417, 321, 5, 2), ('Venda', 15, 40, 5, 2), ('Venda', 15, 160, 5, 2),
+('Compra', 49, 630, 5), ('Venda', 49, 15, 5), ('Compra', 15, 364, 5), 
+('Compra', 417, 321, 5), ('Venda', 15, 40, 5), ('Venda', 15, 160, 5),
 
-('Compra', 482, 312, 4, 5), ('Venda', 482, 156, 4, 5), ('Compra', 230, 120, 4, 5), 
-('Compra', 461, 156, 4, 5), ('Venda', 230, 14, 4, 5), ('Venda', 230, 10, 4, 5),
-('Compra', 445, 96, 4, 5), ('Compra', 423, 4489, 4, 5), ('Venda', 445, 48, 4, 5);
+('Compra', 482, 312, 4), ('Venda', 482, 156, 4), ('Compra', 230, 120, 4), 
+('Compra', 461, 156, 4), ('Venda', 230, 14, 4), ('Venda', 230, 10, 4),
+('Compra', 445, 96, 4), ('Compra', 423, 4489, 4), ('Venda', 445, 48, 4);
 
 INSERT INTO `ProcessoSeletivoXP`.`Financeiro`( TipoOperacao, IdCarteira, Valor)
 VALUES 

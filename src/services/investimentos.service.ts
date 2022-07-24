@@ -31,13 +31,19 @@ export default class InvestimentosService {
       .filter((item) => item.CodAtivo === CodAtivo);
 
     // Delimita nosso filtro:
-    if (!ativosTempoReal || ativosPreferenciais.length !== 1) {
-      throw new HttpException(StatusCodes.NOT_FOUND, 'Ativo não encontrado.');
+    if (!ativosTempoReal || ativosTempoReal.length < 1) {
+      throw new HttpException(
+        StatusCodes.NOT_FOUND,
+        'Ativo não encontrado, ou código de ativo inválido.',
+      );
     }
     const { SiglaAtivo, Valor } = ativosTempoReal[0];
 
+    // Cria valor inteiro da transação
+    const valorPorQtde = (Valor * QtdeAtivo);
+
     // Monta o objeto para declarar venda em nossa Database;
-    const sttdin = { CodCliente, CodAtivo, SiglaAtivo, QtdeAtivo, Valor, IdCarteira };
+    const sttdin = { CodCliente, CodAtivo, SiglaAtivo, QtdeAtivo, Valor: valorPorQtde, IdCarteira };
     const result = this.model.vendeAtivo(sttdin);
     return result;
   }
@@ -56,14 +62,21 @@ export default class InvestimentosService {
       .filter((item) => item.CodAtivo === CodAtivo);
 
     // Delimita nosso filtro:
-    if (!ativosTempoReal || ativosPreferenciais.length !== 1) {
-      throw new HttpException(StatusCodes.NOT_FOUND, 'Ativo não encontrado.');
+    if (!ativosTempoReal || ativosTempoReal.length !== 1) {
+      throw new HttpException(
+        StatusCodes.NOT_FOUND,
+        'Ativo não encontrado, ou código de ativo inválido.',
+      );
     }
     const { SiglaAtivo, Valor } = ativosTempoReal[0];
 
+    // Cria valor inteiro da transação
+    const valorPorQtde = (Valor * QtdeAtivo);
+
     // Monta o objeto para declarar venda em nossa Database;
-    const sttdin = { CodCliente, CodAtivo, SiglaAtivo, QtdeAtivo, Valor, IdCarteira };
+    const sttdin = { CodCliente, CodAtivo, SiglaAtivo, QtdeAtivo, Valor: valorPorQtde, IdCarteira };
     const result = this.model.vendeAtivo(sttdin);
+    console.log(result);
     return result;
   }
 }
