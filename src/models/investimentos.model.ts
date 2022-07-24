@@ -12,6 +12,15 @@ export default class InvestimentosModel {
     this.ativosModel = new AtivosModel(connection);
   }
 
+  public async atualizaCorretora(qtdeAtivos: string, idAtivo: number): Promise<void> {
+    const queryAtualizaCorretora = `UPDATE ProcessoSeletivoXP.Corretora 
+    SET QtdeAtivosCorretora = (QtdeAtivosCorretora + ?) WHERE IdAtivos = ?;`;
+    await this.connection.execute<ResultSetHeader>(
+      queryAtualizaCorretora,
+      [qtdeAtivos, idAtivo],
+    );
+  }
+
   public async vendeAtivo({ CodCliente, CodAtivo, SiglaAtivo, QtdeAtivo, Valor, IdCarteira }
     : IInvestimentos): Promise<ITrade> {
     // Cria o trade conforme o que é enviado na requisição:
@@ -58,6 +67,7 @@ export default class InvestimentosModel {
 
     // Realiza as promises assincronas simultaneamente;
     await Promise.all([criaTrade, atualizaSaldo, localizaOperacao]);
+    this.atualizaCorretora(`+ ${QtdeAtivo}`, CodAtivo);
 
     // Monta objeto comprovante da operação financeira
     const { DataOperacao, IdTrade, TipoOperacao } = ops;
@@ -120,6 +130,7 @@ export default class InvestimentosModel {
 
     // Realiza as promises assincronas simultaneamente;
     await Promise.all([criaTrade, atualizaSaldo, localizaOperacao]);
+    this.atualizaCorretora(`- ${QtdeAtivo}`, CodAtivo);
 
     // Monta objeto comprovante da operação financeira
     const { DataOperacao, IdTrade, TipoOperacao } = ops;

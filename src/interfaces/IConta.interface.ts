@@ -7,6 +7,7 @@ interface IConta {
   Email: string;
   Senha?: string;
   Saldo?: number;
+  IdCarteira?: number;
 }
 
 interface IAtivosCliente extends IConta {
