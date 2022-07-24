@@ -106,7 +106,7 @@ export default class ContasModel {
 
     // Monta o comprovante que devolveremos ao cliente;
     const queryLocalizaOperacao = `SELECT
-      Valor AS Valor,
+      Valor,
       TipoOperacao,
       IdFinanceiro,
       CreatedAt AS DataOperacao 
@@ -147,7 +147,7 @@ export default class ContasModel {
 
     // Monta o comprovante que devolveremos ao cliente;
     const queryLocalizaOperacao = `SELECT
-      Valor AS Valor,
+      Valor,
       TipoOperacao,
       IdFinanceiro,
       CreatedAt AS DataOperacao 

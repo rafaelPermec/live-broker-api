@@ -18,7 +18,6 @@ CREATE TABLE `ProcessoSeletivoXP`.`Trade`(
     `QtdeAtivos` INT NOT NULL,
     `ValorOperacao` DECIMAL(13, 2),
     `IdCarteira` INT NOT NULL,
-    `IdPortfolio` INT NOT NULL,
     `CreatedAt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) engine = InnoDB;
 
@@ -63,9 +62,6 @@ ALTER TABLE `ProcessoSeletivoXP`.`Cliente`
 ALTER TABLE `ProcessoSeletivoXP`.`Trade` 
   ADD CONSTRAINT FK_TradeCarteira
   FOREIGN KEY(`IdCarteira`) REFERENCES `ProcessoSeletivoXP`.`Carteira`(`IdCarteira`);
-ALTER TABLE `ProcessoSeletivoXP`.`Trade` 
-  ADD CONSTRAINT FK_TradePortfolio
-  FOREIGN KEY(`IdPortfolio`) REFERENCES `ProcessoSeletivoXP`.`Portfolio`(`IdPortfolio`);
 ALTER TABLE `ProcessoSeletivoXP`.`Financeiro` 
   ADD CONSTRAINT FK_FinanceiroCarteira
   FOREIGN KEY(`IdCarteira`) REFERENCES `ProcessoSeletivoXP`.`Carteira`(`IdCarteira`);
