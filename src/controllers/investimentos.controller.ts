@@ -1,7 +1,6 @@
 import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import { InvestimentosService } from '../services';
-// import HttpException from '../shared/HttpException';
 
 export default class InvestimentosController {
   private service: InvestimentosService;

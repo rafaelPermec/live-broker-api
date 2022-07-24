@@ -75,7 +75,7 @@ export default class InvestimentosService {
 
     // Monta o objeto para declarar venda em nossa Database;
     const sttdin = { CodCliente, CodAtivo, SiglaAtivo, QtdeAtivo, Valor: valorPorQtde, IdCarteira };
-    const result = this.model.vendeAtivo(sttdin);
+    const result = this.model.compraAtivo(sttdin);
     console.log(result);
     return result;
   }
