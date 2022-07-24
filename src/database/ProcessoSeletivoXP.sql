@@ -5,10 +5,10 @@ CREATE DATABASE `ProcessoSeletivoXP`;
 CREATE TABLE `ProcessoSeletivoXP`.`Cliente`(
     `IdCliente` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `Nome` VARCHAR(50) NOT NULL,
-    `Email` VARCHAR(50) NOT NULL,
-    `Senha` VARCHAR(50) NOT NULL,
-    `IdCarteira` INT,
-    `IdPortfolio` INT  
+    `Sobrenome` VARCHAR(250),
+    `Email` VARCHAR(100) NOT NULL,
+    `Senha` VARCHAR(250) NOT NULL,
+    `IdCarteira` INT
 ) engine = InnoDB;
 
 CREATE TABLE `ProcessoSeletivoXP`.`Trade`(
@@ -18,7 +18,7 @@ CREATE TABLE `ProcessoSeletivoXP`.`Trade`(
     `QtdeAtivos` INT NOT NULL,
     `ValorOperacao` DECIMAL(13, 2),
     `IdCarteira` INT NOT NULL,
-    `IdPortfolio` INT NOT NULL
+    `CreatedAt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) engine = InnoDB;
 
 CREATE TABLE `ProcessoSeletivoXP`.`Corretora`(
@@ -31,7 +31,7 @@ CREATE TABLE `ProcessoSeletivoXP`.`Corretora`(
 CREATE TABLE `ProcessoSeletivoXP`.`Carteira`(
     `IdCarteira` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `IdCliente` INT NOT NULL,
-    `Saldo` DECIMAL(13, 2) NOT NULL
+    `Saldo` DECIMAL(13, 2) NOT NULL DEFAULT 0
 ) engine = InnoDB;
 
 CREATE TABLE `ProcessoSeletivoXP`.`Financeiro`(
@@ -47,8 +47,7 @@ CREATE TABLE `ProcessoSeletivoXP`.`Portfolio`(
     `IdCliente` INT NOT NULL,
     `IdAtivos` INT NOT NULL,
     `SiglaAtivos` VARCHAR(6) NOT NULL,
-    `QtdeAtivos` INT NOT NULL,
-    `CreatedAt` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    `QtdeAtivos` INT NOT NULL
 ) engine = InnoDB;
 
 ALTER TABLE `ProcessoSeletivoXP`.`Carteira`
@@ -63,21 +62,15 @@ ALTER TABLE `ProcessoSeletivoXP`.`Cliente`
 ALTER TABLE `ProcessoSeletivoXP`.`Trade` 
   ADD CONSTRAINT FK_TradeCarteira
   FOREIGN KEY(`IdCarteira`) REFERENCES `ProcessoSeletivoXP`.`Carteira`(`IdCarteira`);
-ALTER TABLE `ProcessoSeletivoXP`.`Trade` 
-  ADD CONSTRAINT FK_TradePortfolio
-  FOREIGN KEY(`IdPortfolio`) REFERENCES `ProcessoSeletivoXP`.`Portfolio`(`IdPortfolio`);
 ALTER TABLE `ProcessoSeletivoXP`.`Financeiro` 
   ADD CONSTRAINT FK_FinanceiroCarteira
   FOREIGN KEY(`IdCarteira`) REFERENCES `ProcessoSeletivoXP`.`Carteira`(`IdCarteira`);
-ALTER TABLE `ProcessoSeletivoXP`.`Cliente` 
-  ADD CONSTRAINT FK_ClientePortfolio
-  FOREIGN KEY(`IdPortfolio`) REFERENCES `ProcessoSeletivoXP`.`Portfolio`(`IdPortfolio`);
 
-INSERT INTO `ProcessoSeletivoXP`.`Cliente`( Nome, Email, Senha)
+INSERT INTO `ProcessoSeletivoXP`.`Cliente`( Nome, Sobrenome, Email, Senha)
 VALUES 
-('Philip K. Dick', 'ovelha@sonhando.com', 'BladeRunner'), ('William Gibson', 'monalisa@overdrive.com', 'sallywithclaws'),
-('Issac Asimov', 'i@robot.com', 'naoGosteiDoWillSmith'), ('Uncle Bob', 'pattern@onetwothree.com', 'feedbackIfMyCodeClean'),
-('Anthony Boudain', 'midnight@shift.com', 'cozinhaConfidencial');
+('Philip', 'K. Dick', 'ovelha@sonhando.com', 'BladeRunner'), ('William', 'Gibson', 'monalisa@overdrive.com', 'sallywithclaws'),
+('Issac', 'Asimov', 'i@robot.com', 'naoGosteiDoWillSmith'), ('Uncle', 'Bob', 'pattern@onetwothree.com', 'feedbackIfMyCodeClean'),
+('Anthony', 'Boudain', 'midnight@shift.com', 'cozinhaConfidencial');
 
 INSERT INTO `ProcessoSeletivoXP`.`Corretora`( IdAtivos, SiglaAtivos, QtdeAtivosCorretora)
 VALUES 
@@ -100,33 +93,33 @@ VALUES
 (5, 482, 'IDVL4', 156), (5, 230, 'CGRA4', 96), (5, 461, 'GRNL4', 156), (5, 445, 'GETI4', 48), (5, 423, 'FIGE4', 4489);
 
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET IdCarteira = 1, IdPortfolio = 3 WHERE idCliente = 1;
+SET IdCarteira = 1 WHERE idCliente = 1;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET  IdCarteira = 2, IdPortfolio = 4 WHERE idCliente = 2;
+SET  IdCarteira = 2 WHERE idCliente = 2;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET  IdCarteira = 3, IdPortfolio = 1 WHERE idCliente = 3;
+SET  IdCarteira = 3  WHERE idCliente = 3;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET IdCarteira = 5, IdPortfolio = 2 WHERE idCliente = 4;
+SET IdCarteira = 5 WHERE idCliente = 4;
 UPDATE `ProcessoSeletivoXP`.`Cliente`
-SET IdCarteira = 4, IdPortfolio = 5 WHERE idCliente = 5;
+SET IdCarteira = 4 WHERE idCliente = 5;
 
-INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, IdCarteira, IdPortfolio)
+INSERT INTO `ProcessoSeletivoXP`.`Trade`( TipoOperacao, IdAtivos, QtdeAtivos, IdCarteira)
 VALUES 
-('Compra', 423, 60, 1, 3), ('Venda', 423, 13, 1, 3), ('Compra', 406, 94, 1, 3), ('Compra', 436, 600, 1, 3), 
+('Compra', 423, 60, 1), ('Venda', 423, 13, 1), ('Compra', 406, 94, 1), ('Compra', 436, 600, 1), 
 
-('Compra', 252, 81, 2, 4), ('Venda', 252, 41, 2, 4), ('Compra', 101, 546, 2, 4), ('Compra', 139, 45, 2, 4),
-('Compra', 115, 816, 2, 4), ('Venda', 115, 200, 2, 4),
+('Compra', 252, 81, 2), ('Venda', 252, 41, 2), ('Compra', 101, 546, 2), ('Compra', 139, 45, 2),
+('Compra', 115, 816, 2), ('Venda', 115, 200, 2),
 
-('Compra', 445, 198, 3, 1), ('Compra', 295, 62, 3, 1), ('Venda', 445, 100, 3, 1), ('Compra', 406, 74, 3, 1), 
-('Venda', 295, 36, 3, 1), ('Compra', 423, 484, 3, 1), ('Compra', 436, 1149, 3, 1), ('Venda', 436, 300, 3, 1),
+('Compra', 445, 198, 3), ('Compra', 295, 62, 3), ('Venda', 445, 100, 3), ('Compra', 406, 74, 3), 
+('Venda', 295, 36, 3), ('Compra', 423, 484, 3), ('Compra', 436, 1149, 3), ('Venda', 436, 300, 3),
 
 
-('Compra', 49, 630, 5, 2), ('Venda', 49, 15, 5, 2), ('Compra', 15, 364, 5, 2), 
-('Compra', 417, 321, 5, 2), ('Venda', 15, 40, 5, 2), ('Venda', 15, 160, 5, 2),
+('Compra', 49, 630, 5), ('Venda', 49, 15, 5), ('Compra', 15, 364, 5), 
+('Compra', 417, 321, 5), ('Venda', 15, 40, 5), ('Venda', 15, 160, 5),
 
-('Compra', 482, 312, 4, 5), ('Venda', 482, 156, 4, 5), ('Compra', 230, 120, 4, 5), 
-('Compra', 461, 156, 4, 5), ('Venda', 230, 14, 4, 5), ('Venda', 230, 10, 4, 5),
-('Compra', 445, 96, 4, 5), ('Compra', 423, 4489, 4, 5), ('Venda', 445, 48, 4, 5);
+('Compra', 482, 312, 4), ('Venda', 482, 156, 4), ('Compra', 230, 120, 4), 
+('Compra', 461, 156, 4), ('Venda', 230, 14, 4), ('Venda', 230, 10, 4),
+('Compra', 445, 96, 4), ('Compra', 423, 4489, 4), ('Venda', 445, 48, 4);
 
 INSERT INTO `ProcessoSeletivoXP`.`Financeiro`( TipoOperacao, IdCarteira, Valor)
 VALUES 

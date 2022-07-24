@@ -1,12 +1,25 @@
 import express from 'express';
+import 'express-async-errors';
 import helmet from 'helmet';
+import dotenv from 'dotenv';
+import { ErrorMiddleware, ValidationMiddleware } from './middlewares';
+import { ContasRoutes, LoginRoutes, AtivosRoutes, InvestimentosRoutes } from './routes';
+
+dotenv.config();
 
 const app = express();
 
+const PORT = process.env.PORT || 3000;
+
 app.use(helmet());
+app.use(express.json());
 
-app.get('/', (_request, response) => response.json(
-  { message: 'Meu server Express, Typescript e ESLint! ' },
-));
+app.use('/login', LoginRoutes);
+app.use('/conta', ContasRoutes);
+app.use(ValidationMiddleware);
+app.use('/ativos', AtivosRoutes);
+app.use('/investimentos', InvestimentosRoutes);
 
-app.listen(3000, () => console.log('Back-end started in 3000 port!'));
+app.use(ErrorMiddleware);
+
+app.listen(PORT, () => console.log(`Estamos presentes em http://localhost:${PORT}`));
