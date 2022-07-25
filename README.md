@@ -23,6 +23,21 @@ Os detalhes do projeto estão todos escondidos pelos `<details>`, viu? =)
  
 </details>
 
+<details>
+  <summary><code>URL</code></summary><br>
+  
+  1 - O deploy do projeto foi realizado pelo heroku, utilizando db4free como fonte do MySQL;
+  
+  2 - Durante o processo, o código foi transpilado para javascript;
+  
+  3 - Você pode visualiza-lo clicando [aqui](https://xp-rafael-permec.herokuapp.com/api-doc/).
+  
+  4 - Ou copiando e colando a URL em seu browser: `https://xp-rafael-permec.herokuapp.com/api-doc/`.
+  
+  5 - Lembrando que começamos sempre pela documentação! =)
+ 
+</details>
+
 ## ⚙️ O que foi implementado no projeto? 
 
 <details>
