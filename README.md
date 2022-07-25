@@ -54,7 +54,13 @@
 <details>
   <summary>🏃‍♂️ Github Actions</summary><br>
   
- - Realizei uma integração de Actions, para facilitar o desenvolvimento do projeto utilizando o `EsLint` padronizado pelo Airbnb, com tipagem própria para Typescript.
+ - Realizei uma integração de Actions, para facilitar o desenvolvimento do projeto utilizando o `EsLint` padronizado pelo Airbnb, com tipagem própria para Typescript. 
+</details>
+
+<details>
+  <summary>🎲 Normalização do Banco de Dados SQL</summary><br>
+  
+<img width='1000px' height='800px' src="https://github.com/rafaelPermec/processo-seletivo-XP-inc/blob/main/src/database/DB_Normalizado.png?raw=true" alt="DB Normalizado =)">
 </details>
 
 <details>
