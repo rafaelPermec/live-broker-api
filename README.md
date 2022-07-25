@@ -15,7 +15,9 @@
   
   4 - Abra seu GUI preferido (Postman, Insomnia ou Thunder Cliente) para fazer as requisições à minha API! 😃
   
-  5 - Não se esqueça de direcionar sua GUI de requisições ou Browser para http://localhost:3800.
+  5 - Não se esqueça de direcionar sua GUI de requisições ou Browser para `http://localhost:3800`.
+  
+  6 - Para visualizar a documentação, basta acessar  `http://localhost:3800/api-doc`
  
 </details>
 
@@ -181,3 +183,6 @@
 - [`antiMiddleManByBody()`]() : Realiza a busca do cliente em banco de dados e verifica se quem está realizando a operação é realmente o cliente que realizou o login e possui o token *JWT* em seu header, através do CodCliente passado por corpo da requisição
 </details>
 </details>
+
+----
+<img src="https://logodownload.org/wp-content/uploads/2019/07/xp-investimentos-logo.png" alt="Me contrata, XP !!!! =)">
