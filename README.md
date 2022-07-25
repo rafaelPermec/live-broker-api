@@ -1,5 +1,7 @@
 # Bem-vindos ao meu projeto, XP inc. !
 
+Os detalhes do projeto estão todos escondidos pelos `<details>`, viu? =)
+
 ## 🥇 Como rodar o projeto?
 
 <details>
