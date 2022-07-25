@@ -35,6 +35,8 @@ Os detalhes do projeto estão todos escondidos pelos `<details>`, viu? =)
   4 - Ou copiando e colando a URL em seu browser: `https://xp-rafael-permec.herokuapp.com/api-doc/`.
   
   5 - Lembrando que começamos sempre pela documentação! =)
+  
+  6 - Faça sua primeira requisição pelo endpoint `/conta/cadastro` e depois faça requisição em `/login`, para coletar seu token JWT e receber autorização de entrada para o restante da API.
  
 </details>
 
