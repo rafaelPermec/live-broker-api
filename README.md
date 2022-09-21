@@ -1,6 +1,11 @@
 # Bem-vindos ao Broker Simulator!
 
-Os detalhes do projeto estão todos escondidos pelos `<details>`, viu? =)
+### Desenvolvido Usando
+
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## ✔️ Como rodar o projeto?
 
@@ -80,14 +85,6 @@ Os detalhes do projeto estão todos escondidos pelos `<details>`, viu? =)
   <summary>🎲 Normalização do Banco de Dados SQL</summary><br>
   
 <img src="https://github.com/rafaelPermec/processo-seletivo-XP-inc/blob/main/src/database/DB_Normalizado.png?raw=true" alt="DB Normalizado =)">
-</details>
-
-<details>
-  <summary>📚 Linguagens Utilizadas</summary><br>
-  
-- Typescript
-- Node.js
-- MySQL
 </details>
 
 <details>
