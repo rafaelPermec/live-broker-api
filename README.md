@@ -79,7 +79,7 @@ Os detalhes do projeto estão todos escondidos pelos `<details>`, viu? =)
 <details>
   <summary>🎲 Normalização do Banco de Dados SQL</summary><br>
   
-<img width='1000px' height='800px' src="https://github.com/rafaelPermec/processo-seletivo-XP-inc/blob/main/src/database/DB_Normalizado.png?raw=true" alt="DB Normalizado =)">
+<img src="https://github.com/rafaelPermec/processo-seletivo-XP-inc/blob/main/src/database/DB_Normalizado.png?raw=true" alt="DB Normalizado =)">
 </details>
 
 <details>
