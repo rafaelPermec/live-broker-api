@@ -1,8 +1,8 @@
-# Bem-vindos ao meu projeto !
+# Bem-vindos ao Broker Simulator!
 
 Os detalhes do projeto estão todos escondidos pelos `<details>`, viu? =)
 
-## 🥇 Como rodar o projeto?
+## ✔️ Como rodar o projeto?
 
 <details>
   <summary><code>Localmente</code></summary><br>
