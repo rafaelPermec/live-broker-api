@@ -1,4 +1,4 @@
-# Bem-vindos ao meu projeto, XP inc. !
+# Bem-vindos ao meu projeto !
 
 Os detalhes do projeto estão todos escondidos pelos `<details>`, viu? =)
 
@@ -210,4 +210,3 @@ Os detalhes do projeto estão todos escondidos pelos `<details>`, viu? =)
 </details>
 
 ----
-<img src="https://logodownload.org/wp-content/uploads/2019/07/xp-investimentos-logo.png" alt="Me contrata, XP !!!! =)">
