@@ -13,18 +13,27 @@
   <summary><code>Localmente</code></summary><br>
   
   1 - Dê o fork no projeto e clone-o para sua maquina com o comando 
-  `git clone git@github.com:rafaelPermec/processo-seletivo-XP-inc.git`
+  `git clone git@github.com:rafaelPermec/live-broker-api.git`
   em seu terminal.
   
-  2 - Entre com o comando `cd processo-seletivo-XP-inc && cd xp-inc && npm install` para entrar no diretorio principal e instalar as dependencias do projeto.
+  2 - Entre com o comando `cd live-broker-api && cd xp-inc && npm install` para entrar no diretorio principal e instalar as dependencias do projeto.
   
-  3 - Digite `npm start` ou `npm run dev` para começar a rodar o servidor. Ele estará na porta `3800`.
+  3 - Crie um arquivo .env e configure as variáveis de ambiente
+   ```js
+   MYSQL_HOST=localhost
+   MYSQL_USER='seu usuário'
+   MYSQL_PASSWORD='sua senha'
+   PORT=3800
+   TOKEN_SECRET='seu token secreto'
+   ```
   
-  4 - Abra seu GUI preferido (Postman, Insomnia ou Thunder Cliente) para fazer as requisições à minha API! 😃
+  4 - Digite `npm start` ou `npm run dev` para começar a rodar o servidor. Ele estará na porta `3800`.
   
-  5 - Não se esqueça de direcionar sua GUI de requisições ou Browser para `http://localhost:3800`.
+  5 - Abra seu GUI preferido (Postman, Insomnia ou Thunder Cliente) para fazer as requisições à minha API! 😃
   
-  6 - Para visualizar a documentação, basta acessar  `http://localhost:3800/api-doc`
+  6 - Não se esqueça de direcionar sua GUI de requisições ou Browser para `http://localhost:3800`.
+  
+  7 - Para visualizar a documentação, basta acessar  `http://localhost:3800/api-doc`
  
 </details>
 
